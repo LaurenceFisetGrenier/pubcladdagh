@@ -1,0 +1,74 @@
+footer{
+  font-size:2.4rem;
+  position: relative;
+  margin-top:5rem;
+  background-color:$noir;
+  color: $blanc;
+  clear:both;
+  section{
+    @include container;
+
+    p{
+      font-family:ralewayRegular;
+    }
+  }
+
+  h3{
+    font-family: ralewayBold;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+  }
+
+  .inscription{
+    position:absolute;
+    background-color: $design;
+    max-width: 500px;
+    width: 25%;
+    padding:1em 1em 2em 1em;
+    float:left;
+    -webkit-box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+    top:-1em;
+    z-index:1;
+  }
+
+  .cimmi{
+    position:relative;
+    background-color: #3a3a3a;
+    padding:0.5em 1em 1em span(4);
+    }
+
+  .sociaux{
+    position:absolute;
+    right:2em;
+    top:11.5em;
+
+    img{
+      width: 80px;
+    }
+  }
+
+  .copyright{
+    background-color: $noir;
+    overflow:hidden;
+
+    p{
+      font-size: 1.9rem;
+      float:left;
+      padding: 2em 0 2em span(4);
+    }
+
+    .cegep{
+      font-size: 1.5rem;
+      padding:0;
+      color: #525252;
+      clear:both;
+      text-align: right;
+      width: 100%;
+    }
+  }
+
+
+
+}

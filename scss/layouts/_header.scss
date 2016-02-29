@@ -1,0 +1,328 @@
+.headInter{
+	height:600px;
+	width:100%;
+	color:$blanc;
+	overflow-x:hidden;
+	max-width:100%;
+	background-color: black;
+
+	.design{
+		background-color:$design;
+		// background-image:url("../images/design_arriere.png");
+		position: absolute;
+		width: 150%;
+		padding:20px;
+		padding-right:50%;
+		height: 600px;
+		left: -50%;
+		top: 0;
+		z-index:1000;
+		transition: all 0.5s ease 0s;
+		overflow:hidden;
+		cursor:hand;
+		cursor:pointer;
+		// Gestion skew
+		left: -50%;
+		width:100%;
+		z-index:1000;
+		-webkit-transform:skew(-20deg);
+		-moz-transform:skew(-20deg);
+		-o-transform:skew(-20deg);
+		.texte{
+			position: relative;
+			z-index: 1;
+		}
+		&:before{
+			content: "";
+			transform: skewX(20deg);
+			-ms-transform: skewX(20deg);
+			-webkit-transform: skewX(20deg);
+			background-image:url("../images/design_arriere.png");
+			background-size: 25%;
+			background-position: top left;
+			width: 108%;
+			height: 100%;
+			position: absolute;
+			right: -8%;
+			top: 0;
+		}
+	}
+	.designSelected:before{
+	transform: skewX(0deg);
+	-ms-transform: skewX(0deg);
+	-webkit-transform: skewX(0deg);
+	}
+	.designHeaderHover{
+		opacity:0.5;
+	}
+	.designSelected ~ .prog:before{
+		transform: skewX(0deg);
+		-ms-transform: skewX(0deg);
+		-webkit-transform: skewX(0deg);
+	}
+	.prog{
+		background-color:$prog;
+		// background-image:url("../images/prog_arriere.jpg");
+		position: absolute;
+		padding:20px;
+		width: 150%;
+		padding-left:50%;
+		height: 600px;
+		left: 50%;
+		top: 0;
+		z-index:1000;
+		transition: all 0.5s ease 0s;
+		overflow:hidden;
+		cursor:hand;
+		cursor:pointer;
+		// Gestion skew
+		left: 50%;
+		width:100%;
+		z-index:1000;
+		-webkit-transform:skew(-20deg);
+		-moz-transform:skew(-20deg);
+		-o-transform:skew(-20deg);
+		.texte{
+			position: relative;
+			z-index: 1;
+		}
+		&:before{
+			content: "";
+			transform: skewX(20deg);
+			-ms-transform: skewX(20deg);
+			-webkit-transform: skewX(20deg);
+			background-image: url("../images/prog_arriere.jpg");
+			background-size: 100%;
+			background-position: top left;
+			width: 108%;
+			height: 100%;
+			position: absolute;
+			left: -8%;
+			top: 0;
+		}
+	}
+	.progSelected:before{
+	transform: skewX(0deg);
+	-ms-transform: skewX(0deg);
+	-webkit-transform: skewX(0deg);
+	}
+	.progHeaderHover{
+		opacity:0.5;
+	}
+	.normal{
+		width: 100%;
+		height: 600px;
+		opacity:100;
+		padding-top:50px;
+		position: relative;
+	}
+	.headlineProg{
+		background-color:$blanc;
+		font-size:3em;
+		padding:10px;
+		color:$prog;
+		margin:0;
+		position: relative;
+		z-index:2000;
+		position: absolute;
+		top:20%;
+		text-align:right;
+		right:0;
+		cursor:hand;
+		cursor:pointer;
+		transition: all 0.5s ease 0s;
+		&.petit{
+			width:170px;
+			top:5%;
+		}
+			&.arrow:before{
+				content: "";
+		    background-image: url("../images/header-arrow-right.png");
+		    width: 72px;
+		    height: 65px;
+		    display: inline-block;
+		    position: absolute;
+		    left: -85px;
+			}
+	}
+	.headlineDesign{
+		background-color:$blanc;
+		font-size:3em;
+		padding:10px;
+		color:$design;
+		margin:0;
+		position: relative;
+		z-index:4000;
+		position: absolute;
+		top:20%;
+		left:0;
+		text-align:left;
+		cursor:hand;
+		cursor:pointer;
+		transition: all 0.5s ease 0s;
+		&.petit{
+		width:170px;
+		top:5%;
+		}
+		&.arrow:after{
+			content: "";
+	    background-image: url("../images/header-arrow-left.png");
+	    width: 72px;
+	    height: 65px;
+	    display: inline-block;
+	    position: absolute;
+	    right: -85px;
+		}
+	}
+	.gauche{
+		// position: absolute;
+		// top:20%;
+		// left:0;
+		// text-align:left;
+		// transition: all 0.5s ease 0s;
+		// &.petit{
+		// 	width:170px;
+		// 	top:5%;
+		// }
+		// &:after{
+		// 	content: "";
+	 //    background-image: url("../images/header-arrow.png");
+	 //    width: 72px;
+	 //    height: 65px;
+	 //    display: inline-block;
+	 //    position: absolute;
+	 //    right: -67px;
+		// }
+	}
+	.droite{
+		// position: absolute;
+		// top:20%;
+		// text-align:right;
+		// right:0;
+		// transition: all 0.5s ease 0s;
+		// &.petit{
+		// 	width:170px;
+		// 	top:5%;
+		// }
+		// 	&:after{
+		// 		content: "";
+		//     background-image: url("../images/header-arrow.png");
+		//     width: 72px;
+		//     height: 65px;
+		//     display: inline-block;
+		//     position: absolute;
+		//     right: -67px;
+		// 	}
+	}
+	p{
+		width:290px;
+		transition: all 0.5s ease 0s;
+	}
+	.titre, .ordi{
+		position: absolute;
+		top: 20px;
+		width: 100%;
+		text-align: center;
+		text-transform: uppercase;
+		font-size:20px;
+	}
+	.ordi{
+		top:50px;
+	}
+	ul{
+		li{
+			padding:10px;
+			width:200px;
+			background-color:$blanc;
+			color:$noir;
+		}
+	}
+}
+
+header{
+  	background-color:#292929;
+
+  	nav ul{
+	  @include container;
+	  padding-left:2em;
+	  padding-right:2em;
+	}
+
+
+  	//Menu principal
+  	ul{
+
+	  li:first-child{
+		float:left;
+		padding-top:10px;
+		width: 86px;
+		@include post(0.3 of 12);
+	  }
+
+	  li{
+
+		display: inline-block;
+		margin-right:1em;
+		padding-left:0.5em;
+		padding-right:0.5em;
+		padding-top:15px;
+		height:49px;
+
+		a{
+		  color:$blanc;
+		  text-decoration: none;
+
+		  padding-top:20px;
+		  padding-bottom:20px;
+
+		  font-family: ralewayMedium;
+		  font-size: 1.6rem;
+		  text-transform: uppercase;
+		}
+		list-style: none;
+	  }
+
+	  li.logoCegep {
+		padding-top:7px;
+		float: right;
+		width: 110px;
+	  }
+
+	  li:hover{
+
+		background-color:black;
+
+		.sousCategorie{
+		  display:block;
+		}
+	  }
+
+	  //Sous-menus
+	  .sousCategorie {
+		display:none;
+
+		padding:0;
+		margin:0;
+		margin-left: -0.5em;
+
+		z-index:1;
+
+		position:absolute;
+		width: 185px;
+		margin-top:0.6em;
+
+		li{
+		  clear:both;
+		  padding:1em;
+		  padding-right: 2em;
+		  height: 60px;
+		}
+
+		background-color:black;
+	  }
+
+	  margin:0;
+	  padding-left:0;
+	}
+
+}

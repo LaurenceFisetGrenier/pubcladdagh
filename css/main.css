@@ -1,0 +1,1749 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/**
+ *
+ * Mixin list
+ * @mixin clearfix
+ * @mixin visuallyhidden
+ *
+ */
+/* Clearfix */
+/* Visually Hidden */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+/*
+*
+* Initialisation principales
+* -------------------------
+* Susy
+* HTML
+* Breakpoints
+*  - small
+*  - medium
+*  - large
+* Color
+*
+*/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/*Fonts*****************/
+@font-face {
+  font-family: "novecentoDemiBold";
+  src: url("../polices/Novecentosanswide-DemiBold.otf"); }
+@font-face {
+  font-family: "novecentoBold";
+  src: url("../polices/Novecentosanswide-Bold.otf"); }
+@font-face {
+  font-family: "ralewaySemiBold";
+  src: url("../polices/Raleway-SemiBold.ttf"); }
+@font-face {
+  font-family: "ralewayBold";
+  src: url("../polices/Raleway-Bold.ttf"); }
+@font-face {
+  font-family: "ralewayMedium";
+  src: url("../polices/Raleway-Medium.ttf"); }
+@font-face {
+  font-family: "ralewayRegular";
+  src: url("../polices/Raleway-Regular.ttf"); }
+@font-face {
+  font-family: "ralewayThin";
+  src: url("../polices/Raleway-Thin.ttf"); }
+@font-face {
+  font-family: "ralewayItalic";
+  src: url("../polices/Raleway-Italic.ttf"); }
+html {
+  font-size: 62.5%;
+  background-color: #fbfbfb; }
+
+body {
+  font-size: 1.8rem;
+  margin: auto;
+  overflow-x: hidden; }
+
+h1 {
+  font-family: "novecentoDemiBold";
+  font-size: 7rem;
+  padding: 12rem 10rem 10rem 10rem;
+  height: 35rem;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0; }
+
+h2 {
+  font-family: "novecentoDemiBold";
+  font-size: 6rem;
+  margin: 0; }
+
+h3 {
+  font-family: "novecentoDemiBold";
+  font-size: 3.5rem; }
+
+h4 {
+  font-family: "novecentoDemiBold";
+  font-size: 3rem; }
+
+h5 {
+  font-family: "novecentoDemiBold";
+  font-size: 2rem; }
+
+p {
+  font-family: "ralewayRegular";
+  font-size: 2.1rem; }
+
+a {
+  font-family: "ralewaySemiBold";
+  color: #1d837b;
+  padding-bottom: 0.5rem;
+  text-decoration: underline; }
+
+button, input[type="submit"] {
+  font-family: "ralewayBold";
+  font-size: 2.2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: none;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.9);
+  padding: 2rem;
+  -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.45); }
+
+strong {
+  font-family: "ralewayBold"; }
+
+i {
+  font-family: "ralewayItalic"; }
+
+b {
+  font-family: "ralewayBold"; }
+
+.design {
+  background-color: #951368; }
+
+.neutre {
+  background-color: #ababab; }
+
+.box {
+  clear: both; }
+
+.box-contact {
+  background-color: #ababab;
+  padding-left: 8rem;
+  margin-top: 5rem; }
+  .box-contact .container-box {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto; }
+    .box-contact .container-box:after {
+      content: " ";
+      display: block;
+      clear: both; }
+  .box-contact .img_contact {
+    float: left;
+    width: 35rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem; }
+  .box-contact #texteDroite {
+    float: right;
+    width: 75%; }
+
+#bloc {
+  padding: 1em;
+  box-shadow: 1px 4px 10px grey; }
+
+.bt_contact {
+  font-family: "ralewayBold";
+  font-size: 2.2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #FFFFFF;
+  padding: 2rem;
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.9);
+  -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.45);
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  top: 30rem; }
+
+.design {
+  background-color: #951368; }
+
+.prog {
+  background-color: #1d837b; }
+
+.description {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: -15rem;
+  background-color: #FFFFFF;
+  padding: 2rem 4rem 2rem 4rem;
+  -webkit-box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+  box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+  text-align: center; }
+  .description:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .description h2 {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; }
+  .description ul li {
+    list-style: none; }
+    .description ul li a {
+      text-decoration: none; }
+      .description ul li a:hover {
+        color: #0b2f2d; }
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s ease-in-out; }
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s ease-in-out; }
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.opacityNone {
+  opacity: 0;
+  display: none; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+.clearfix:after {
+  clear: both; }
+
+@keyframes button-bubble-up {
+  0% {
+    transform: scale(0); }
+  80% {
+    transform: scale(1.2); }
+  100% {
+    transform: scale(1); } }
+.headInter {
+  height: 600px;
+  width: 100%;
+  color: #FFFFFF;
+  overflow-x: hidden;
+  max-width: 100%;
+  background-color: black; }
+  .headInter .design {
+    background-color: #951368;
+    position: absolute;
+    width: 150%;
+    padding: 20px;
+    padding-right: 50%;
+    height: 600px;
+    left: -50%;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.5s ease 0s;
+    overflow: hidden;
+    cursor: hand;
+    cursor: pointer;
+    left: -50%;
+    width: 100%;
+    z-index: 1000;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg); }
+    .headInter .design .texte {
+      position: relative;
+      z-index: 1; }
+    .headInter .design:before {
+      content: "";
+      transform: skewX(20deg);
+      -ms-transform: skewX(20deg);
+      -webkit-transform: skewX(20deg);
+      background-image: url("../images/design_arriere.png");
+      background-size: 25%;
+      background-position: top left;
+      width: 108%;
+      height: 100%;
+      position: absolute;
+      right: -8%;
+      top: 0; }
+  .headInter .designSelected:before {
+    transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg); }
+  .headInter .designHeaderHover {
+    opacity: 0.5; }
+  .headInter .designSelected ~ .prog:before {
+    transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg); }
+  .headInter .prog {
+    background-color: #1d837b;
+    position: absolute;
+    padding: 20px;
+    width: 150%;
+    padding-left: 50%;
+    height: 600px;
+    left: 50%;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.5s ease 0s;
+    overflow: hidden;
+    cursor: hand;
+    cursor: pointer;
+    left: 50%;
+    width: 100%;
+    z-index: 1000;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg); }
+    .headInter .prog .texte {
+      position: relative;
+      z-index: 1; }
+    .headInter .prog:before {
+      content: "";
+      transform: skewX(20deg);
+      -ms-transform: skewX(20deg);
+      -webkit-transform: skewX(20deg);
+      background-image: url("../images/prog_arriere.jpg");
+      background-size: 100%;
+      background-position: top left;
+      width: 108%;
+      height: 100%;
+      position: absolute;
+      left: -8%;
+      top: 0; }
+  .headInter .progSelected:before {
+    transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg); }
+  .headInter .progHeaderHover {
+    opacity: 0.5; }
+  .headInter .normal {
+    width: 100%;
+    height: 600px;
+    opacity: 100;
+    padding-top: 50px;
+    position: relative; }
+  .headInter .headlineProg {
+    background-color: #FFFFFF;
+    font-size: 3em;
+    padding: 10px;
+    color: #1d837b;
+    margin: 0;
+    position: relative;
+    z-index: 2000;
+    position: absolute;
+    top: 20%;
+    text-align: right;
+    right: 0;
+    cursor: hand;
+    cursor: pointer;
+    transition: all 0.5s ease 0s; }
+    .headInter .headlineProg.petit {
+      width: 170px;
+      top: 5%; }
+    .headInter .headlineProg.arrow:before {
+      content: "";
+      background-image: url("../images/header-arrow-right.png");
+      width: 72px;
+      height: 65px;
+      display: inline-block;
+      position: absolute;
+      left: -85px; }
+  .headInter .headlineDesign {
+    background-color: #FFFFFF;
+    font-size: 3em;
+    padding: 10px;
+    color: #951368;
+    margin: 0;
+    position: relative;
+    z-index: 4000;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    text-align: left;
+    cursor: hand;
+    cursor: pointer;
+    transition: all 0.5s ease 0s; }
+    .headInter .headlineDesign.petit {
+      width: 170px;
+      top: 5%; }
+    .headInter .headlineDesign.arrow:after {
+      content: "";
+      background-image: url("../images/header-arrow-left.png");
+      width: 72px;
+      height: 65px;
+      display: inline-block;
+      position: absolute;
+      right: -85px; }
+  .headInter p {
+    width: 290px;
+    transition: all 0.5s ease 0s; }
+  .headInter .titre, .headInter .ordi {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px; }
+  .headInter .ordi {
+    top: 50px; }
+  .headInter ul li {
+    padding: 10px;
+    width: 200px;
+    background-color: #FFFFFF;
+    color: #000000; }
+
+header {
+  background-color: #292929; }
+  header nav ul {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2em;
+    padding-right: 2em; }
+    header nav ul:after {
+      content: " ";
+      display: block;
+      clear: both; }
+  header ul {
+    margin: 0;
+    padding-left: 0; }
+    header ul li:first-child {
+      float: left;
+      padding-top: 10px;
+      width: 86px;
+      margin-right: 2.54237%; }
+    header ul li {
+      display: inline-block;
+      margin-right: 1em;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      padding-top: 15px;
+      height: 49px;
+      list-style: none; }
+      header ul li a {
+        color: #FFFFFF;
+        text-decoration: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: ralewayMedium;
+        font-size: 1.6rem;
+        text-transform: uppercase; }
+    header ul li.logoCegep {
+      padding-top: 7px;
+      float: right;
+      width: 110px; }
+    header ul li:hover {
+      background-color: black; }
+      header ul li:hover .sousCategorie {
+        display: block; }
+    header ul .sousCategorie {
+      display: none;
+      padding: 0;
+      margin: 0;
+      margin-left: -0.5em;
+      z-index: 1;
+      position: absolute;
+      width: 185px;
+      margin-top: 0.6em;
+      background-color: black; }
+      header ul .sousCategorie li {
+        clear: both;
+        padding: 1em;
+        padding-right: 2em;
+        height: 60px; }
+
+footer {
+  font-size: 2.4rem;
+  position: relative;
+  margin-top: 5rem;
+  background-color: #000000;
+  color: #FFFFFF;
+  clear: both; }
+  footer section {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto; }
+    footer section:after {
+      content: " ";
+      display: block;
+      clear: both; }
+    footer section p {
+      font-family: ralewayRegular; }
+  footer h3 {
+    font-family: ralewayBold;
+    font-size: 4.5rem;
+    text-transform: uppercase; }
+  footer .inscription {
+    position: absolute;
+    background-color: #951368;
+    max-width: 500px;
+    width: 25%;
+    padding: 1em 1em 2em 1em;
+    float: left;
+    -webkit-box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+    top: -1em;
+    z-index: 1; }
+  footer .cimmi {
+    position: relative;
+    background-color: #3a3a3a;
+    padding: 0.5em 1em 1em 32.20339%; }
+  footer .sociaux {
+    position: absolute;
+    right: 2em;
+    top: 11.5em; }
+    footer .sociaux img {
+      width: 80px; }
+  footer .copyright {
+    background-color: #000000;
+    overflow: hidden; }
+    footer .copyright p {
+      font-size: 1.9rem;
+      float: left;
+      padding: 2em 0 2em 32.20339%; }
+    footer .copyright .cegep {
+      font-size: 1.5rem;
+      padding: 0;
+      color: #525252;
+      clear: both;
+      text-align: right;
+      width: 100%; }
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #951368;
+  margin-left: 17rem; }
+
+/***************Page Stages*/
+#stages h3 {
+  background-color: #951368;
+  color: #FFFFFF;
+  font-family: "ralewayRegular";
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin-bottom: 0rem; }
+#stages h5 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+#stages #dates-stages {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-top: 2px #ababab solid;
+  border-bottom: 2px #ababab solid;
+  margin-top: 5rem; }
+  #stages #dates-stages:after {
+    content: " ";
+    display: block;
+    clear: both; }
+#stages #texteStages {
+  text-align: center;
+  padding-bottom: 10rem; }
+  #stages #texteStages ul li {
+    list-style: none; }
+#stages #lien-stages-ate {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 10rem; }
+  #stages #lien-stages-ate:after {
+    content: " ";
+    display: block;
+    clear: both; }
+#stages #sequence-stages {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto; }
+  #stages #sequence-stages:after {
+    content: " ";
+    display: block;
+    clear: both; }
+#stages #description-stages {
+  border: 1px #951368 solid;
+  margin-top: 0rem;
+  background-color: #FFFFFF;
+  padding: 2rem;
+  -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.45);
+  clear: both; }
+#stages #troisannee {
+  width: 40rem;
+  float: left;
+  margin-left: 30rem; }
+#stages #undeuxannee {
+  width: 40rem;
+  float: right;
+  margin-right: 30rem; }
+#stages .titre-semaine-stage {
+  float: left;
+  height: 10rem;
+  width: 15rem;
+  padding-top: 3rem;
+  margin-left: -4rem;
+  border: 1px solid #951368;
+  background-color: #951368;
+  color: #fbfbfb;
+  -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.45); }
+#stages .dates-stages {
+  float: right;
+  height: 10rem;
+  width: 25rem;
+  padding-top: 4rem;
+  border: 1px solid #951368; }
+#stages .credite {
+  margin-top: 35rem !important; }
+#stages .attention {
+  margin-top: 3.5rem !important; }
+
+/*************************Page ATE*/
+#ate #stages-ate {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem; }
+  #ate #stages-ate:after {
+    content: " ";
+    display: block;
+    clear: both; }
+#ate h2 {
+  font-size: 3.5rem; }
+#ate #ate-premiere {
+  text-align: center;
+  float: left;
+  width: 45%;
+  padding-bottom: 3rem;
+  min-height: 30rem;
+  margin-top: 5rem;
+  border: 1px solid #951368;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.2); }
+  #ate #ate-premiere h2 {
+    background-color: #951368;
+    color: #FFFFFF;
+    padding: 2rem; }
+#ate #ate-deuxieme {
+  text-align: center;
+  width: 45%;
+  padding-bottom: 3rem;
+  min-height: 30rem;
+  float: right;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border: 1px solid #951368;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.2); }
+  #ate #ate-deuxieme h2 {
+    background-color: #951368;
+    color: #FFFFFF;
+    padding: 2rem; }
+#ate #caracteristiques-ate {
+  font-family: "ralewayRegular";
+  font-size: 2rem;
+  clear: both;
+  border: 1px solid #951368;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 5rem; }
+  #ate #caracteristiques-ate h2 {
+    background-color: #951368;
+    color: #FFFFFF;
+    padding: 3rem; }
+  #ate #caracteristiques-ate ul li {
+    list-style: none;
+    margin-bottom: 1rem; }
+    #ate #caracteristiques-ate ul li:before {
+      color: #951368;
+      content: "\2023";
+      padding-right: 1rem;
+      position: relative; }
+#ate .triangle {
+  margin-left: 40rem; }
+#ate #attention-ate {
+  padding: 3rem;
+  border: 1px solid #951368;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.2); }
+
+/*****************Page Joindre*****/
+#joindre h2 {
+  text-align: center;
+  margin-bottom: 3rem; }
+#joindre #section-formulaire {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  border-top: 2px #ababab solid;
+  border-bottom: 2px #ababab solid; }
+  #joindre #section-formulaire:after {
+    content: " ";
+    display: block;
+    clear: both; }
+#joindre #section-gauche {
+  float: left;
+  width: 40rem;
+  margin-left: 50rem; }
+#joindre #section-droite {
+  float: right;
+  width: 45rem;
+  margin-right: 40rem; }
+#joindre input[type="text"], #joindre select {
+  width: 40rem;
+  height: 4rem;
+  border: 2px #1d837b solid;
+  border-radius: 3px;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem; }
+#joindre textarea {
+  border: 2px #1d837b solid;
+  border-radius: 3px;
+  width: 40rem;
+  height: 30rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem; }
+#joindre #box-adresse {
+  /*@include container;*/
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 10rem; }
+  #joindre #box-adresse #lien-adresse {
+    background-color: #FFFFFF;
+    border: 2px #951368 solid;
+    border-top: none;
+    margin: auto;
+    margin-top: -2.5rem;
+    width: 102.4rem;
+    text-align: left;
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1.5rem; }
+    #joindre #box-adresse #lien-adresse a {
+      text-decoration: none; }
+#joindre button {
+  float: right;
+  margin-right: 5rem; }
+
+.profil, .formation {
+  width: 40%;
+  margin: 5%;
+  float: left;
+  padding: 50px;
+  text-align: center;
+  min-height: 550px;
+  position: relative; }
+  .profil p, .formation p {
+    line-height: 36px;
+    min-height: 250px; }
+  .profil h2, .formation h2 {
+    margin-bottom: 20px;
+    min-height: 100px; }
+
+.fullscreenForm {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  transition: all ease 1s;
+  overflow: hidden;
+  background-color: #1d837b;
+  color: white;
+  z-index: 10;
+  background-image: url(../images/logoTim.svg);
+  background-position: 3% 4%;
+  background-repeat: no-repeat;
+  background-size: 8%;
+  /* Progression */
+  /* Dot navigation */ }
+  .fullscreenForm form {
+    z-index: 2;
+    height: 100%;
+    width: 75%;
+    margin: 0 auto; }
+  .fullscreenForm h3 {
+    margin-bottom: 35px;
+    border-bottom: 2px solid white;
+    padding-bottom: 55px; }
+  .fullscreenForm h2.nomQuiz {
+    margin-left: 12%;
+    margin-top: 2%;
+    font-size: 30px;
+    border-left: 2px solid #96cbc7;
+    padding: 13px;
+    color: #96cbc7; }
+  .fullscreenForm button {
+    position: absolute;
+    z-index: 100; }
+  .fullscreenForm.hidden {
+    overflow: hidden;
+    height: 0; }
+  .fullscreenForm fieldset {
+    border: none;
+    position: absolute;
+    top: -50%;
+    width: inherit;
+    padding-top: 13%;
+    padding-bottom: 10%;
+    transition: all ease 0.5s;
+    transition-delay: 0.6s;
+    opacity: 0; }
+    .fullscreenForm fieldset.current {
+      transition-timing-function: ease-out;
+      visibility: visible;
+      top: 0%;
+      opacity: 1; }
+    .fullscreenForm fieldset.movingOut {
+      transition-timing-function: ease-in;
+      top: 80%;
+      visibility: visible;
+      opacity: 0s; }
+    .fullscreenForm fieldset button {
+      bottom: 120px; }
+  .fullscreenForm .btnContinuer {
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    animation: button-bubble-up 0.5s;
+    /* IE 10+, Fx 29+ */
+    transition: all ease-in-out; }
+  .fullscreenForm .btnFermerQuiz {
+    right: 10px;
+    background-color: transparent;
+    box-shadow: none;
+    color: black;
+    font-size: 50px;
+    top: 40px;
+    opacity: 0.7;
+    width: 130px;
+    line-height: 20px; }
+    .fullscreenForm .btnFermerQuiz span {
+      white-space: pre;
+      font-size: 12px; }
+  .fullscreenForm .progression {
+    display: block;
+    background-color: #951368;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    transition: all ease 0.3s;
+    width: 0;
+    transition-delay: 0.6s; }
+  .fullscreenForm .progressionChiffre {
+    position: absolute;
+    top: 24%;
+    right: 27px;
+    left: auto;
+    overflow: hidden;
+    font-size: 3rem;
+    font-family: "ralewayThin";
+    padding-top: 25px;
+    width: 100px;
+    text-align: right; }
+    .fullscreenForm .progressionChiffre span {
+      display: block;
+      position: absolute;
+      right: -60px;
+      padding-right: 9px;
+      margin-right: 105px;
+      font-size: 4rem;
+      margin-top: -7px; }
+      .fullscreenForm .progressionChiffre span.fs-current-number {
+        bottom: 0; }
+  .fullscreenForm #timQuizFormation ~ .controls .progressionChiffre {
+    position: absolute;
+    top: 32%;
+    right: 38px;
+    left: auto; }
+    .fullscreenForm #timQuizFormation ~ .controls .progressionChiffre span {
+      right: -73px; }
+      .fullscreenForm #timQuizFormation ~ .controls .progressionChiffre span.fs-current-number {
+        bottom: -4px; }
+  .fullscreenForm .nav-dots {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    left: auto;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .fullscreenForm .nav-dots button {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 16px 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: transparent;
+    -webkit-transition: -webkit-transform 0.3s ease, opacity 0.3s ease;
+    transition: transform 0.3s ease, opacity 0.3s ease; }
+  .fullscreenForm .nav-dots button::before,
+  .fullscreenForm .nav-dots button::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    content: '';
+    text-indent: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
+  .fullscreenForm .nav-dots button::after {
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 180deg);
+    transform: perspective(1000px) rotate3d(0, 1, 0, 180deg); }
+  .fullscreenForm .nav-dots button:disabled::before,
+  .fullscreenForm .nav-dots button:disabled::after {
+    opacity: 0.3; }
+  .fullscreenForm .nav-dots button:disabled,
+  .fullscreenForm .nav-dots button:disabled {
+    box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.1); }
+  .fullscreenForm .nav-dots button.dot-current {
+    -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 180deg);
+    transform: perspective(1000px) rotate3d(0, 1, 0, 180deg);
+    pointer-events: none; }
+  .fullscreenForm .nav-dots button:hover:enabled::before,
+  .fullscreenForm .nav-dots button.dot-current:enabled::before {
+    background: #b8c326;
+    transition: all ease 0.3s; }
+  .fullscreenForm #validerQuizProfil {
+    bottom: 30%;
+    right: calc(50% - 128px;);
+    animation: button-bubble-up 0.5s;
+    /* IE 10+, Fx 29+ */
+    transition: all ease-out 0.5s;
+    transition-delay: 0.6s; }
+
+.resultat {
+  position: absolute;
+  z-index: 10;
+  width: 65%;
+  top: 30%;
+  left: 20%;
+  color: white;
+  animation: fadein 1s;
+  transition: all ease-out; }
+  .resultat p {
+    font-size: 2.6rem;
+    line-height: 5.6rem; }
+  .resultat.card {
+    background-color: #1a766f;
+    padding: 5rem; }
+
+/*=================================
+=            Animation            =
+=================================*/
+@-webkit-keyframes radio-bubble-up {
+  0% {
+    transform: scale(0); }
+  60% {
+    transform: scale(1.5); }
+  100% {
+    transform: scale(1); } }
+@-moz-keyframes radio-bubble-up {
+  0% {
+    transform: scale(0); }
+  60% {
+    transform: scale(1.5); }
+  100% {
+    transform: scale(1); } }
+@-o-keyframes radio-bubble-up {
+  0% {
+    transform: scale(0); }
+  60% {
+    transform: scale(1.5); }
+  100% {
+    transform: scale(1); } }
+@keyframes radio-bubble-up {
+  0% {
+    transform: scale(0); }
+  60% {
+    transform: scale(1.5); }
+  100% {
+    transform: scale(1); } }
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  60% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+/*=====  End of Animation  ======*/
+/*====================================
+=            Radio button Quiz           =
+====================================*/
+.radio {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 24px;
+  line-height: 49px;
+  cursor: pointer;
+  text-transform: capitalize;
+  width: 24%; }
+
+.radio:hover .inner {
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+  opacity: .5; }
+
+.radio input {
+  width: 1px;
+  height: 1px;
+  opacity: 0; }
+
+.radio input:checked + .outer .inner {
+  animation: radio-bubble-up 0.7s;
+  /* IE 10+, Fx 29+ */
+  opacity: 1; }
+
+.radio input:checked + .outer .inner {
+  transform: scale(1); }
+
+.radio input:checked + .outer {
+  border: 3px solid #951368; }
+
+.radio input:focus + .outer .inner {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  background-color: #951368; }
+
+.radio .outer {
+  width: 36px;
+  height: 36px;
+  display: block;
+  float: left;
+  margin: 6px 9px 10px 10px;
+  border: 3px solid #951368;
+  border-radius: 50%; }
+
+.radio .inner {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 20px;
+  height: 20px;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  border-radius: 50%;
+  background-color: #951368;
+  opacity: 0;
+  margin-left: 5px;
+  margin-top: 5px; }
+
+/*=====  End of Radio button Quiz  ======*/
+/* Animations for numbers */
+/* Show next number */
+.fs-new-number {
+  -webkit-animation: animMoveUpFromDown 0.4s both;
+  animation: animMoveUpFromDown 0.4s both; }
+
+@-webkit-keyframes animMoveUpFromDown {
+  to {
+    -webkit-transform: translateY(-100%); } }
+@keyframes animMoveUpFromDown {
+  to {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%); } }
+.fs-animUp {
+  -webkit-animation: animMoveUp 0.4s both;
+  animation: animMoveUp 0.4s both; }
+
+@-webkit-keyframes animMoveUp {
+  to {
+    -webkit-transform: translateY(-150%); } }
+@keyframes animMoveUp {
+  to {
+    -webkit-transform: translateY(-150%);
+    transform: translateY(-150%); } }
+/* Show previous number */
+.fs-numbers.fs-show-prev .fs-number-new {
+  -webkit-animation: animMoveDownFromUp 0.4s both;
+  animation: animMoveDownFromUp 0.4s both; }
+
+@-webkit-keyframes animMoveDownFromUp {
+  from {
+    -webkit-transform: translateY(-100%); }
+  to {
+    -webkit-transform: translateY(0); } }
+@keyframes animMoveDownFromUp {
+  from {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%); }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+.fs-numbers.fs-show-prev .fs-number-current {
+  -webkit-animation: animMoveDown 0.4s both;
+  animation: animMoveDown 0.4s both; }
+
+@-webkit-keyframes animMoveDown {
+  to {
+    -webkit-transform: translateY(100%); } }
+@keyframes animMoveDown {
+  to {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%); } }
+#blocAccueil {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-clip: border-box;
+  padding: 2em;
+  padding-left: 3em;
+  width: 90%;
+  box-shadow: 1px 4px 50px grey;
+  margin-bottom: 8em; }
+  #blocAccueil:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+section {
+  clear: both; }
+
+.event {
+  background-color: #FFFFFF; }
+
+.rsociaux {
+  background-color: #b8c326;
+  margin-top: 10em; }
+  .rsociaux p {
+    word-wrap: break-word;
+    color: white; }
+  .rsociaux img {
+    width: 8.47458%;
+    float: left;
+    margin-right: 2.54237%; }
+  .rsociaux .facebook {
+    margin-right: 8.47458%; }
+  .rsociaux article {
+    box-sizing: content-box;
+    width: 32.20339%;
+    float: left; }
+  .rsociaux .date {
+    font-size: 1.7rem;
+    color: #343803;
+    font-family: ralewaySemiBold; }
+  .rsociaux .article {
+    font-size: 2.1rem; }
+
+#galerie {
+  overflow: hidden; }
+  #galerie ul {
+    list-style: none;
+    padding-left: 0; }
+  #galerie li {
+    padding: 0;
+    position: relative; }
+  #galerie li:hover #description {
+    visibility: initial;
+    height: 100%; }
+  #galerie li:hover button {
+    animation: button-bubble-up 0.4s;
+    /* IE 10+, Fx 29+ */
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards; }
+  #galerie #description {
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    transition: all 0.4s ease;
+    position: absolute;
+    background-color: rgba(149, 19, 104, 0.8);
+    right: 0;
+    left: 0;
+    bottom: 0; }
+    #galerie #description h3 {
+      color: #951368;
+      background-color: white;
+      padding: 1em;
+      margin-top: 1em;
+      text-transform: uppercase; }
+    #galerie #description button {
+      position: absolute;
+      right: 25px;
+      bottom: 10px;
+      background-color: #951368;
+      box-shadow: none;
+      border: 2px solid #FFFFFF;
+      border-radius: 20px;
+      width: 250px;
+      transform: scale(0); }
+  #galerie img {
+    width: 100%; }
+  #galerie a {
+    width: 100%; }
+  #galerie li {
+    float: left;
+    padding: 0; }
+    @media (min-width: 768px) {
+      #galerie li {
+        width: 50%; } }
+    @media (min-width: 1400px) {
+      #galerie li {
+        width: 33%;
+        width: -moz-calc(100% / 3);
+        width: -webkit-calc(100% / 3);
+        width: calc(100% / 3); } }
+    @media (min-width: 1900px) {
+      #galerie li {
+        width: 25%; } }
+
+.event {
+  margin-top: 5em; }
+  .event h2 {
+    font-size: 4.5rem;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: white; }
+  .event .titre {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 3em 2em 3em 3em;
+    line-height: 10px;
+    width: 32.20339%;
+    background-color: #b8c326;
+    margin-right: 8.47458%; }
+    @media (max-width: 1400px) {
+      .event .titre {
+        padding: 1.6em 2em 3em 3em; } }
+    .event .titre p {
+      color: #343803;
+      font-size: 2.9rem;
+      position: absolute;
+      z-index: 1; }
+    .event .titre h2 {
+      position: absolute;
+      z-index: 1;
+      margin-top: 70px; }
+  .event .titre:after {
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    width: 70%;
+    top: 0;
+    position: absolute;
+    right: -53px;
+    transform: skewX(-20deg);
+    transform-origin: 100%;
+    z-index: 0; }
+  .event .texte {
+    width: 55%;
+    float: left;
+    margin-top: 1em;
+    margin-left: 40.67797%; }
+    .event .texte p {
+      font-size: 2.5rem; }
+      @media (max-width: 1400px) {
+        .event .texte p {
+          font-size: 2rem; } }
+  .event .lien {
+    float: right; }
+
+.description {
+  margin-top: -8rem; }
+
+.temoignages {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 6em; }
+  .temoignages:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .temoignages .card {
+    padding: 0; }
+  .temoignages h1 {
+    margin-bottom: 2em; }
+  .temoignages article {
+    width: 45%;
+    background-color: #FFFFFF;
+    margin-bottom: 6em;
+    min-height: 1000px;
+    position: relative; }
+    .temoignages article ul {
+      list-style: none;
+      padding: 0; }
+    .temoignages article img {
+      width: 100%; }
+    .temoignages article p {
+      font-size: 1.7rem;
+      padding-left: 2rem;
+      padding-right: 2rem; }
+    .temoignages article h2 {
+      font-size: 4.0rem;
+      padding-left: 1rem;
+      padding-top: 1rem; }
+    .temoignages article h3 {
+      font-family: ralewayBold;
+      font-size: 2.6rem;
+      padding-left: 2rem; }
+    .temoignages article button {
+      width: 80px;
+      height: 80px;
+      background-color: #1d837b;
+      z-index: 1; }
+    .temoignages article button.precedent {
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+    .temoignages article button.suivant {
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+    .temoignages article #rectangle {
+      background-color: #1a6d65;
+      position: absolute;
+      bottom: 0;
+      height: 40px;
+      left: 0;
+      right: 0; }
+    .temoignages article .graduation {
+      font-family: ralewaySemiBold;
+      font-size: 1.5rem;
+      position: absolute;
+      bottom: 100px;
+      right: 0; }
+  .temoignages article:nth-child(1), .temoignages article:nth-child(3) {
+    clear: both;
+    float: left; }
+  .temoignages article:nth-child(2), .temoignages article:nth-child(4) {
+    float: right; }
+
+#diplome ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 5%; }
+#diplome #nom_diplome {
+  border: 2px solid;
+  text-align: center;
+  text-decoration: none; }
+
+/*# sourceMappingURL=main.css.map */

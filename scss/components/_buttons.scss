@@ -1,0 +1,6 @@
+// Button validation
+@keyframes button-bubble-up {
+  0%   { transform: scale(0) }
+  80%  { transform: scale(1.2) }
+  100% { transform: scale(1) }
+}

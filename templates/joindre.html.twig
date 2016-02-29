@@ -1,0 +1,79 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fr"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="{{ niveau }}css/main.css">
+        
+        <script src="{{ niveau }}js/vendor/modernizr.js"></script>
+
+        <title>TIM</title>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        {{ include("header.html.twig") }}
+        {% if erreur is not empty %}
+            <p>{{ erreur }}</p>
+        {% else %}
+
+        <main id="joindre">
+
+                <h1 class="neutre">Nous joindre</h1>
+                <div id="section-formulaire">
+                <h2>Contactez-nous</h2>
+                    <form action="index.php" method="get">
+                        {% if erreur!="" %}
+                            {{ erreurGenerale }}
+                        {% endif %}
+                        <div id="section-gauche"><label for="nom">Nom complet *</label><br/><input type="text" name="nom" id="nom"/><br/>
+                            <span class="erreur">{{ erreurNom }}</span><br/>
+
+                        <label for="courriel">Courriel *</label><br/><input type="text" name="courriel" id="courriel"/><br/>
+                        <span class="erreur">{{ erreurCourriel }}</span></br>
+
+                        <label for="destinataire">Destinataire *</label><br/><select name="destinataire" id="destinataire"/><br/>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select><br/>
+                        <span class="erreur"></span><br/>
+
+                        <label for="sujet">Sujet *</label><input type="text" name="sujet" id="sujet"/><br/>
+                        <span class="erreur">{{ erreurSujet }}</span>
+                        </div>
+                        
+                        <div id="section-droite"><label for="message">Message *</label><br/><textarea  name="message" id="message"></textarea><br/>
+                        <span class="erreur">{{ erreurMessage }}</span>
+                            <label for="bt-envoyer" type="hidden"><input type="submit" id="bt-envoyer" name="bt-envoyer" value="Envoyer">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="box-contact">
+                    <div class="container-box"><img src="{{ niveau }}images/equipe/sylvain-lamoureux_tim2016.jpg" class="img_contact" />
+                        <div id="texteDroite"><p>{{ texteRespo|raw }}</p>
+                    <a href="#" class="bt_contact">Contacter le coordonateur</a><br/></div></div></div>
+                <div id="box-adresse">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11592.493478454644!2d-71.29206305400675!3d46.77857678344058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb896dea093d777%3A0xf81581457f682cd6!2sC%C3%A9gep+de+Sainte-Foy!5e0!3m2!1sfr!2sca!4v1455636266808" width="1024" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <p>{{ texteAdresse|raw }}</p>
+                </div>
+
+        </main> <!-- #main-container -->
+
+        {% endif %}
+        {{ include("footer.html.twig") }}
+
+        <script src="{{ niveau }}bower_components/jquery/dist/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="{{ niveau }}js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/script.min.js"></script>
+    </body>
+</html>

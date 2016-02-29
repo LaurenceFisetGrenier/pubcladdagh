@@ -1,0 +1,37 @@
+<footer>
+
+    <section>
+        <div class="inscription">
+            <h3>Faites partie de la tim.</h3>
+            <p>Tu t’intéresses à la création et au développement de sites Web ou d’applications multimédia et tu souhaites te joindre à la TIM l’an prochain? Complète ta demande d'admission avant le 1er mars.</p>
+            <button>S'inscrire</button>
+        </div>
+
+        <div class="cimmi">
+            <h3>CIMMI.</h3>
+            <p>Le cégep de Sainte-Foy est partenaire du Centre en imagerie numérique et médias interactifs dans la réalisation de projets de recherche appliquée.</p>
+            <button>Consulter le site</button>
+
+            <div class="sociaux">
+                <a href=''><img src='{{ niveau }}images/facebook.svg' alt='Facebook'></a>
+                <a href=''><img src='{{ niveau }}images/twitter.svg' alt='Twitter'></a>
+                <a href=''><img src='{{ niveau }}images/linkedin.svg' alt='Linkedin'></a>
+            </div>
+        </div>
+        <div class='copyright'>
+            <p>Site web réalisé par Alexis Leblanc, Mikael Bédard, Laurence Fiset-Grenier, Alexandra  Pépin et Stephanie Dufour</p>
+            <p class="cegep">© 2015 Cégep-Ste-Foy. Tous droits réservés.</p>
+        </div>
+    </section>
+
+</footer>
+
+{# Inclusion de Jquery. Deuxieme ligne backup si première bug. #}
+<script src="{{ niveau }}bower_components/jquery/dist/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{ niveau }}js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+{# Liaison avec Jquery UI #}
+<script src="{{ niveau }}bower_components/jquery-ui/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="{{ niveau }}bower_components/jquery-ui/themes/base/jquery-ui.min.css">
+{# Custom JS de l'équipe #}
+<script src="{{ niveau }}js/script.min.js"></script>

@@ -1,0 +1,239 @@
+/*Fonts*****************/
+
+@font-face{
+	font-family:"novecentoDemiBold";
+	src:url("../polices/Novecentosanswide-DemiBold.otf");
+}
+
+@font-face{
+  font-family:"novecentoBold";
+  src:url("../polices/Novecentosanswide-Bold.otf");
+}
+
+@font-face{
+	font-family: "ralewaySemiBold";
+	src:url('../polices/Raleway-SemiBold.ttf');
+}
+
+
+@font-face{
+	font-family: "ralewayBold";
+	src:url('../polices/Raleway-Bold.ttf');
+}
+
+@font-face{
+  font-family: "ralewayMedium";
+  src:url('../polices/Raleway-Medium.ttf');
+}
+
+
+@font-face{
+  font-family: "ralewayRegular";
+  src:url('../polices/Raleway-Regular.ttf');
+}
+@font-face{
+  font-family: "ralewayThin";
+  src:url('../polices/Raleway-Thin.ttf');
+}
+
+@font-face{
+	font-family:"ralewayItalic";
+	src:url('../polices/Raleway-Italic.ttf');
+}
+
+
+
+html{
+	font-size:62.5%;
+	background-color: $back;
+}
+
+body{
+  font-size:1.8rem;
+  margin:auto;
+  overflow-x:hidden;
+}
+
+h1{
+	font-family: "novecentoDemiBold";
+	font-size:7rem;
+	padding:12rem 10rem 10rem 10rem;
+	height:35rem;
+	color:$blanc;
+	text-align: center;
+	margin:0;
+}
+
+h2{
+	font-family: "novecentoDemiBold";
+	font-size:6rem;
+	margin:0;
+}
+
+h3{
+	font-family: "novecentoDemiBold";
+	font-size:3.5rem;
+}
+
+h4{
+	font-family: "novecentoDemiBold";
+	font-size:3rem;
+}
+
+h5{
+	font-family: "novecentoDemiBold";
+	font-size:2rem;
+}
+
+p{
+	font-family:"ralewayRegular";
+	font-size:2.1rem;
+}
+
+a{
+	font-family:"ralewaySemiBold";
+	color: $prog;
+	padding-bottom:0.5rem;
+	text-decoration: underline;
+}
+
+button,input[type="submit"]{
+	font-family:"ralewayBold";
+	font-size:2.2rem;
+	background-color: rgba(0,0,0,0.8);
+	border:none;
+	color:$blanc;
+	text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.9);
+	padding:2rem;
+	-webkit-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
+	-moz-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
+	box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
+}
+
+strong{
+	font-family: "ralewayBold";
+}
+
+i{
+	font-family: "ralewayItalic";
+}
+
+b{
+	font-family: "ralewayBold";
+}
+
+.design{
+	background-color: $design;
+}
+
+.neutre{
+	background-color: $neutre;
+}
+
+.box{
+	clear:both;
+}
+
+.box-contact{
+	background-color:$neutre;
+	padding-left:8rem;
+	margin-top:5rem;
+
+	.container-box{
+		@include container;
+	}
+
+	.img_contact{
+		float:left;
+		width:35rem;
+		padding-top:0rem;
+		padding-bottom:0rem;
+	}
+
+	#texteDroite{
+		float:right;
+		width:75%;
+	}
+}
+
+#bloc{
+  padding: 1em;
+  box-shadow: 1px 4px 10px grey;
+}
+
+.bt_contact{
+	font-family:"ralewayBold";
+	font-size:2.2rem;
+	background-color: rgba(0,0,0,0.8);
+	color:$blanc;
+	padding: 2rem;
+	text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.9);
+	-webkit-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
+	-moz-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
+	box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
+	text-decoration: none;
+	text-transform: uppercase;
+	position: relative;
+	top:30rem;
+
+}
+.design{
+		background-color:$design;
+	}
+	.prog{
+		background-color:$prog;
+	}
+
+
+.description{
+	@include container;
+	width:50%;
+	margin-top:-15rem;
+	background-color:$blanc;
+	padding:2rem 4rem 2rem 4rem;
+	-webkit-box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+	-moz-box-shadow:    1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+	box-shadow:         1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+
+	h2{
+		@include visuallyhidden;
+	}
+	text-align:center;
+	ul li{
+		list-style: none;
+		a{
+			text-decoration: none;
+
+			&:hover{
+				color:darken($prog, 20%);
+			}
+		}
+	}
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  // display: block;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+.visuallyhidden{
+	@include visuallyhidden;
+}
+
+.opacityNone{
+	opacity:0;
+	display:none;
+}
+
+.clearfix{
+	@include clearfix;
+}

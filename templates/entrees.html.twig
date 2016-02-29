@@ -1,0 +1,113 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fr"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="{{ niveau }}css/main.css">
+
+        <script src="{{ niveau }}js/vendor/modernizr.js"></script>
+
+
+        <title>Quiz</title>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        {{ include("header.html.twig") }}
+        {% if erreur is not empty %}
+            <p>{{ erreur }}</p>
+        {% else %}
+
+        <main>
+            <h1 class="prog">Découvrez notre formation et votre profil grâce à nos quiz interactifs.</h1>
+
+            <div class="profil card">
+                <h2>As-tu le profil ?</h2>
+                <p>Compléter le quiz "As tu le profil" afin de découvrir si vous possèder les habiletés nécessaire au travail d'intégrateur multimédia. Un résultat personnalisé vous donnera plus d'information sur votre profil à la fin du quiz.</p>
+            </div>
+            <div class="fullscreenForm hidden">
+                <h2 class="nomQuiz">As-tu le profil ?</h2>
+                <form id="timQuizProfil" class="fs-form fs-form-full" name="timQuizProfil" autocomplete="off" method="get">
+                {% for question in quiz1.question %}
+                    <fieldset id="profilQ{{loop.index}}">
+                            <h3><span class="numeroQuestionActive">{# {{loop.index}}. #}</span> {{question.texteQuestion}}</h3>
+
+                            <label for="Q{{loop.index}}A" class="radio">
+                                <input id="Q{{loop.index}}A" type="radio" name="Q{{loop.index}}" value="1" class="fs-anim-lower">
+                                <span class="outer"><span class="inner"></span></span>{{question.reponses.reponse.0.texteReponse}}
+                            </label>
+
+                            <label for="Q{{loop.index}}B" class="radio">
+                                <input id="Q{{loop.index}}B" type="radio" name="Q{{loop.index}}" value="2" class="fs-anim-lower">
+                                <span class="outer"><span class="inner"></span></span>{{question.reponses.reponse.1.texteReponse}}
+                            </label>
+
+                            <label for="Q{{loop.index}}C" class="radio">
+                                <input id="Q{{loop.index}}C" type="radio" name="Q{{loop.index}}" value="4" class="fs-anim-lower">
+                                <span class="outer"><span class="inner"></span></span>{{question.reponses.reponse.2.texteReponse}}
+                            </label>
+
+                            <label for="Q{{loop.index}}D" class="radio">
+                                <input id="Q{{loop.index}}D" type="radio" name="Q{{loop.index}}" value="5" class="fs-anim-lower">
+                                <span class="outer"><span class="inner"></span></span>{{question.reponses.reponse.3.texteReponse}}
+                            </label>
+                    </fieldset>
+                {% endfor %}
+                <input id='validerQuizProfil' class="btnValidationQuiz" name='validerQuizProfil' type="submit" value="Valider mes choix">
+                </form><!-- /fs-form -->
+            </div><!-- /container timQuizProfil -->
+            <div class="resultat card opacityNone">
+                {# {{ quiz1Resultat }} #}
+            </div>
+
+            <div class="formation card">
+                <h2>Fais-tu le bon choix ?</h2>
+                <p>Compléter le quiz "fais-tu le bon choix" afin de savoir si vous connaissez bien la formation offerte dans le programme Technique d'intégration multimédia.
+                Des réponses interactives vous aiderons à mieux connaître notre programme et vous donnerons des informations supplémentaires à propos de la formation.</p>
+            </div>
+            <div class="fullscreenForm hidden">
+                <h2 class="nomQuiz">Fais-tu le bon choix ?</h2>
+                    <form id="timQuizFormation" class="fs-form fs-form-full" name="timQuizFormation" autocomplete="off" method="get">
+                        {% for question in quiz2.question %}
+                            <fieldset id="formationQ{{loop.index}}">
+                                    <h3><span class="numeroQuestionActive">{# {{loop.index}}. #}</span> {{question.texteQuestion}}</h3>
+                                    <label for="Q{{loop.index}}A2" class="radio">
+                                        <input id="Q{{loop.index}}A2" type="radio" name="Q{{loop.index}}" value="0" class="fs-anim-lower">
+                                        <span class="outer"><span class="inner"></span></span>{{question.reponses.reponse.0.libelleReponse}}
+                                    </label>
+
+                                    <label for="Q{{loop.index}}B2" class="radio">
+                                        <input id="Q{{loop.index}}B2" type="radio" name="Q{{loop.index}}" value="1" class="fs-anim-lower">
+                                        <span class="outer"><span class="inner"></span></span>{{question.reponses.reponse.1.libelleReponse}}
+                                    </label>
+                            </fieldset>
+
+{#                             <fieldset id="formationQ1">
+                                  <h3><span class="numeroQuestionActive">1.</span> {{quiz2.question.0.texteQuestion}} </h3>
+                                  <input id="Q1A" type="radio" name="Q1" value="0" class="fs-anim-lower">
+                                  <label for="Q1A">{{quiz2.question.0.reponses.reponse.0.libelleReponse}}</label>
+                                  <input id="Q1B" type="radio" name="Q1" value="1" class="fs-anim-lower">
+                                  <label for="Q1B">{{quiz2.question.0.reponses.reponse.1.libelleReponse}}</label>
+                                  <p class="reponseFormation">{{ quiz2Resultat[0] }}</p>
+                              </fieldset> #}
+
+
+                        {% endfor %}
+                        <input id='validerQuizFormation' class="btnValidationQuiz" name='validerQuizFormation' type="submit" value="Valider mes choix">
+                    </form><!-- /fs-form -->
+            </div><!-- /container timQuizFormation -->
+        </main> <!-- #main-container -->
+
+
+        {% endif %}
+        {{ include("footer.html.twig") }}
+    </body>
+</html>

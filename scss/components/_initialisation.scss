@@ -1,0 +1,58 @@
+/*
+*
+* Initialisation principales
+* -------------------------
+* Susy
+* HTML
+* Breakpoints
+*  - small
+*  - medium
+*  - large
+* Color
+*
+*/
+
+
+//Susy default value
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: 1920px,
+  container-position: center,
+  columns: 12,
+  gutters: .25,
+  column-width: false,
+  global-box-sizing: border-box,
+  last-flow: to,
+  debug: (
+    image: hide,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  ),
+  use-custom: (
+    background-image: true,
+    background-options: false,
+    box-sizing: true,
+    clearfix: false,
+  )
+);
+//Initialisation des font size de base
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+//Breakpoints
+$small :max-width 450px;
+$medium:max-width 768px;
+$mediumD:max-width 1000px;
+$large:max-width 1400px;
+
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1000px;

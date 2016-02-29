@@ -1,0 +1,14 @@
+Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/inc/scripts/script_facebook.php' a la ligne 8: 
+<br />2 : file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/inc/scripts/script_facebook.php' a la ligne 8: 
+<br />2 : file_get_contents(): Failed to enable crypto
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/inc/scripts/script_facebook.php' a la ligne 8: 
+<br />2 : file_get_contents(https://graph.facebook.com/timcsf?fields=posts.limit(3).fields(message,created_time,icon,name,id,link)&amp;access_token=618606544889881|Tze6Ov0h0QvOQQosKdn7ZR1_y3U): failed to open stream: operation failed
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/inc/scripts/script_facebook.php' a la ligne 9: 
+<br />8 : Trying to get property of non-object
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/inc/scripts/script_facebook.php' a la ligne 9: 
+<br />8 : Trying to get property of non-object
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/inc/scripts/script_facebook.php' a la ligne 12: 
+<br />2 : Invalid argument supplied for foreach()
+<br />
