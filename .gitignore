@@ -1,0 +1,8 @@
+# fichiers cachés créés par Mac OS
+.DS_Store
+# dossier caché créé par PHPStorm
+**/.idea/
+# dossier caché de fichiers temporaires créé par sass
+**/.sass-cache/
+# dossier de compilation des css
+**/css/
