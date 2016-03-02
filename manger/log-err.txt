@@ -1,0 +1,5 @@
+Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined variable: arrEntrees
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />

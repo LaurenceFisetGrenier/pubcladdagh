@@ -1,0 +1,3 @@
+Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\whiskey.php' a la ligne 129: 
+<br />8 : Undefined variable: arrEcosse
+<br />
