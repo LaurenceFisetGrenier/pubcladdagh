@@ -16,7 +16,7 @@ $strNiveau="../";
 // Inclu la page de configuration, les fonctions
 include($strNiveau."inc/scripts/config.inc.php");
 
-$actif = "programme";
+$actif = "promotions";
 $erreur = "";
 $arrContenu = "";
 
@@ -43,7 +43,7 @@ $arrContenu = "";
 } catch(Exception $e){
     $erreur = $e->getMessage();
 }
-
+*/
 // Instancier, configurer et afficher le template
 include_once($strNiveau.'inc/lib/Twig/Autoloader.php');
 Twig_Autoloader::register();
@@ -61,10 +61,10 @@ echo $template->render(array(
     "actif" => $actif,
     "erreur" => $erreur,
     
-    "contenu" => $arrContenu
+    //"contenu" => $arrContenu
     
     ));
 
 //Fermeture de la base de donnée
-$objConnMySQLi->close();*/
+//$objConnMySQLi->close();
 ?>

@@ -16,7 +16,7 @@ $strNiveau="../";
 // Inclu la page de configuration, les fonctions
 include($strNiveau."inc/scripts/config.inc.php");
 
-$actif = "stages";
+$actif = "boire";
 $erreur = "";
 
 //Pour texte descriptif
@@ -81,7 +81,7 @@ try{
 } catch(Exception $e){
     $erreur = $e->getMessage();
 }
-
+*/
 // Instancier, configurer et afficher le template
 include_once($strNiveau.'inc/lib/Twig/Autoloader.php');
 Twig_Autoloader::register();
@@ -98,12 +98,12 @@ echo $template->render(array(
     "niveau" => $strNiveau,
     "actif" => $actif,
     "erreur" => $erreur,
-    "texteStages" => $texteStages,
-    "texteRespo" => $texteRespo,
-    "texteTexte" => $texteTexte
+   // "texteStages" => $texteStages,
+   // "texteRespo" => $texteRespo,
+   // "texteTexte" => $texteTexte
 
     ));
 
 //Fermeture de la base de donnée
-$objConnMySQLi->close();*/
+//$objConnMySQLi->close();
 ?>

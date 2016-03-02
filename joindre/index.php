@@ -141,7 +141,7 @@ if(isset($_GET["bt-envoyer"])){
 
 }
 
-
+*/
 // Instancier, configurer et afficher le template
 include_once($strNiveau.'inc/lib/Twig/Autoloader.php');
 Twig_Autoloader::register();
@@ -158,20 +158,20 @@ echo $template->render(array(
     "niveau" => $strNiveau,
     "actif" => $actif,
     "erreur" => $erreur,
-    "texteRespo" => $texteRespo,
-    "texteAdresse" => $texteAdresse,
-    "nom" => $strNom,
-    "erreurNom" => $strErreurNom,
-    "courriel" => $strCourriel,
-    "erreurCourriel" => $strErreurCourriel,
-    "sujet" => $strSujet,
-    "erreurSujet" => $strErreurSujet,
-    "message" => $strMessage,
-    "erreurMessage" => $strErreurMessage,
-    "erreur" => $erreur,
-    "erreurGenerale" => $erreurGenerale
+    //"texteRespo" => $texteRespo,
+   // "texteAdresse" => $texteAdresse,
+   // "nom" => $strNom,
+   // "erreurNom" => $strErreurNom,
+   // "courriel" => $strCourriel,
+   // "erreurCourriel" => $strErreurCourriel,
+   // "sujet" => $strSujet,
+    //"erreurSujet" => $strErreurSujet,
+    //"message" => $strMessage,
+    //"erreurMessage" => $strErreurMessage,
+   // "erreur" => $erreur,
+    //"erreurGenerale" => $erreurGenerale
     ));
 
 //Fermeture de la base de donnée
-$objConnMySQLi->close();*/
+//$objConnMySQLi->close();
 ?>
