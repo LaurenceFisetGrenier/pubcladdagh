@@ -27,9 +27,21 @@
             <p>{{ erreur }}</p>
         {% else %}
 
-        <main>
+        <main id="page-accueil">
 
             <h1 class="visuallyhidden">BIENVENUE SUR LE SITE DU PUB GALWAY</h1>
+            <h2>Promo vedette</h2>
+                {% for promo in promos %}
+                    <h3>{{ promo.nom_promotion }}</h3>
+                    <p class="description-promotion">{{ promo.description_promotion }}</p>
+                {% endfor %}
+            <h2>Degustation Whiskey</h2>
+                <a href="{{ niveau }}boire/whiskey.php">Voir tous les whiskeys</a>
+            <p>La prochaine dégustation aura lieu le samedi 12 mars à 13h30.</p>
+            <p>Pour plus d'informations ou pour vous inscrire :</p>
+            <p>infos@pubgalway.com</p>
+            <p>111-111-1111</p>
+                <a href="{{ niveau }}joindre/index.php">Contacter le pub</a>
 
         </main> <!-- #main-container -->
 

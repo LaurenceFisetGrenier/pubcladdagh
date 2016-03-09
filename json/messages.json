@@ -1,0 +1,33 @@
+{
+    "nomUsager": {
+        "label": "Nom d'usager",
+        "tip": "Utiliser des lettres, des traits d'unions ou des espaces pour composer votre nom d'usager.",
+        "errors": {
+            "empty": "Veuiller compléter le champ Nom complet.",
+            "pattern": "Votre nom doit comporter au moins deux lettres et ne doit comporter que des lettres."
+        }
+    },
+	"courriel": {
+        "label": "Courriel",
+            "errors": {
+                "empty": "Veuiller compléter le champ Courriel.",
+                "pattern": "Votre courriel comporte une erreur."
+        }
+    },
+	"sujet": {
+        "label": "Sujet",
+        "errors": {
+            "empty": "Veuillez compléter le champ Sujet.",
+            "pattern": "Votre sujet doit comporter au moins 4 lettres."
+        }
+    },
+    "message": {
+        "label": "Message",
+        "errors": {
+            "empty": "Veuillez compléter le champ Message.",
+            "pattern": "Votre message doit comporter au moins 10 lettres."
+        }
+    }
+	 
+}
+

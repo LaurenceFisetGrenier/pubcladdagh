@@ -1,3 +1,21 @@
 Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\whiskey.php' a la ligne 129: 
 <br />8 : Undefined variable: arrEcosse
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/boire/whiskey.php' a la ligne 126: 
+<br />8 : Undefined variable: arrIrlande
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/boire/whiskey.php' a la ligne 127: 
+<br />8 : Undefined variable: arrEtat
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/boire/whiskey.php' a la ligne 129: 
+<br />8 : Undefined variable: arrEcosse
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/boire/whiskey.php' a la ligne 126: 
+<br />8 : Undefined variable: arrIrlande
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/boire/whiskey.php' a la ligne 127: 
+<br />8 : Undefined variable: arrEtat
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/boire/whiskey.php' a la ligne 129: 
+<br />8 : Undefined variable: arrEcosse
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/boire/whiskey.php' a la ligne 126: 
+<br />8 : Undefined variable: arrIrlande
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/boire/whiskey.php' a la ligne 127: 
+<br />8 : Undefined variable: arrEtat
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/boire/whiskey.php' a la ligne 129: 
+<br />8 : Undefined variable: arrEcosse
 <br />

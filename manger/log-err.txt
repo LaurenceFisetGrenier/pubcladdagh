@@ -2,4 +2,36 @@ Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entre
 <br />8 : Undefined variable: arrEntrees
 <br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
 <br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 31: 
+<br />2 : mysqli::query(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 60: 
+<br />2 : mysqli::query(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 89: 
+<br />2 : mysqli::query(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 125: 
+<br />8 : Undefined variable: arrPrincipaux
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 126: 
+<br />8 : Undefined variable: arrSalades
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 128: 
+<br />8 : Undefined variable: arrPaninis
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 131: 
+<br />2 : mysqli::close(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 125: 
+<br />8 : Undefined variable: arrPrincipaux
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 126: 
+<br />8 : Undefined variable: arrSalades
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 128: 
+<br />8 : Undefined variable: arrPaninis
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 125: 
+<br />8 : Undefined variable: arrPrincipaux
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 126: 
+<br />8 : Undefined variable: arrSalades
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 128: 
+<br />8 : Undefined variable: arrPaninis
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 125: 
+<br />8 : Undefined variable: arrPrincipaux
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 126: 
+<br />8 : Undefined variable: arrSalades
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 128: 
+<br />8 : Undefined variable: arrPaninis
 <br />

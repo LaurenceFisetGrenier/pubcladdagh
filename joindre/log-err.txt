@@ -1,0 +1,25 @@
+Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/joindre/index.php' a la ligne 64: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/joindre/index.php' a la ligne 64: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/joindre/index.php' a la ligne 64: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/joindre/index.php' a la ligne 64: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/joindre/index.php' a la ligne 64: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/joindre/index.php' a la ligne 64: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/joindre/index.php' a la ligne 37: 
+<br />2 : file_get_contents(../json/messages.json): failed to open stream: No such file or directory
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/joindre/index.php' a la ligne 142: 
+<br />8 : Undefined variable: texteRespo
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/joindre/index.php' a la ligne 143: 
+<br />8 : Undefined variable: texteAdresse
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/joindre/index.php' a la ligne 153: 
+<br />8 : Undefined variable: arrResponsables
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/joindre/index.php' a la ligne 151: 
+<br />8 : Undefined variable: arrResponsables
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/joindre/index.php' a la ligne 107: 
+<br />8 : Undefined index: destinataire
+<br />
