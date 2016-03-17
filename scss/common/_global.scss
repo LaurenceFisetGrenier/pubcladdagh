@@ -43,6 +43,7 @@
 
 
 
+
 html{
 	font-size:62.5%;
 	background-color: $back;
@@ -54,186 +55,369 @@ body{
   overflow-x:hidden;
 }
 
-h1{
-	font-family: "novecentoDemiBold";
-	font-size:7rem;
-	padding:12rem 10rem 10rem 10rem;
-	height:35rem;
-	color:$blanc;
-	text-align: center;
-	margin:0;
-}
-
-h2{
-	font-family: "novecentoDemiBold";
-	font-size:6rem;
-	margin:0;
-}
-
-h3{
-	font-family: "novecentoDemiBold";
-	font-size:3.5rem;
-}
-
-h4{
-	font-family: "novecentoDemiBold";
-	font-size:3rem;
-}
-
-h5{
-	font-family: "novecentoDemiBold";
-	font-size:2rem;
-}
-
-p{
-	font-family:"ralewayRegular";
-	font-size:2.1rem;
-}
-
-a{
-	font-family:"ralewaySemiBold";
-	color: $prog;
-	padding-bottom:0.5rem;
-	text-decoration: underline;
-}
-
-button,input[type="submit"]{
-	font-family:"ralewayBold";
-	font-size:2.2rem;
-	background-color: rgba(0,0,0,0.8);
-	border:none;
-	color:$blanc;
-	text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.9);
-	padding:2rem;
-	-webkit-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
-	-moz-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
-	box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
-}
-
-strong{
-	font-family: "ralewayBold";
-}
-
-i{
-	font-family: "ralewayItalic";
-}
-
-b{
-	font-family: "ralewayBold";
-}
-
-.design{
-	background-color: $design;
-}
-
-.neutre{
-	background-color: $neutre;
-}
-
-.box{
-	clear:both;
-}
-
-.box-contact{
-	background-color:$neutre;
-	padding-left:8rem;
-	margin-top:5rem;
-
-	.container-box{
-		@include container;
+	h1{
+		font-family: "novecentoDemiBold";
+		font-size:7rem;
+		padding:12rem 10rem 10rem 10rem;
+		// height:35rem;
+		color:$blanc;
+		text-align: center;
+		margin:0;
 	}
 
-	.img_contact{
-		float:left;
-		width:35rem;
-		padding-top:0rem;
-		padding-bottom:0rem;
+	h2{
+		font-family: "novecentoDemiBold";
+		font-size:6rem;
+		margin:0;
 	}
 
-	#texteDroite{
-		float:right;
-		width:75%;
+	h3{
+		font-family: "novecentoDemiBold";
+		font-size:3.5rem;
 	}
-}
 
-#bloc{
-  padding: 1em;
-  box-shadow: 1px 4px 10px grey;
-}
+	h4{
+		font-family: "novecentoDemiBold";
+		font-size:3rem;
+	}
 
-.bt_contact{
-	font-family:"ralewayBold";
-	font-size:2.2rem;
-	background-color: rgba(0,0,0,0.8);
-	color:$blanc;
-	padding: 2rem;
-	text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.9);
-	-webkit-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
-	-moz-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
-	box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
-	text-decoration: none;
-	text-transform: uppercase;
-	position: relative;
-	top:30rem;
+	h5{
+		font-family: "novecentoDemiBold";
+		font-size:2rem;
+	}
 
-}
-.design{
+	p{
+		font-family:"ralewayRegular";
+		font-size:2.1rem;
+		@include breakpoint($medium){
+			font-size: 1.8rem;
+		}
+	}
+
+	a{
+		font-family:"ralewaySemiBold";
+		color: $prog;
+		padding-bottom:0.5rem;
+		text-decoration: underline;
+	}
+	ul {
+		padding: 0 16px;
+		li{
+			font-family: "ralewayRegular";
+			padding:15px 0;
+			line-height: 2.5rem;
+		}
+	}
+
+
+	button,input[type="submit"]{
+		font-family:"ralewayBold";
+		font-size:2.2rem;
+		background-color: rgba(0,0,0,0.8);
+		border:none;
+		color:$blanc;
+		text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.9);
+		padding:2rem;
+		-webkit-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
+		-moz-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
+		box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
+	}
+
+	strong{
+		font-family: "ralewayBold";
+	}
+
+	i{
+		font-family: "ralewayItalic";
+	}
+
+	b{
+		font-family: "ralewayBold";
+	}
+
+	.design{
+		background-color: $design;
+	}
+
+	.neutre{
+		background-color: $neutre;
+	}
+
+	.box{
+		clear:both;
+	}
+
+	.box-contact{
+		background-color:$neutre;
+		padding-left:8rem;
+		margin-top:5rem;
+
+		.container-box{
+			@include container;
+		}
+
+		.img_contact{
+			float:left;
+			width:35rem;
+			padding-top:0rem;
+			padding-bottom:0rem;
+		}
+
+		#texteDroite{
+			float:right;
+			width:75%;
+		}
+	}
+
+	#bloc{
+	  padding: 1em;
+	  box-shadow: 1px 4px 10px grey;
+	}
+
+	.bt_contact{
+		font-family:"ralewayBold";
+		font-size:2.2rem;
+		background-color: rgba(0,0,0,0.8);
+		color:$blanc;
+		padding: 2rem;
+		text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.9);
+		-webkit-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
+		-moz-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
+		box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.45);
+		text-decoration: none;
+		text-transform: uppercase;
+		position: relative;
+		top:25rem;
+
+	}
+	.design{
 		background-color:$design;
 	}
 	.prog{
-		background-color:$prog;
+	background-color:$prog;
 	}
 
-
-.description{
-	@include container;
-	width:50%;
-	margin-top:-15rem;
-	background-color:$blanc;
-	padding:2rem 4rem 2rem 4rem;
-	-webkit-box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.1);
-	-moz-box-shadow:    1px 1px 11px 0px rgba(50, 50, 50, 0.1);
-	box-shadow:         1px 1px 11px 0px rgba(50, 50, 50, 0.1);
-
-	h2{
-		@include visuallyhidden;
+	.accent{
+	background-color: $accent;
 	}
-	text-align:center;
-	ul li{
-		list-style: none;
-		a{
-			text-decoration: none;
+	.neutre{
+	background-color:$neutre;
+	}
 
-			&:hover{
-				color:darken($prog, 20%);
+	.description{
+		@include container;
+		width:50%;
+		margin-top:-15rem;
+		background-color:$blanc;
+		padding:2rem 4rem 2rem 4rem;
+		-webkit-box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+		-moz-box-shadow:    1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+		box-shadow:         1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+
+		h2{
+			@include visuallyhidden;
+		}
+		text-align:center;
+		ul li{
+			list-style: none;
+			a{
+				text-decoration: none;
+
+				&:hover{
+					color:darken($prog, 20%);
+				}
 			}
 		}
+
 	}
-}
 
-.card {
-  background: #fff;
-  border-radius: 2px;
-  // display: block;
-  padding: 1rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.2s ease-in-out;
-}
+	.card {
+	  background: #fff;
+	  border-radius: 2px;
+	  // display: block;
+	  padding: 1rem;
+	  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	  transition: all 0.2s ease-in-out;
+	}
 
-.card-1 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.2s ease-in-out;
-}
+	.card-1 {
+	  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	  transition: all 0.2s ease-in-out;
+	}
 
-.visuallyhidden{
-	@include visuallyhidden;
-}
-
-.opacityNone{
-	opacity:0;
-	display:none;
-}
+	.visuallyhidden{
+		@include visuallyhidden;
+	}
 
 .clearfix{
 	@include clearfix;
 }
+
+.erreur{
+	color:$erreur;
+	margin-bottom: 5rem;
+}
+
+.succes{
+	color:$succes;
+	text-align: center;
+}
+
+#erreurGenerale{
+	text-align: center;
+}
+
+label{
+	font-family: "ralewayBold";
+	margin-top:1rem;
+}
+
+.pdf{
+	text-decoration: none;
+	color:$prog;
+	font-family: "ralewayBold";
+	border:2px $prog solid;
+	/*border-radius:5px;*/
+	padding:1rem;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.2);
+	-webkit-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.2);
+	box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.2);
+	position:relative;
+	overflow: hidden;
+	display:inline-block;
+}
+
+.pdf:before{
+		  content: "Télécharger!";
+		  display: block;
+		  width: 100%;
+		  height: 100%;
+		  padding: 10px 0;
+		  color: $blanc;
+		  background: $prog;
+		  position: absolute;
+		  left: -110%;
+		  top: 0;
+		  -webkit-transition: all .5s ease 0s;
+		  transition: all .5s ease 0s;
+}
+.pdf:hover{
+		text-indent: 0px;
+
+	}
+.pdf:hover:before{
+			left:0;
+			text-indent: 0;
+		}
+
+
+		@media screen and (max-width: 1440px){
+			.description{
+				width:75%;
+			}
+		}
+
+		@media screen and (max-width: 1024px){
+
+	h1{
+		padding:16rem 10rem 10rem 5rem;
+	}
+
+	h2{
+		font-size:5rem;
+	}
+
+	.description{
+		width:90%;
+		margin-top:-5rem !important;
+		background-color:$blanc;
+		padding:2rem 4rem 2rem 4rem;
+		-webkit-box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+		-moz-box-shadow:    1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+		box-shadow:         1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+
+		h2{
+			@include visuallyhidden;
+		}
+		text-align:center;
+		ul li{
+			list-style: none;
+			a{
+				text-decoration: none;
+
+				&:hover{
+					color:darken($prog, 20%);
+				}
+			}
+		}
+	}
+
+}
+
+
+@media screen and (max-width: 768px){
+
+	h1{
+		font-size:5rem;
+		padding:15rem 10rem 10rem 5rem;
+		// height:30rem;
+	}
+
+	h2{
+		font-size:5rem;
+	}
+
+	.box-contact{
+
+		padding-left:0;
+		height:100%;
+
+		.img_contact{
+			width:100%;
+			padding-top:3rem;
+		}
+
+		#texteDroite{
+			float:none;
+			width:100%;
+			padding-left:2rem;
+		}
+	}
+
+	.description{
+		width:90%;
+		margin-top:-5rem !important;
+		background-color:$blanc;
+		padding:2rem 4rem 2rem 4rem;
+		-webkit-box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+		-moz-box-shadow:    1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+		box-shadow:         1px 1px 11px 0px rgba(50, 50, 50, 0.1);
+
+		h2{
+			@include visuallyhidden;
+		}
+		text-align:center;
+		ul li{
+			list-style: none;
+			a{
+				text-decoration: none;
+
+				&:hover{
+					color:darken($prog, 20%);
+				}
+			}
+		}
+	}
+
+}
+
+
+	.clearfix{
+		@include clearfix;
+	}
+	.opacityNone{
+		opacity:0;
+		display:none;
+	}

@@ -15,7 +15,7 @@
 
 	<script src="{{ niveau }}js/vendor/modernizr.js"></script>
 
-	<title>Programme | TIM</title>
+	<title>Desserts | Claddagh</title>
 </head>
 <body>
 	<!--[if lt IE 8]>
@@ -26,17 +26,16 @@
 			<p>{{ erreur }}</p>
 		{% else %}
 
-	<main>
+	<main id="page-desserts">
 
-		<h1 class='prog'>Programme</h1>
-		<section>
-			{% for i in contenu %}
-			<article>
-			<h2>{{ contenu[loop.index0]["titre"]|raw }}</h2>
-			{{ contenu[loop.index0]["texte"]|raw }}
-			</article>
-			{% endfor %}
-		</section>
+		<h1 class='prog'>Nos desserts</h1>
+		<a href="index.php" id="lien-retour">Retour aux choix de menus</a>
+		{% for dessert in desserts %}
+            <p class="nom-item">{{ dessert.nom_plat }}</p>
+            <p class="description-item">{{ dessert.description_plat }}</p>
+            <p class="description-prix-item">{{ dessert.description }}</p>
+            <p class="prix-item">{{ dessert.prix }}</p>
+        {% endfor %}
 	</main>
 
 	{% endif %}

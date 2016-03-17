@@ -8,32 +8,36 @@ session_start();
  * Page des desserts du site
  */
 
-//POUR AJOUTER UNE TABLE DANS LA TABLE SQL: ALTER TABLE `t_accueil` ADD `titre_accueil` TINYTEXT NOT NULL AFTER `texte_accueil`;
-//POUR MODIFIER LE TITRE DANS L'ACCUEIL : UPDATE `bdCravates`.`t_accueil` SET `titre_accueil` = 'Accueil' WHERE `t_accueil`.`id_accueil` = 1;
-//POUR AJOUTER UNE VALEUR DANS LA TABLE : INSERT INTO `bdCravates`.`t_login` (`id_login`, `usager`, `mot_de_passe`) VALUES (NULL, 'ulmus123', 'chachacha');
-
 $strNiveau="../";
 // Inclu la page de configuration, les fonctions
 include($strNiveau."inc/scripts/config.inc.php");
 
-$actif = "stages-international";
+$actif = "manger-desserts";
 $erreur = "";
 
-//Pour texte descriptif
-/*try{
+//Pour affichage des desserts
+try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLInter = "SELECT * FROM t_texte WHERE id_texte = 58";
+    $strSQLDesserts = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+                        FROM t_repas INNER JOIN t_prix ON t_repas.id_repas=t_prix.id_repas    
+                        WHERE etat_plat = 'actif' AND id_type=2";
 
 
     // Transférer les résultats de la requête dans des valeurs
-    if ($objResultInter = $objConnMySQLi->query($strSQLInter)) {
-        while ($objLigneInter = $objResultInter->fetch_object()) {
+    if ($objResultDesserts = $objConnMySQLi->query($strSQLDesserts)) {
+        while ($objLigneDesserts = $objResultDesserts->fetch_object()) {
             //Assigner des données comme attributs du template
-            $texteInter = $objLigneInter->texte;
+            $arrDesserts[]=
+                array(
+                    "nom_plat" => $objLigneDesserts->nom_plat,
+                    "description_plat" => $objLigneDesserts->description_plat,
+                    "description" => $objLigneDesserts->description,
+                    "prix" => $objLigneDesserts->prix
+                );
         }
-        $objResultInter->free_result();
+        $objResultDesserts->free_result();
     }
-    if($objResultInter == false){
+    if($objResultDesserts == false){
         throw new Exception("Il y a un problème, veuillez nous excuser pour les inconvénients.");
     }
 } catch(Exception $e){
@@ -57,10 +61,9 @@ echo $template->render(array(
     "niveau" => $strNiveau,
     "actif" => $actif,
     "erreur" => $erreur,
-    "texteInter" => $texteInter
-
+    "desserts" => $arrDesserts
     ));
 
 //Fermeture de la base de donnée
-$objConnMySQLi->close();*/
+$objConnMySQLi->close();
 ?>

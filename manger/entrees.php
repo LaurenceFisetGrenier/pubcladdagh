@@ -8,38 +8,70 @@ session_start();
  * Page des entrées du site
  */
 
-//POUR AJOUTER UNE TABLE DANS LA TABLE SQL: ALTER TABLE `t_accueil` ADD `titre_accueil` TINYTEXT NOT NULL AFTER `texte_accueil`;
-//POUR MODIFIER LE TITRE DANS L'ACCUEIL : UPDATE `bdCravates`.`t_accueil` SET `titre_accueil` = 'Accueil' WHERE `t_accueil`.`id_accueil` = 1;
-//POUR AJOUTER UNE VALEUR DANS LA TABLE : INSERT INTO `bdCravates`.`t_login` (`id_login`, `usager`, `mot_de_passe`) VALUES (NULL, 'ulmus123', 'chachacha');
-
 $strNiveau="../";
 // Inclu la page de configuration, les fonctions
 include($strNiveau."inc/scripts/config.inc.php");
 
-$actif = "stages-ate";
+$actif = "manger-entree";
 $erreur = "";
 
-//Pour texte descriptif
-/*try{
+//Pour affichage des entrées
+try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLATE = "SELECT * FROM t_texte WHERE id_texte = 17";
+    $strSQLEntrees = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+                        FROM t_repas INNER JOIN t_prix ON t_repas.id_repas=t_prix.id_repas    
+                        WHERE etat_plat = 'actif' AND id_type=1";
 
 
     // Transférer les résultats de la requête dans des valeurs
-    if ($objResultATE = $objConnMySQLi->query($strSQLATE)) {
-        while ($objLigneATE = $objResultATE->fetch_object()) {
+    if ($objResultEntrees = $objConnMySQLi->query($strSQLEntrees)) {
+        while ($objLigneEntrees = $objResultEntrees->fetch_object()) {
             //Assigner des données comme attributs du template
-            $texteATE = $objLigneATE->texte;
+            $arrEntrees[]=
+                array(
+                    "nom_plat" => $objLigneEntrees->nom_plat,
+                    "description_plat" => $objLigneEntrees->description_plat,
+                    "description" => $objLigneEntrees->description,
+                    "prix" => $objLigneEntrees->prix
+                );
         }
-        $objResultATE->free_result();
+        $objResultEntrees->free_result();
     }
-    if($objResultATE == false){
+    if($objResultEntrees == false){
         throw new Exception("Il y a un problème, veuillez nous excuser pour les inconvénients.");
     }
 } catch(Exception $e){
     $erreur = $e->getMessage();
 }
 
+//Pour affichage des smoked meat
+try{
+    // Requete pour aller chercher le texte associé aux stages
+    $strSQLMeats = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+                        FROM t_repas INNER JOIN t_prix ON t_repas.id_repas=t_prix.id_repas    
+                        WHERE etat_plat = 'actif' AND id_type=10";
+
+
+    // Transférer les résultats de la requête dans des valeurs
+    if ($objResultMeats = $objConnMySQLi->query($strSQLMeats)) {
+        while ($objLigneMeats = $objResultMeats->fetch_object()) {
+            //Assigner des données comme attributs du template
+            $arrMeats[]=
+                array(
+                    "nom_plat" => $objLigneMeats->nom_plat,
+                    "description_plat" => $objLigneMeats->description_plat,
+                    "description" => $objLigneMeats->description,
+                    "prix" => $objLigneMeats->prix
+                );
+        }
+        $objResultMeats->free_result();
+    }
+    if($objResultMeats == false){
+        throw new Exception("Il y a un problème, veuillez nous excuser pour les inconvénients.");
+    }
+} catch(Exception $e){
+    $erreur = $e->getMessage();
+}
 
 
 // Instancier, configurer et afficher le template
@@ -58,10 +90,10 @@ echo $template->render(array(
     "niveau" => $strNiveau,
     "actif" => $actif,
     "erreur" => $erreur,
-    "texteATE" => $texteATE
-
+    "entrees" => $arrEntrees,
+    "meats" => $arrMeats
     ));
 
 //Fermeture de la base de donnée
-$objConnMySQLi->close();*/
+$objConnMySQLi->close();
 ?>

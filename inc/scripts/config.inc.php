@@ -27,12 +27,12 @@
         $strBdServer = "localhost";
         $strBdUsername = "root";
         $strBdPassword = "";
-        $strBdSite = "bdtim2016";
+        $strBdSite = "bdspec2016_lfisetgrenier";
     } else {
         $strBdServer   = '';
         $strBdUsername = '';
         $strBdPassword = '';
-        $strBdSite = 'bdtim2016_lesCravates';
+        $strBdSite = 'bdspec2016_lfisetgrenier';
     }
 
     $objConnMySQLi = new mysqli($strBdServer,$strBdUsername,$strBdPassword,$strBdSite);

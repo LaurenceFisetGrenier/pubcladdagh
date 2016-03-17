@@ -15,7 +15,7 @@
 
 	<script src="{{ niveau }}js/vendor/modernizr.js"></script>
 
-	<title>Futur étudiant - Perspectives | TIM</title>
+	<title>Bières | Claddagh</title>
 </head>
 <body>
 	<!--[if lt IE 8]>
@@ -26,17 +26,66 @@
 			<p>{{ erreur }}</p>
 		{% else %}
 
-	<main>
+	<main id="page-bieres">
 
-		<h1 class='prog'>Perspectives</h1>
-		<section>
-			{% for i in contenu %}
-			<article>
-			<h2>{{ contenu[loop.index0]["titre"]|raw }}</h2>
-			{{ contenu[loop.index0]["texte"]|raw }}
-			</article>
-			{% endfor %}
-		</section>
+		<h1 class='prog'>Nos bières</h1>
+		<a href="index.php" id="lien-retour">Retour aux choix de menus</a>
+		<h2>Ales</h2>
+		{% for ale in ales %}
+            <p class="nom-item">{{ ale.nom_plat }}</p>
+            <p class="description-item">{{ ale.description_plat }}</p>
+            <p class="description-prix-item">{{ ale.description }}</p>
+            <p class="prix-item">{{ ale.prix }}</p>
+        {% endfor %}
+		<h2>Blanches</h2>
+		{% for blanche in blanches %}
+            <p class="nom-item">{{ blanche.nom_plat }}</p>
+            <p class="description-item">{{ blanche.description_plat }}</p>
+            <p class="description-prix-item">{{ blanche.description }}</p>
+            <p class="prix-item">{{ blanche.prix }}</p>
+        {% endfor %}
+		<h2>Cidre</h2>
+		{% for cidre in cidres %}
+            <p class="nom-item">{{ cidre.nom_plat }}</p>
+            <p class="description-item">{{ cidre.description_plat }}</p>
+            <p class="description-prix-item">{{ cidre.description }}</p>
+            <p class="prix-item">{{ cidre.prix }}</p>
+        {% endfor %}
+		<h2>I.P.A</h2>
+		{% for ipa in ipas %}
+            <p class="nom-item">{{ ipa.nom_plat }}</p>
+            <p class="description-item">{{ ipa.description_plat }}</p>
+            <p class="description-prix-item">{{ ipa.description }}</p>
+            <p class="prix-item">{{ ipa.prix }}</p>
+        {% endfor %}
+		<h2>Lagers</h2>
+		{% for lager in lagers %}
+            <p class="nom-item">{{ lager.nom_plat }}</p>
+            <p class="description-item">{{ lager.description_plat }}</p>
+            <p class="description-prix-item">{{ lager.description }}</p>
+            <p class="prix-item">{{ lager.prix }}</p>
+        {% endfor %}
+		<h2>Souts</h2>
+		{% for stout in stouts %}
+            <p class="nom-item">{{ stout.nom_plat }}</p>
+            <p class="description-item">{{ stout.description_plat }}</p>
+            <p class="description-prix-item">{{ stout.description }}</p>
+            <p class="prix-item">{{ stout.prix }}</p>
+        {% endfor %}
+		<h2>Bières en bouteille</h2>
+		{% for bouteille in bouteilles %}
+            <p class="nom-item">{{ bouteille.nom_plat }}</p>
+            <p class="description-item">{{ bouteille.description_plat }}</p>
+            <p class="description-prix-item">{{ bouteille.description }}</p>
+            <p class="prix-item">{{ bouteille.prix }}</p>
+        {% endfor %}
+        <h2>Mélanges celtiques</h2>
+		{% for melange in melanges %}
+            <p class="nom-item">{{ melange.nom_plat }}</p>
+            <p class="description-item">{{ melange.description_plat }}</p>
+            <p class="description-prix-item">{{ melange.description }}</p>
+            <p class="prix-item">{{ melange.prix }}</p>
+        {% endfor %}
 	</main>
 
 	{% endif %}

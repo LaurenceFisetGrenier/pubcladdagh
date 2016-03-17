@@ -11,4 +11,8 @@ error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify faile
 <br />8 : Trying to get property of non-object
 <br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/inc/scripts/script_facebook.php' a la ligne 12: 
 <br />2 : Invalid argument supplied for foreach()
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/index.php' a la ligne 64: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/index.php' a la ligne 64: 
+<br />8 : Undefined variable: arrPromos
 <br />

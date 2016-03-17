@@ -15,7 +15,7 @@
 
 	<script src="{{ niveau }}js/vendor/modernizr.js"></script>
 
-	<title>Programme | TIM</title>
+	<title>Boire | Claddagh</title>
 </head>
 <body>
 	<!--[if lt IE 8]>
@@ -26,120 +26,14 @@
 			<p>{{ erreur }}</p>
 		{% else %}
 
-	<main>
+	<main id="page-boire">
 
-		<h1 class="prog">Témoignages</h1>
-		{{ description[0]["texte"]|raw }}
-
-		<section class="temoignages">
-
-			<article class="chargeProjet card">
-				<h2>Chargés de projet</h2>
-
-				<ul>
-					{% for i in chargeProjet %}
-					<li>
-							<img src="../../images/professionnels/pro_{{ chargeProjet[loop.index0]["id"]|raw }}.jpg" alt="Photo de {{ chargeProjet[loop.index0]["nom"]|raw }}" />
-							<h3>{{ chargeProjet[loop.index0]["nom"]|raw }}</h3>
-							<p><strong>{{ chargeProjet[loop.index0]["poste"]|raw }}</strong>
-
-								{% if(chargeProjet[loop.index0]["entreprise"] != "")  %}
-									chez <a href="http://{{ chargeProjet[loop.index0]["url"]|raw }}"><strong>{{ chargeProjet[loop.index0]["entreprise"]|raw }}</strong></a></p>
-
-							{% endif %}
-
-							<p>{{ chargeProjet[loop.index0]["temoignage"]|raw }}</p>
-							<p class="graduation">{{ chargeProjet[loop.index0]["nom"]|raw }} est diplômé de la TIM depuis l'année {{ chargeProjet[loop.index0]["annee"]|raw }}</p>
-					</li>
-					{% endfor %}
-				</ul>
-
-				<button class="precedent"><</button>
-				<button class="suivant">></button>
-
-				<div id="rectangle"></div>
-			</article>
-
-			<article class="programmeurs card">
-				<h2>Programmeurs</h2>
-
-				<ul>
-					{% for i in programmation %}
-						<li>
-							<img src="../../images/professionnels/pro_{{ programmation[loop.index0]["id"]|raw }}.jpg" alt="Photo de {{ programmation[loop.index0]["nom"]|raw }}" />
-							<h3>{{ programmation[loop.index0]["nom"]|raw }}</h3>
-							<p><strong>{{ programmation[loop.index0]["poste"]|raw }}</strong>
-
-								{% if(programmation[loop.index0]["entreprise"] != "")  %}
-									chez <a href="http://{{ programmation[loop.index0]["url"]|raw }}"><strong>{{ programmation[loop.index0]["entreprise"]|raw }}</strong></a></p>
-								{% endif %}
-
-							<p>{{ programmation[loop.index0]["temoignage"]|raw }}</p>
-							<p class="graduation">{{ programmation[loop.index0]["nom"]|raw }} est diplômé de la TIM depuis l'année {{ programmation[loop.index0]["annee"]|raw }}</p>
-						</li>
-					{% endfor %}
-				</ul>
-
-				<button class="precedent"><</button>
-				<button class="suivant">></button>
-
-				<div id="rectangle"></div>
-			</article>
-
-			<article class="concepteurs card">
-				<h2>Concepteurs</h2>
-
-				<ul>
-					{% for i in conception %}
-						<li>
-							<img src="../../images/professionnels/pro_{{ conception[loop.index0]["id"]|raw }}.jpg" alt="Photo de {{ conception[loop.index0]["nom"]|raw }}" />
-							<h3>{{ conception[loop.index0]["nom"]|raw }}</h3>
-							<p><strong>{{ conception[loop.index0]["poste"]|raw }}</strong>
-
-								{% if(conception[loop.index0]["entreprise"] != "")  %}
-									chez <a href="http://{{ conception[loop.index0]["url"]|raw }}"><strong>{{ conception[loop.index0]["entreprise"]|raw }}</strong></a></p>
-								{% endif %}
-
-							<p>{{ conception[loop.index0]["temoignage"]|raw }}</p>
-							<p class="graduation">{{ conception[loop.index0]["nom"]|raw }} est diplômé de la TIM depuis l'année {{ conception[loop.index0]["annee"]|raw }}</p>
-						</li>
-					{% endfor %}
-				</ul>
-
-				<button class="precedent"><</button>
-				<button class="suivant">></button>
-
-				<div id="rectangle"></div>
-			</article>
-
-			<article class="integrateurs card">
-				<h2>Intégrateurs</h2>
-
-				<ul>
-					{% for i in integration %}
-						<li>
-							<img src="../../images/professionnels/pro_{{ integration[loop.index0]["id"]|raw }}.jpg" alt="Photo de {{ integration[loop.index0]["nom"]|raw }}" />
-							<h3>{{ integration[loop.index0]["nom"]|raw }}</h3>
-							<p><strong>{{ integration[loop.index0]["poste"]|raw }}</strong>
-
-								{% if(integration[loop.index0]["entreprise"] != "")  %}
-									chez <a href="http://{{ integration[loop.index0]["url"]|raw }}"><strong>{{ integration[loop.index0]["entreprise"]|raw }}</strong></a></p>
-							{% endif %}
-
-							<p>{{ integration[loop.index0]["temoignage"]|raw }}</p>
-							<p class="graduation">{{ integration[loop.index0]["nom"]|raw }} est diplômé de la TIM depuis l'année {{ integration[loop.index0]["annee"]|raw }}</p>
-						</li>
-					{% endfor %}
-				</ul>
-
-				<button class="precedent"><</button>
-				<button class="suivant">></button>
-
-				<div id="rectangle"></div>
-			</article>
-
-
-		</section>
+		<h1 class="prog">À boire</h1>
+		<div id="choix-menus-boire">
+            <a href="bieres.php">Bières</a>
+            <a href="vins.php">Vins</a>
+            <a href="whiskey.php">Whiskey</a>
+        </div>
 
 	</main>
 

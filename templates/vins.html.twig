@@ -14,7 +14,7 @@
         
         <script src="{{ niveau }}js/vendor/modernizr.js"></script>
 
-        <title>TIM</title>
+        <title>Vins | Claddag</title>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -25,10 +25,38 @@
             <p>{{ erreur }}</p>
         {% else %}
 
-        <main>
+        <main id="page-vins">
 
-                <h1 class="design">STAGES INTERNATIONAUX</h1>
-                    <p>{{ texteInter|raw }}</p>
+                <h1 class="design">Nos Vins</h1>
+                <a href="index.php" id="lien-retour">Retour aux choix de menus</a>
+                 <h2>Vins rouges</h2>
+                {% for rouge in rouges %}
+                    <p class="nom-item">{{ rouge.nom_plat }}</p>
+                    <p class="description-item">{{ rouge.description_plat }}</p>
+                    <p class="description-prix-item">{{ rouge.description }}</p>
+                    <p class="prix-item">{{ rouge.prix }}</p>
+                {% endfor %}
+                <h2>Vins blancs</h2>
+                {% for blanc in blancs %}
+                    <p class="nom-item">{{ blanc.nom_plat }}</p>
+                    <p class="description-item">{{ blanc.description_plat }}</p>
+                    <p class="description-prix-item">{{ blanc.description }}</p>
+                    <p class="prix-item">{{ blanc.prix }}</p>
+                {% endfor %}
+                <h2>Vins rosés</h2>
+                {% for rose in roses %}
+                    <p class="nom-item">{{ rose.nom_plat }}</p>
+                    <p class="description-item">{{ rose.description_plat }}</p>
+                    <p class="description-prix-item">{{ rose.description }}</p>
+                    <p class="prix-item">{{ rose.prix }}</p>
+                {% endfor %}
+                <h2>Vins maisons</h2>
+                {% for maison in maisons %}
+                    <p class="nom-item">{{ maison.nom_plat }}</p>
+                    <p class="description-item">{{ maison.description_plat }}</p>
+                    <p class="description-prix-item">{{ maison.description }}</p>
+                    <p class="prix-item">{{ maison.prix }}</p>
+                {% endfor %}
 
         </main> <!-- #main-container -->
 

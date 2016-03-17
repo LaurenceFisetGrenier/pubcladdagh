@@ -5,103 +5,102 @@ session_start();
  * @author Laurence Fiset-Grenier<laurence.fg@live.fr>
  * @copyright © 2016 Cégep-Ste-Foy.
  * Date: 2016-02-29
- * Page des whiskey du site
+ * Page des plats principaux du site
  */
 
 $strNiveau="../";
 // Inclu la page de configuration, les fonctions
 include($strNiveau."inc/scripts/config.inc.php");
 
-$actif = "boire-whiskey";
+$actif = "manger-principaux";
 $erreur = "";
 
-//Pour affichage irlande
+//Pour affichage des plats principaux
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLIrlande = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+    $strSQLPrincipaux = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_repas=t_prix.id_repas    
-                        WHERE etat_plat = 'actif' AND id_type=5";
+                        WHERE etat_plat = 'actif' AND id_type=0";
 
 
     // Transférer les résultats de la requête dans des valeurs
-    if ($objResultIrlande = $objConnMySQLi->query($strSQLIrlande)) {
-        while ($objLigneIrlande = $objResultIrlande->fetch_object()) {
+    if ($objResultPrincipaux = $objConnMySQLi->query($strSQLPrincipaux)) {
+        while ($objLignePrincipaux = $objResultPrincipaux->fetch_object()) {
             //Assigner des données comme attributs du template
-            $arrIrlande[]=
+            $arrPrincipaux[]=
                 array(
-                    "nom_plat" => $objLigneIrlande->nom_plat,
-                    "description_plat" => $objLigneIrlande->description_plat,
-                    "description" => $objLigneIrlande->description,
-                    "prix" => $objLigneIrlande->prix
+                    "nom_plat" => $objLignePrincipaux->nom_plat,
+                    "description_plat" => $objLignePrincipaux->description_plat,
+                    "description" => $objLignePrincipaux->description,
+                    "prix" => $objLignePrincipaux->prix
                 );
         }
-        $objResultIrlande->free_result();
+        $objResultPrincipaux->free_result();
     }
-    if($objResultIrlande == false){
+    if($objResultPrincipaux == false){
         throw new Exception("Il y a un problème, veuillez nous excuser pour les inconvénients.");
     }
 } catch(Exception $e){
     $erreur = $e->getMessage();
 }
 
-//Pour affichage États-Unis
+//Pour affichage des salades
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLEtat = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+    $strSQLSalades = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_repas=t_prix.id_repas    
-                        WHERE etat_plat = 'actif' AND id_type=20";
+                        WHERE etat_plat = 'actif' AND id_type=8";
 
 
     // Transférer les résultats de la requête dans des valeurs
-    if ($objResultEtat = $objConnMySQLi->query($strSQLEtat)) {
-        while ($objLigneEtat = $objResultEtat->fetch_object()) {
+    if ($objResultSalades = $objConnMySQLi->query($strSQLSalades)) {
+        while ($objLigneSalades = $objResultSalades->fetch_object()) {
             //Assigner des données comme attributs du template
-            $arrEtat[]=
+            $arrSalades[]=
                 array(
-                    "nom_plat" => $objLigneEtat->nom_plat,
-                    "description_plat" => $objLigneEtat->description_plat,
-                    "description" => $objLigneEtat->description,
-                    "prix" => $objLigneEtat->prix
+                    "nom_plat" => $objLigneSalades->nom_plat,
+                    "description_plat" => $objLigneSalades->description_plat,
+                    "description" => $objLigneSalades->description,
+                    "prix" => $objLigneSalades->prix
                 );
         }
-        $objResultEtat->free_result();
+        $objResultSalades->free_result();
     }
-    if($objResultEtat == false){
+    if($objResultSalades == false){
         throw new Exception("Il y a un problème, veuillez nous excuser pour les inconvénients.");
     }
 } catch(Exception $e){
     $erreur = $e->getMessage();
 }
 
-//Pour affichage Écosse
+//Pour affichage des paninis
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLEcosse = "  SELECT nom_plat, description_plat,prix,description 
+    $strSQLPaninis = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_repas=t_prix.id_repas    
-                        WHERE etat_plat = 'actif' AND id_type=21";
+                        WHERE etat_plat = 'actif' AND id_type=9";
 
 
     // Transférer les résultats de la requête dans des valeurs
-    if ($objResultEcosse = $objConnMySQLi->query($strSQLEcosse)) {
-        while ($objLigneEcosse = $objResultEcosse->fetch_object()) {
+    if ($objResultPaninis = $objConnMySQLi->query($strSQLPaninis)) {
+        while ($objLignePaninis = $objResultPaninis->fetch_object()) {
             //Assigner des données comme attributs du template
-            $arrEcosse[]=
+            $arrPaninis[]=
                 array(
-                    "nom_plat" => $objLigneEcosse->nom_plat,
-                    "description_plat" => $objLigneEcosse->description_plat,
-                    "description" => $objLigneEcosse->description,
-                    "prix" => $objLigneEcosse->prix
+                    "nom_plat" => $objLignePaninis->nom_plat,
+                    "description_plat" => $objLignePaninis->description_plat,
+                    "description" => $objLignePaninis->description,
+                    "prix" => $objLignePaninis->prix
                 );
         }
-        $objResultEcosse->free_result();
+        $objResultPaninis->free_result();
     }
-    if($objResultEcosse == false){
+    if($objResultPaninis == false){
         throw new Exception("Il y a un problème, veuillez nous excuser pour les inconvénients.");
     }
 } catch(Exception $e){
     $erreur = $e->getMessage();
 }
-
 
 // Instancier, configurer et afficher le template
 include_once($strNiveau.'inc/lib/Twig/Autoloader.php');
@@ -113,15 +112,15 @@ $twig = new Twig_Environment($loader, array(
     'debug' => true
     ));
 
-$template = $twig->loadTemplate('whiskey.html.twig');
+$template = $twig->loadTemplate('principaux.html.twig');
 
 echo $template->render(array(
     "niveau" => $strNiveau,
     "actif" => $actif,
     "erreur" => $erreur,
-    "irlandes" => $arrIrlande,
-    "etats" => $arrEtat,
-    "ecosses" => $arrEcosse
+    "principaux" => $arrPrincipaux,
+    "salades" => $arrSalades,
+    "paninis" => $arrPaninis
     ));
 
 //Fermeture de la base de donnée

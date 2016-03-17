@@ -11,10 +11,11 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" href="{{ niveau }}css/main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
         <script src="{{ niveau }}js/vendor/modernizr.js"></script>
 
-        <title>TIM</title>
+        <title>Le Pub | Claddagh</title>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -25,46 +26,67 @@
             <p>{{ erreur }}</p>
         {% else %}
 
-        <main id="joindre">
+        <main id="page-joindre">
 
-                <h1 class="neutre">Nous joindre</h1>
+                <h1 class="neutre">Le Pub</h1>
+                <p>Voyager n’aura jamais été aussi facile ! Tenant son nom d’une ville côtière de l’ouest de l’Irlande, la troisième en importance après Dublin et Cork, le Pub Galway vous accueille dans une ambiance conviviale et typique des pubs irlandais. Tonneaux de bière accrochés au mur, banquettes confortables, luminaires en forme de vitraux, bar central et boiseries magnifiques, chaque élément du décor confère au lieu son charme celtique. Dans une ambiance conviviale et feutrée, le Pub Galway est l’endroit tout indiqué pour apprécier une bonne pinte : plus de 16 sortes de bières et cidre en fût sont proposées, ainsi qu’une cinquantaine de variétés de bières à la bouteille. Et pour combler vos petits creux, laissez vous tenter par leur délicieuse cuisine de type bistro : burgers, steak frites, paninis, irish stew, frites maison, poutine irlandaise et le meilleur fish and chips en ville.</p>
                 <div id="section-formulaire">
+
+                <div id="box-adresse">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11592.493478454644!2d-71.29206305400675!3d46.77857678344058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb896dea093d777%3A0xf81581457f682cd6!2sC%C3%A9gep+de+Sainte-Foy!5e0!3m2!1sfr!2sca!4v1455636266808" width="1024" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <h3>Nous joindre</h3>
+                    <p>1112, rue Cartier, Québec, <br/>Québec, G1R 2S5</p>
+                    <p><span class="bold">Réservation :</span> 111-111-1111</p>
+                    <h3>Heures ouverture</h3>
+                    <p><span class="jour-semaine">Dimanche</span> <span class="heures-ouverture">10h00-1h00</span><br/>
+                    <p><span class="jour-semaine">Lundi</span> <span class="heures-ouverture">16h00-0h30</span><br/>
+                    <p><span class="jour-semaine">Mardi</span> <span class="heures-ouverture">11h30-0h30</span><br/>
+                    <p><span class="jour-semaine">Mercredi</span> <span class="heures-ouverture">11h30-1h00</span><br/>
+                    <p><span class="jour-semaine">Jeudi</span> <span class="heures-ouverture">11h30-3h00</span><br/>
+                    <p><span class="jour-semaine">Vendredi</span> <span class="heures-ouverture">11h30-3h00</span><br/>
+                    <p><span class="jour-semaine">Samedi</span> <span class="heures-ouverture">10h00-3h00</span><br/>
+                    </p>
+                    <h3>Nous suivre</h3>
+                    <i class="fa fa-facebook-square fa-3x"></i> <i class="fa fa-twitter-square fa-3x"></i>
+                </div>
+
                 <h2>Contactez-nous</h2>
-                    <form action="index.php" method="get">
-                        {% if erreur!="" %}
-                            {{ erreurGenerale }}
+                    <form action="#" method="get">
+                        {% if erreurFormulaire!="" %}<p class="erreur" id="erreurGenerale">
+                            <i class="fa fa-exclamation-triangle fa-2x"></i> {{ erreurGenerale }}
+
+                            {% else %} <p class="succes"> {{ strMessageSucces }} </p>
+                        </p>{% endif %}
+
+                        <div id="section-gauche"><label for="nom">Nom complet *</label><br/><input type="text" name="nom" id="nom" value="{{ nom }}" /><br/>
+                            <span class="erreur">{{ erreurNom }}</span><br/><br/>
+
+                        <label for="courriel">Courriel *</label><br/><input type="text" name="courriel" id="courriel" value="{{ courriel }}" /><br/>
+                        <span class="erreur">{{ erreurCourriel }}</span></br><br/>
+
+                        <label for="destinataire">Destinataire *</label><br/>
+                        {% if idContactRecu =="" %}
+                        <select name="destinataire" id="destinataire"/><br/>
+                            {% for responsable in responsables %}
+                                 <option value="{{ loop.index0 }}" {% if intDestinataire==loop.index0 %}selected="selected"{% endif %}>{{ responsable.prenom_responsable }} {{ responsable.nom_responsable }} ({{ responsable.responsabilite }})</option>
+                            {% endfor %}
+                            </select><br/>
+                        {% else %}
+                            <input type="text" name="destinataire" id="destinataire" value="{{ destinataire }}" disabled="disabled" /><br/>
                         {% endif %}
-                        <div id="section-gauche"><label for="nom">Nom complet *</label><br/><input type="text" name="nom" id="nom"/><br/>
-                            <span class="erreur">{{ erreurNom }}</span><br/>
+                        
+                        <span class="erreur"></span><br/><br/>
 
-                        <label for="courriel">Courriel *</label><br/><input type="text" name="courriel" id="courriel"/><br/>
-                        <span class="erreur">{{ erreurCourriel }}</span></br>
-
-                        <label for="destinataire">Destinataire *</label><br/><select name="destinataire" id="destinataire"/><br/>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                        </select><br/>
-                        <span class="erreur"></span><br/>
-
-                        <label for="sujet">Sujet *</label><input type="text" name="sujet" id="sujet"/><br/>
+                        <label for="sujet">Sujet *</label><br/><input type="text" name="sujet" id="sujet" value="{{ sujet }}" /><br/>
                         <span class="erreur">{{ erreurSujet }}</span>
                         </div>
                         
-                        <div id="section-droite"><label for="message">Message *</label><br/><textarea  name="message" id="message"></textarea><br/>
-                        <span class="erreur">{{ erreurMessage }}</span>
+                        <div id="section-droite"><label for="message">Message *</label><br/><textarea  name="message" id="message">{{ message }}</textarea><br/>
+                        <span class="erreur">{{ erreurMessage }}</span><br/><br/>
+
                             <label for="bt-envoyer" type="hidden"><input type="submit" id="bt-envoyer" name="bt-envoyer" value="Envoyer">
                         </div>
                     </form>
-                </div>
-
-                <div class="box-contact">
-                    <div class="container-box"><img src="{{ niveau }}images/equipe/sylvain-lamoureux_tim2016.jpg" class="img_contact" />
-                        <div id="texteDroite"><p>{{ texteRespo|raw }}</p>
-                    <a href="#" class="bt_contact">Contacter le coordonateur</a><br/></div></div></div>
-                <div id="box-adresse">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11592.493478454644!2d-71.29206305400675!3d46.77857678344058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb896dea093d777%3A0xf81581457f682cd6!2sC%C3%A9gep+de+Sainte-Foy!5e0!3m2!1sfr!2sca!4v1455636266808" width="1024" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    <p>{{ texteAdresse|raw }}</p>
                 </div>
 
         </main> <!-- #main-container -->
