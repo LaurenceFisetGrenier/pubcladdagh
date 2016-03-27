@@ -34,4 +34,52 @@ Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entre
 <br />8 : Undefined variable: arrSalades
 <br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/manger/principaux.php' a la ligne 128: 
 <br />8 : Undefined variable: arrPaninis
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\index.php' a la ligne 40: 
+<br />2 : mysqli::close(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 27: 
+<br />2 : mysqli::query(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 56: 
+<br />2 : mysqli::query(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 85: 
+<br />2 : mysqli::query(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 121: 
+<br />8 : Undefined variable: arrPrincipaux
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 122: 
+<br />8 : Undefined variable: arrSalades
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 124: 
+<br />8 : Undefined variable: arrPaninis
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 127: 
+<br />2 : mysqli::close(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 121: 
+<br />8 : Undefined variable: arrPrincipaux
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 122: 
+<br />8 : Undefined variable: arrSalades
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 124: 
+<br />8 : Undefined variable: arrPaninis
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 93: 
+<br />8 : Undefined variable: arrEntrees
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 121: 
+<br />8 : Undefined variable: arrPrincipaux
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 122: 
+<br />8 : Undefined variable: arrSalades
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 124: 
+<br />8 : Undefined variable: arrPaninis
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 122: 
+<br />8 : Undefined variable: arrSalades
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 124: 
+<br />8 : Undefined variable: arrPaninis
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\principaux.php' a la ligne 124: 
+<br />8 : Undefined variable: arrPaninis
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\desserts.php' a la ligne 65: 
+<br />8 : Undefined variable: arrDesserts
 <br />

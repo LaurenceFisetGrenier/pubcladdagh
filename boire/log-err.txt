@@ -18,4 +18,44 @@ Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\whiske
 <br />8 : Undefined variable: arrEtat
 <br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/boire/whiskey.php' a la ligne 129: 
 <br />8 : Undefined variable: arrEcosse
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\whiskey.php' a la ligne 122: 
+<br />8 : Undefined variable: arrIrlande
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\whiskey.php' a la ligne 123: 
+<br />8 : Undefined variable: arrEtat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\whiskey.php' a la ligne 125: 
+<br />8 : Undefined variable: arrEcosse
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 268: 
+<br />8 : Undefined variable: arrAles
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 269: 
+<br />8 : Undefined variable: arrBlanches
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 270: 
+<br />8 : Undefined variable: arrCidre
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 271: 
+<br />8 : Undefined variable: arrIPA
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 272: 
+<br />8 : Undefined variable: arrLagers
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 273: 
+<br />8 : Undefined variable: arrStout
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 274: 
+<br />8 : Undefined variable: arrBouteille
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 276: 
+<br />8 : Undefined variable: arrMelange
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\vins.php' a la ligne 151: 
+<br />8 : Undefined variable: arrRouges
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\vins.php' a la ligne 152: 
+<br />8 : Undefined variable: arrBlancs
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\vins.php' a la ligne 153: 
+<br />8 : Undefined variable: arrRoses
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\vins.php' a la ligne 155: 
+<br />8 : Undefined variable: arrMaisons
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\vins.php' a la ligne 152: 
+<br />8 : Undefined variable: arrBlancs
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\whiskey.php' a la ligne 122: 
+<br />8 : Undefined variable: arrIrlande
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\whiskey.php' a la ligne 123: 
+<br />8 : Undefined variable: arrEtat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\whiskey.php' a la ligne 125: 
+<br />8 : Undefined variable: arrEcosse
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\whiskey.php' a la ligne 125: 
+<br />8 : Undefined variable: arrEcosse
 <br />

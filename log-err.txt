@@ -15,4 +15,26 @@ error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify faile
 <br />8 : Undefined variable: arrPromos
 <br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/index.php' a la ligne 64: 
 <br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\index.php' a la ligne 29: 
+<br />2 : mysqli::query(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\index.php' a la ligne 64: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\index.php' a la ligne 67: 
+<br />2 : mysqli::close(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\index.php' a la ligne 29: 
+<br />2 : mysqli::query(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\index.php' a la ligne 64: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\index.php' a la ligne 67: 
+<br />2 : mysqli::close(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\index.php' a la ligne 29: 
+<br />2 : mysqli::query(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\index.php' a la ligne 64: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\index.php' a la ligne 67: 
+<br />2 : mysqli::close(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\index.php' a la ligne 64: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\index.php' a la ligne 64: 
+<br />8 : Undefined variable: arrPromos
 <br />

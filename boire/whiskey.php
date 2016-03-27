@@ -19,7 +19,7 @@ $erreur = "";
 try{
     // Requete pour aller chercher le texte associé aux stages
     $strSQLIrlande = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
-                        FROM t_repas INNER JOIN t_prix ON t_repas.id_repas=t_prix.id_repas    
+                        FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu     
                         WHERE etat_plat = 'actif' AND id_type=5";
 
 
@@ -48,7 +48,7 @@ try{
 try{
     // Requete pour aller chercher le texte associé aux stages
     $strSQLEtat = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
-                        FROM t_repas INNER JOIN t_prix ON t_repas.id_repas=t_prix.id_repas    
+                        FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu     
                         WHERE etat_plat = 'actif' AND id_type=20";
 
 
@@ -77,7 +77,7 @@ try{
 try{
     // Requete pour aller chercher le texte associé aux stages
     $strSQLEcosse = "  SELECT nom_plat, description_plat,prix,description 
-                        FROM t_repas INNER JOIN t_prix ON t_repas.id_repas=t_prix.id_repas    
+                        FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu     
                         WHERE etat_plat = 'actif' AND id_type=21";
 
 

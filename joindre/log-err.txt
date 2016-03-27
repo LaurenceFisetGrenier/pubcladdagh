@@ -22,4 +22,6 @@ Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/joindre/i
 <br />8 : Undefined variable: arrResponsables
 <br />Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/joindre/index.php' a la ligne 107: 
 <br />8 : Undefined index: destinataire
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\joindre\index.php' a la ligne 147: 
+<br />2 : mysqli::close(): Couldn't fetch mysqli
 <br />

@@ -60,7 +60,7 @@ echo $template->render(array(
     "niveau" => $strNiveau,
     "actif" => $actif,
     "erreur" => $erreur,
-    "promos" => $arrPromos
+    //"promos" => $arrPromos
     ));
 
 //Fermeture de la base de donnée

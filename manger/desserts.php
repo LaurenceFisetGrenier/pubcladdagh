@@ -19,7 +19,7 @@ $erreur = "";
 try{
     // Requete pour aller chercher le texte associé aux stages
     $strSQLDesserts = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
-                        FROM t_repas INNER JOIN t_prix ON t_repas.id_repas=t_prix.id_repas    
+                        FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu    
                         WHERE etat_plat = 'actif' AND id_type=2";
 
 

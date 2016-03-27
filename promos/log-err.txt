@@ -1,3 +1,13 @@
 Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/promos/index.php' a la ligne 65: 
 <br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\promos\index.php' a la ligne 25: 
+<br />2 : mysqli::query(): Couldn't fetch mysqli
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\promos\index.php' a la ligne 60: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\promos\index.php' a la ligne 60: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\promos\index.php' a la ligne 60: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\promos\index.php' a la ligne 60: 
+<br />8 : Undefined variable: arrPromos
 <br />

@@ -1,42 +1,43 @@
 <footer>
 
-   <div id="naviguer">
+  <div id="naviguer">
         <p class="titre-navigation">Naviguer</p>
         <nav id="footer-nav">
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">À manger</a></li>
-                <li><a href="#">À boire</a></li>
-                <li><a href="#">Nos promotions</a></li>
-                <li><a href="#">Le pub</a></li>
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="../manger/index.php">À manger</a></li>
+                <li><a href="../boire/index.php">À boire</a></li>
+                <li><a href="../promos/index.php">Nos promotions</a></li>
+                <li><a href="../joindre/index.php">Le pub</a></li>
             </ul>
         </nav>
    </div>
 
    <div id="communiquer">
         <p class="titre-navigation">Communiquer</p>
-        <a href="#" id="icone-facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
-        <a href="#" id="icone-twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+        <div id="reseaux-socieaux">
+          <a href="https://www.facebook.com/PubirlandaisCladdagh/?fref=ts" id="icone-facebook"><i class="fa fa-facebook-square fa-3x"></i></a>
+          <a href="#" id="icone-twitter"><i class="fa fa-twitter-square fa-3x"></i></a>
+        </div>
         <p id="tel-reservation">Réservation : 111-111-1111</p>
-        <a href="#" id="footer-lien-joindre">Nous joindre</a>
+        <a href="../joindre/index.php" id="footer-lien-joindre">Nous joindre</a>
    </div>
 
    <div id="nous-voir">
         <p class="titre-navigation">Venez nous voir</p>
-        <p id="footer-adresse">1112, rue Cartier, Québec, Québec, G1R 2S5</p>
+        <p id="footer-adresse">369 Rue Saint-Paul, Ville de Québec, QC, G1K 3X3, Canada</p>
         <div id="footer-heures">
-            <p><span class="jour-semaine">Dimache</span>10h - 1h</p>
-            <p><span class="jour-semaine">Lundi </span>16h - 0h30</p>
+            <p><span class="jour-semaine">Dimanche </span>10h00 - 1h00</p>
+            <p><span class="jour-semaine">Lundi </span>16h00 - 0h30</p>
             <p><span class="jour-semaine">Mardi </span>11h30 - 0h30</p>
-            <p><span class="jour-semaine">Mercredi</span>11h30 - 1h</p>
-            <p><span class="jour-semaine">Jeudi </span>11h30 - 3h</p>
-            <p><span class="jour-semaine">Vendredi</span>11h30 - 3h</p>
-            <p><span class="jour-semaine">Samedi </span>10h - 3h</p>
+            <p><span class="jour-semaine">Mercredi </span>11h30 - 1h00</p>
+            <p><span class="jour-semaine">Jeudi </span>11h30 - 3h00</p>
+            <p><span class="jour-semaine">Vendredi </span>11h30 - 3h00</p>
+            <p><span class="jour-semaine">Samedi </span>10h00 - 3h00</p>
         </div>
    </div>
-   <small id="copyright">© 2016 Pub Claddagh - Tous droits réservés</small>
-
 </footer>
+<small id="copyright">© 2016 Pub Claddagh - Tous droits réservés</small>
 
 {# Inclusion de Jquery. Deuxieme ligne backup si première bug. #}
 <script src="{{ niveau }}bower_components/jquery/dist/jquery.min.js"></script>

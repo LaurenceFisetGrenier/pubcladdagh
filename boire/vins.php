@@ -19,7 +19,7 @@ $erreur = "";
 try{
     // Requete pour aller chercher le texte associé aux stages
     $strSQLRouges = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
-                        FROM t_repas INNER JOIN t_prix ON t_repas.id_repas=t_prix.id_repas    
+                        FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu    
                         WHERE etat_plat = 'actif' AND id_type=3";
 
 
@@ -47,8 +47,8 @@ try{
 //Pour affichage les blancs
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLBlancs = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
-                        FROM t_repas INNER JOIN t_prix ON t_repas.id_repas=t_prix.id_repas    
+    $strSQLBlancs = " SELECT DISTINCT nom_plat, description_plat,prix,description 
+                        FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu     
                         WHERE etat_plat = 'actif' AND id_type=4";
 
 
@@ -77,7 +77,7 @@ try{
 try{
     // Requete pour aller chercher le texte associé aux stages
     $strSQLRoses = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
-                        FROM t_repas INNER JOIN t_prix ON t_repas.id_repas=t_prix.id_repas    
+                        FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu     
                         WHERE etat_plat = 'actif' AND id_type=6";
 
 
@@ -106,7 +106,7 @@ try{
 try{
     // Requete pour aller chercher le texte associé aux stages
     $strSQLMaisons = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
-                        FROM t_repas INNER JOIN t_prix ON t_repas.id_repas=t_prix.id_repas    
+                        FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu     
                         WHERE etat_plat = 'actif' AND id_type=18";
 
 
