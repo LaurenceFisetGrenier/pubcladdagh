@@ -12,6 +12,7 @@
 
 	<link rel="stylesheet" href="{{ niveau }}css/main.css">
 	<link rel="icon" type="image/png" href="{{ niveau }}images/icone.png" />
+    <link rel="icon" type="image/png" href="{{ niveau }}images/favicon.png" />
 
 	<script src="{{ niveau }}js/vendor/modernizr.js"></script>
 
@@ -26,30 +27,41 @@
 			<p>{{ erreur }}</p>
 		{% else %}
 
-	<main id="whiskey">
+	<main id="page-whiskey">
 
 		<h1 class='prog'>Nos whiskey</h1>
 		<a href="index.php" id="lien-retour">Retour aux choix de menus</a>
+
+        <ul class="nav-menus">
+            <li>
+                <a href="bieres.php">Bières</a>
+                <a href="vins.php">Vins</a>
+                <a href="#" class="menu-actif">Whiskey</a>
+            </li>
+        </ul>
+
 		 <h2>Irlande</h2>
                 {% for irlande in irlandes %}
-                    <p class="nom-item">{{ irlande.nom_plat }}</p>
-                    <p class="description-item">{{ irlande.description_plat }}</p>
-                    <p class="description-prix-item">{{ irlande.description }}</p>
-                    <p class="prix-item">{{ irlande.prix }}</p>
+                    <div class="menu">
+                        <p class="nom-item">{{ irlande.nom_plat }}</p>
+                        <p class="description-prix-item">{{ irlande.description }}</p>
+                        <p class="prix-item">{{ irlande.prix }} $</p>
+                        <!--<p class="description-item">{{ irlande.description_plat }}</p>-->
+                    </div>
                 {% endfor %}
                 <h2>États-Unis</h2>
                 {% for etat in etats %}
                     <p class="nom-item">{{ etat.nom_plat }}</p>
-                    <p class="description-item">{{ etat.description_plat }}</p>
                     <p class="description-prix-item">{{ etat.description }}</p>
-                    <p class="prix-item">{{ etat.prix }}</p>
+                    <p class="prix-item">{{ etat.prix }} $</p>
+                    <!--<p class="description-item">{{ etat.description_plat }}</p>-->
                 {% endfor %}
                 <h2>Écosse</h2>
                 {% for ecosse in ecosses %}
                     <p class="nom-item">{{ ecosse.nom_plat }}</p>
-                    <p class="description-item">{{ ecosse.description_plat }}</p>
                     <p class="description-prix-item">{{ ecosse.description }}</p>
-                    <p class="prix-item">{{ ecosse.prix }}</p>
+                    <p class="prix-item">{{ ecosse.prix }} $</p>
+                    <!--<p class="description-item">{{ ecosse.description_plat }}</p>-->
                 {% endfor %}
 	</main>
 

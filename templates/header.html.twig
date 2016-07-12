@@ -1,26 +1,45 @@
 <header>
 	<nav>
-		<ul>
-			<li class="manger"><a href="{{ niveau }}manger/index.php">À manger</a>
-				<!--<ul class="sousCategorie">
-					<li><a href="{{ niveau }}futur-etudiant/quiz/index.php">Quiz</a></li>
-					<li><a href="{{ niveau }}futur-etudiant/perspectives.php">Perspectives</a></li>
-					<li><a href="{{ niveau }}futur-etudiant/temoignages/index.php">Témoignages</a></li>
-				</ul >-->
+			<input type="checkbox" id="btnMenu" name="btnMenu" class="btnMenu" />
+			<label for="btnMenu"><span class="menuIco"><span></span></span></label>
+
+		<ul id="menu">
+			<li class="manger"><a href="{{ niveau }}manger/index.php" class="main">À manger</a>
+				<ul class="sousCategorie" style="margin-left:1rem;">
+					<li><a href="{{ niveau }}manger/entrees.php" style="padding-right:2rem;">Entrées</a></li>
+					<li><a href="{{ niveau }}manger/principaux.php" style="padding-right:1rem;">Repas principaux</a></li>
+					<li><a href="{{ niveau }}manger/desserts.php" style="padding-right:2rem;">Desserts</a></li>
+				</ul >
 			</li>
-			<li class="boire"><a href="{{ niveau }}boire/index.php">À boire</a>
-				<!--<ul class="sousCategorie">
-					<li><a href="{{ niveau }}programme/equipe.php">Équipe</a></li>
-					<li><a href="{{ niveau }}programme/grille-de-cours.php">Grille de cours</a></li>
-				</ul>-->
+			<li class="boire"><a href="{{ niveau }}boire/index.php" class="main">À boire</a>
+				<ul class="sousCategorie" style="margin-left:1rem;">
+					<li><a href="{{ niveau }}boire/bieres.php" style="padding-right:2rem;">Bières</a></li>
+					<li><a href="{{ niveau }}boire/vins.php" style="padding-right:2rem;">Vins</a></li>
+					<li><a href="{{ niveau }}boire/whiskey.php" style="padding-right:2rem;">Whiskey</a></li>
+				</ul >
 			</li>
-			<li><a href="{{ niveau }}promos/index.php">Nos promotions</a>
-				<!--<ul class="sousCategorie">
-					<a href="{{ niveau }}stages/international.php"><li>International</li></a>
-					<li><a href="{{ niveau }}stages/ate.php">ATE</a></li>
-				</ul>-->
-			</li>
+			<li class="logo"><a href="{{ niveau }}index.php"><img src="{{ niveau }}images/symbole_graphique.png" alt="Logo graphique du pub Claddagh" /></a></li>
+			<li><a href="{{ niveau }}promos/index.php">Nos promotions</a></li>
 			<li><a href="{{ niveau }}joindre/index.php">Le pub</a></li>
 		</ul>
 	</nav>
 </header>
+
+<!-- Ou copier le code ci-dessus dans les balises : -->
+<script type="text/javascript">
+	sfHover = function() {
+        var sfEls = document.getElementById("menu").getElementsByTagName("LI");
+        for (var i=0; i<sfEls.length; i++) {
+                sfEls[i].onmouseover=function() {
+                        this.className+=" sfhover";
+                }
+                sfEls[i].onmouseout=function() {
+                        this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+                }
+        }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+<!--  Et mettre tout entre les balises head. -->
+

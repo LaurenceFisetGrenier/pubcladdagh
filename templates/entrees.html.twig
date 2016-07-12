@@ -10,7 +10,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="{{ niveau }}images/favicon.png" />
         <link rel="stylesheet" href="{{ niveau }}css/main.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
         <script src="{{ niveau }}js/vendor/modernizr.js"></script>
 
@@ -26,21 +28,43 @@
             <p>{{ erreur }}</p>
         {% else %}
 
-        <main>
+        <main id="page-entree">
             <h1 class="prog">Nos entrées</h1>
-            <a href="index.php" id="lien-retour">Retour aux choix de menus</a>
-            {% for entree in entrees %}
-                <p class="nom-item">{{ entree.nom_plat }}</p>
-                <p class="description-item">{{ entree.description_plat }}</p>
-                <p class="description-prix-item">{{ entree.description }}</p>
-                <p class="prix-item">{{ entree.prix }}</p>
-            {% endfor %}
+
+            <a href="index.php" id="lien-retour"><i class="fa fa-chevron-left" aria-hidden="true"></i> Retour aux choix de menus</a>
+
+            <ul class="nav-menus">
+                <li>
+                    <a href="#" class="menu-actif">Entrées</a>
+                    <a href="principaux.php">Repas principaux</a>
+                    <a href="desserts.php">Desserts</a>
+                </li>
+            </ul>
+            
+            <ul>
+            <h2>Entrées</h2>
+                {% for entree in entrees %}
+                    <li class="nom-item">{{ entree.nom_plat }}</li>
+                    <li>
+                        <ul class="les-prix">
+                            {% for prix in entree.prix %}
+                                <li>
+                                    <span class="description-prix-item">{{ prix.description }}</span>
+                                    <span class="prix-item">{{ prix.prix }} $</span>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </li> 
+                    <li class="description-item">{{ entree.description_plat }}</li>                   
+                {% endfor %}
+            </ul>
+
             <h2>Smoked meat</h2>
             {% for meat in meats %}
                 <p class="nom-item">{{ meat.nom_plat }}</p>
-                <p class="description-item">{{ meat.description_plat }}</p>
                 <p class="description-prix-item">{{ meat.description }}</p>
-                <p class="prix-item">{{ meat.prix }}</p>
+                <p class="prix-item">{{ meat.prix }} $</p>
+                <p class="description-item">{{ meat.description_plat }}</p>
             {% endfor %}
            
         </main> <!-- #main-container -->

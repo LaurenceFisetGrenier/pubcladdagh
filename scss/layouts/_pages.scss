@@ -7,32 +7,50 @@
 		margin-left: 17rem;
 	}
 
+ul li{
+	list-style: none;
+}
+
 /******************Page accueil*/
 #page-accueil{
 
 	h2{
 		margin-bottom:2rem;
+		font-family: "kraftNine";
+		color:$bourgogne;
 	}
 
 	a.btn-accueil{
-		border:2px solid $noir;
+		border:2px solid $bourgogne;
 		text-decoration: none;
-		color:$noir;
+		color:$bourgogne;
 		padding: 1rem;
 	    padding-left: 3rem;
 	    padding-right: 3rem;
+	    -webkit-transition: background-color 3s; /* Safari */
+   		 transition: background-color 3s;
+
+	    &:hover{
+	    	background-color:$bourgogne;
+	    	color:$blanc;
+	    }
 	}
 
 	#section-promo{
 		text-align: center;
 		#img-gauche{
 			float:left;
-			width:50%;
+			width:40%;
 		}
 
 		#contenu-droite{
 			float:left;
 			width:50%;
+			margin-left:5%;
+		}
+
+		.symbole-graphique{
+			margin-bottom: 0;
 		}
 	}
 	
@@ -53,11 +71,21 @@
 			width:50%;
 
 			#lien-whiskeys{
-				color:$noir;
+				color:$bourgogne;
 				text-decoration: none;
-    			border-bottom: 1px solid black;
+    			border-bottom: 1px solid $bourgogne;
 			}
 		}
+	}
+
+	.symbole-graphique{
+		margin-bottom:3rem;
+	}
+
+	#img-pompes{
+		width:100%;
+		margin-top: 5rem;
+    	margin-bottom: 5rem;
 	}
 }
 
@@ -76,14 +104,22 @@
 		margin-bottom:3rem;
 	}
 
+	h3{
+		font-family: "robotoBold";
+	}
+
 	#description{
-		@include container;
+		max-width:1024px;
+		margin:auto;
 		padding:5rem;
 		text-align: center;
+		border-top: 3px dotted $bourgogne;
+		border-bottom: 3px dotted $bourgogne;
 	}
 
 	#section-formulaire{
-		@include container;
+		max-width:1024px;
+		margin:auto;
 
 		margin-top:5rem;
 		padding-top:5rem;
@@ -107,7 +143,7 @@
 	input[type="text"],select{
 		width:40rem;
 		height:4rem;
-		border:2px $prog solid;
+		border:1px $noir solid;
 		border-radius: 3px;
 		margin-top:1rem;
 		background-color:$blanc;
@@ -116,10 +152,10 @@
 	}
 
 	textarea{
-		border:2px $prog solid;
+		border:1px $noir solid;
 		border-radius: 3px;
 		width:40rem;
-		height:38.4rem;
+		height:27.4rem;
 		margin-top:1rem;
 		padding-left: 0.5rem;
 	}
@@ -155,10 +191,640 @@
 		float:right;
 		margin-right:5rem;
 		width:20rem;
+		background-color: $blanc;
+		border:2px solid $bourgogne;
+		color:$bourgogne;
+		padding: 1rem;
+	    box-shadow: none;
+	    text-shadow: none;
+	}
+
+	#section-joindre,#section-heures,#section-suivre{
+		float:left;
+		width:33.33333333333333%;
+
+		a{
+			color:$bourgogne;
+			transition:color 1s;
+			&:hover{
+				color:$noir;
+			}
+		}
+	}
+
+	#section-heures{
+		line-height: 1rem;
+	}
+
+	#section-formulaire{
+		clear:both;
 	}
 }
+
+/*************************Page entree*/
+#page-entree{
+	h1{
+		background-image: url("../images/entree.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom;
+		margin-bottom: 2rem;
+	}
+
+	h2{
+		clear:both;
+		text-align: center;
+		border-top: 1px solid $bourgogne;
+		border-bottom: 1px solid $bourgogne;
+		padding:0.5rem;
+		padding-bottom: 1rem;
+		width:72%;
+		margin:auto;
+		margin-top: 5rem;
+		margin-bottom:3rem;
+	}
+
+	.nom-item{
+		clear:both;
+		float:left;
+		width:50%;
+		margin-left:21rem;
+	}
+
+	.description-prix-item{
+		float: left;
+		width:5%;
+	}
+
+	.description-item{
+		clear:both;
+		margin-left:23rem;
+		font-size: 1.5rem;
+		width:40%;
+		margin-bottom:20px;
+	}
+
+	.prix-item{
+		float:left;
+		font-weight: bold;
+		margin-right:92px;
+	}
+
+	#lien-retour{
+		color:$bourgogne;
+		margin-left: 4rem;
+		float:left;
+
+	}
+
+	.les-prix li{
+		display:inline;
+	}
+
+	.nav-menus{
+		clear: both;
+	    text-align: center;
+	    margin: auto;
+	    padding: 0;
+
+	    .menu-actif{
+	    	text-decoration: underline;
+	    }
+
+	    li a{
+	    	margin-right: 39px;
+    		text-decoration: none;
+    		color: #9E9E9E;
+    		&:hover{
+    			color:$noir;
+    		}
+	    }
+	}
+}
+
+/********************Page Principaux*/
+#page-principaux{
+	h1{
+		background-image: url("../images/entree.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom;
+		margin-bottom: 2rem;
+	}
+
+	h2{
+		clear:both;
+		text-align: center;
+		border-top: 1px solid $bourgogne;
+		border-bottom: 1px solid $bourgogne;
+		padding:0.5rem;
+		padding-bottom: 1rem;
+		width:72%;
+		margin:auto;
+		margin-top: 5rem;
+	}
+
+	.nom-item{
+		clear:both;
+		float:left;
+		width:44%;
+		margin-left:21rem;
+	}
+
+	.description-prix-item{
+		float: left;
+		width:9%;
+	}
+
+	.description-item{
+		clear:both;
+		margin-left:23rem;
+		font-size: 1.5rem;
+		width:40%;
+		margin-bottom:20px;
+	}
+
+	.prix-item{
+		float:left;
+		font-weight: bold;
+		margin-right:92px;
+	}
+
+	#lien-retour{
+		color:$bourgogne;
+		margin-left: 4rem;
+		float:left;
+
+	}
+
+	.description-ajouts-possible{
+		text-align: center;
+	    width: 54%;
+	    margin: auto;
+	    margin-top: 3rem;
+	}
+
+	.les-prix li{
+		display:inline;
+	}
+
+	.nav-menus{
+		clear: both;
+	    text-align: center;
+	    margin: auto;
+	    padding: 0;
+
+	    .menu-actif{
+	    	text-decoration: underline;
+	    }
+
+	    li a{
+	    	margin-right: 39px;
+    		text-decoration: none;
+    		color: #9E9E9E;
+    		&:hover{
+    			color:$noir;
+    		}
+	    }
+	}
+}
+
+/**************************Page Dessert*/
+#page-desserts{
+	h1{
+		background-image: url("../images/entree.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom;
+		margin-bottom: 2rem;
+	}
+
+	h2{
+		clear:both;
+		text-align: center;
+		border-top: 1px solid $bourgogne;
+		border-bottom: 1px solid $bourgogne;
+		padding:0.5rem;
+		padding-bottom: 1rem;
+		width:72%;
+		margin:auto;
+		margin-top: 5rem;
+	}
+
+	.nom-item{
+		clear:both;
+		float:left;
+		width: 37%;
+    	margin-left: 29rem;
+	}
+
+	.description-prix-item{
+		float: left;
+		width:5%;
+	}
+
+	.description-item{
+		clear:both;
+		margin-left:23rem;
+		font-size: 1.5rem;
+		width:40%;
+		margin-bottom:20px;
+	}
+
+	.prix-item{
+		float:left;
+		font-weight: bold;
+		margin-right:92px;
+	}
+
+	#lien-retour{
+		color:$bourgogne;
+		margin-left: 4rem;
+		float:left;
+
+	}
+
+	.description-ajouts-possible{
+		text-align: center;
+	    width: 54%;
+	    margin: auto;
+	    margin-top: 3rem;
+	}
+
+	.nav-menus{
+		clear: both;
+	    text-align: center;
+	    margin: auto;
+	    padding: 0;
+
+	    .menu-actif{
+	    	text-decoration: underline;
+	    }
+
+	    li a{
+	    	margin-right: 39px;
+    		text-decoration: none;
+    		color: #9E9E9E;
+    		&:hover{
+    			color:$noir;
+    		}
+	    }
+	}
+}
+
+/************************Page Boire*/
+#page-boire{
+	h1{
+		background-image: url("../images/boire.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 2rem;
+	}
+
+
+
+}
+
+/***********************Page Bière*/
+#page-bieres{
+
+	h1{
+		background-image: url("../images/biere.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom;
+		margin-bottom: 2rem;
+	}
+
+	h2{
+		clear:both;
+		text-align: center;
+		border-top: 1px solid $bourgogne;
+		border-bottom: 1px solid $bourgogne;
+		padding:0.5rem;
+		padding-bottom: 1rem;
+		width:72%;
+		margin:auto;
+		margin-top: 5rem;
+	}
+
+	.nom-item{
+		clear:both;
+		float:left;
+		width:35%;
+		margin-left:25rem;
+	}
+
+	.description-prix-item{
+		float: left;
+		width:4%;
+	}
+
+	.description-item{
+		clear:both;
+		margin-left:33rem;
+		font-size: 1.5rem;
+		margin-bottom:20px;
+	}
+
+	.prix-item{
+		float:left;
+		font-weight: bold;
+		margin-right:55px;
+	}
+
+	#biere-bouteille{
+		.description-prix-item{
+			width:8%;
+		}
+	}
+
+	#lien-retour{
+		color:$bourgogne;
+		margin-left: 4rem;
+
+	}
+
+	.les-prix li{
+		display:inline;
+	}
+
+	.nav-menus{
+		clear: both;
+	    text-align: center;
+	    margin: auto;
+	    padding: 0;
+
+	    .menu-actif{
+	    	text-decoration: underline;
+	    }
+
+	    li a{
+	    	margin-right: 39px;
+    		text-decoration: none;
+    		color: #9E9E9E;
+    		&:hover{
+    			color:$noir;
+    		}
+	    }
+	}
+}
+
+/************************Page Vin*/
+#page-vins{
+
+	h1{
+		background-image: url("../images/vin.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top;
+		margin-bottom: 2rem;
+	}
+
+	h2{
+		clear:both;
+		text-align: center;
+		border-top: 1px solid $bourgogne;
+		border-bottom: 1px solid $bourgogne;
+		padding:0.5rem;
+		padding-bottom: 1rem;
+		width:72%;
+		margin:auto;
+		margin-top: 5rem;
+	}
+
+	.nom-item{
+		clear:both;
+		float:left;
+		width:43%;
+		margin-left:23rem;
+	}
+
+	.description-prix-item{
+		float: left;
+		width:7%;
+	}
+
+	.description-item{
+		clear:both;
+		margin-left:26rem;
+		font-size: 1.5rem;
+		margin-bottom:20px;
+	}
+
+	.prix-item{
+		float:left;
+		font-weight: bold;
+		margin-right:40px;
+	}
+
+	#lien-retour{
+		color:$bourgogne;
+		margin-left: 4rem;
+
+	}
+
+	.les-prix li{
+		display:inline;
+	}
+
+	.nav-menus{
+		clear: both;
+	    text-align: center;
+	    margin: auto;
+	    padding: 0;
+
+	    .menu-actif{
+	    	text-decoration: underline;
+	    }
+
+	    li a{
+	    	margin-right: 39px;
+    		text-decoration: none;
+    		color: #9E9E9E;
+    		&:hover{
+    			color:$noir;
+    		}
+	    }
+	}
+}
+
+/*******************Page Whiskey*/
+#page-whiskey{
+	h1{
+		background-image: url("../images/whiskey2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 2rem;
+	}
+
+	h2{
+		clear:both;
+		text-align: center;
+		border-top: 1px solid $bourgogne;
+		border-bottom: 1px solid $bourgogne;
+		padding:0.5rem;
+		padding-bottom: 1rem;
+		width:72%;
+		margin:auto;
+		margin-top: 5rem;
+	}
+
+	.nom-item{
+		clear:both;
+		float:left;
+		width:43%;
+		margin-left:35rem;
+	}
+
+	.description-prix-item{
+		float: left;
+	}
+
+	.prix-item{
+		float:left;
+		font-weight: bold;
+		margin-right:92px;
+	}
+
+	#lien-retour{
+		color:$bourgogne;
+		margin-left: 4rem;
+
+	}
+
+	.nav-menus{
+		clear: both;
+	    text-align: center;
+	    margin: auto;
+	    padding: 0;
+
+	    .menu-actif{
+	    	text-decoration: underline;
+	    }
+
+	    li a{
+	    	margin-right: 39px;
+    		text-decoration: none;
+    		color: #9E9E9E;
+    		&:hover{
+    			color:$noir;
+    		}
+	    }
+	}
+}
+
+/**********************Page manger*/
+#page-manger{
+	overflow: hidden;
+
+	h1{
+		background-image: url("../images/a-manger.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 2rem;
+	}
+
+	#choix-menus-manger{
+		margin: auto;
+		text-align: center;
+	}
+	.bloc-menu{
+		width:30%;
+		float:left;
+		text-align: center;
+		margin-left: 4rem;
+	    margin-top: 5rem;
+	    margin-bottom: 5rem;
+		padding-bottom: 3rem;
+    	padding-top: 3rem;
+
+		img{
+			width:100%;
+		}
+
+		a{
+			text-decoration: none;
+			color:$noir;
+			font-family: "kraftNine";
+    		font-size: 5rem;
+
+		}
+	}
+}
+
+/**********************Page boire*/
+#page-boire{
+	overflow: hidden;
+
+	h1{
+		background-image: url("../images/a-manger.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 2rem;
+	}
+
+	#choix-menus-boire{
+		margin: auto;
+		text-align: center;
+	}
+	.bloc-menu{
+		width:30%;
+		float:left;
+		text-align: center;
+		margin-left: 4rem;
+	    margin-top: 5rem;
+	    margin-bottom: 5rem;
+		padding-bottom: 3rem;
+    	padding-top: 3rem;
+
+		img{
+			width:100%;
+		}
+
+		a{
+			text-decoration: none;
+			color:$noir;
+			font-family: "kraftNine";
+    		font-size: 5rem;
+
+		}
+	}
+}
+
+/*****************************Page Promotions*****/
+#page-promotions{
+	h1{
+		background: url("../images/chanteur.jpg") no-repeat;
+    	background-size: cover;
+    	margin-bottom:5rem;
+	}
+
+	h2{
+		text-align: center;
+    	margin-top: 5rem;
+    	border-top: 1px solid $bourgogne;
+	    border-bottom: 1px solid $bourgogne;
+	    padding-bottom: 1rem;
+	    width: 70%;
+    	margin: auto;
+	}
+
+	.description-promotion{
+		width: 50%;
+	    text-align: center;
+	    margin: auto;
+	    margin-top: 4rem;
+	    margin-bottom:5rem;
+	}
+}
+
 @media screen and (max-width: 1800px){
-	#joindre{
+	#page-joindre{
 		#section-gauche{
 			margin-left: 20%;
 		}
@@ -170,70 +836,8 @@
 }
 
 @media screen and (max-width: 1440px){
-	#stages{
-		.box-contact{
-			padding-left:0;
-			height:100%;
 
-			h2{
-				font-size: 5rem;
-			}
-
-			.img_contact{
-				width:35rem;
-				padding-top: 0;
-			}
-		}
-
-		.bt_contact{
-			top:2rem !important;
-		}
-
-		#lien-infos-stages-inter{
-			top:5rem;
-			margin-left: 0;
-		}
-
-		#troisannee{
-			width:80rem;
-			margin-left: 20%;
-		}
-
-		#undeuxannee{
-			width:80rem;
-			margin-left: 20%;
-			float:left;
-		}
-
-		.titre-semaine-stage{
-			width:48%;
-		}
-
-		.dates-stages{
-			width:57%;
-		}
-
-		.triangle{
-			margin-left: 45%;
-		}
-	}
-
-	#ate{
-		.triangle{
-			margin-left: 46%;
-		}
-	}
-
-	.box-contact{
-		padding-left:0;
-		height:100%;
-
-		#texteDroite{
-			width:50%;
-		}
-	}
-
-	#joindre{
+	#page-joindre{
 		#section-gauche{
 			margin-left: 7%;
 		}
@@ -244,66 +848,197 @@
 	}
 }
 
-@media screen and (max-width: 1024px){
-	#stages{
-		.box-contact{
-			padding-left:0;
-		height:100%;
+@media screen and (max-width: 1224px){
+	/**********************Page manger*/
+	#page-manger{
+		.bloc-menu{
+			width:25%;
+		}
+	}
 
-			h2{
-				font-size: 5rem;
+	/**********************Page boire*/
+	#page-boire{
+		.bloc-menu{
+			width:25%;
+		}
+	}
+
+	/*************************Page entree*/
+	#page-entree{
+
+		h2{
+			width:80%;
+		}
+
+		.nom-item{
+			margin-left:15rem;
+		}
+
+		.description-item{
+			margin-left:18rem;
+		}
+	}
+
+	/*******************Page Whiskey*/
+	#page-whiskey{
+
+		.nom-item{
+			width:55%;
+			margin-left:25rem;
+		}
+
+		.prix-item{
+			margin-right:0;
+		}
+
+	}
+
+	/************************Page Vin*/
+	#page-vins{
+
+		.nom-item{
+			margin-left:21rem;
+		}
+
+		.description-item{
+			margin-left:24rem;
+		}
+	}
+
+	/***********************Page Bière*/
+	#page-bieres{
+
+		.nom-item{
+			margin-left:21rem;
+		}
+
+		#biere-bouteille{
+			.description-prix-item{
+				width:8%;
 			}
-
-			.img_contact{
-				width:35rem;
-				padding-top: 0;
-			}
 		}
+	}
 
-		.bt_contact{
-			top:1rem !important;
-		}
-
-		#lien-infos-stages-inter{
-			top:4rem;
-			margin-left: 0;
-		}
-
-		#troisannee{
-			width:60rem;
-			margin-left: 20%;
-		}
-
-		#undeuxannee{
-			width:60rem;
-			margin-left: 20%;
+	/********************Page Principaux*/
+	#page-principaux{
+		.nom-item{
+			clear:both;
 			float:left;
-		}
-
-		.titre-semaine-stage{
-			width:50%;
-		}
-
-		.dates-stages{
-			width:57%;
-		}
-
-		.triangle{
-			margin-left: 45%;
+			width:40%;
+			margin-left:21rem;
 		}
 	}
 
-	.box-contact{
-		padding-left:0;
-		height:100%;
 
-		#texteDroite{
-			width:100%;
+}
+
+@media screen and (max-width: 1024px){
+.sousCategorie{
+	display:none;
+}
+	
+	/*****************Page Joindre*****/
+#page-joindre{
+
+	h3{
+		line-height: 3rem
+	}
+
+	#section-formulaire{
+		max-width:1024px;
+		margin:auto;
+
+		margin-top:5rem;
+		padding-top:5rem;
+		padding-bottom: 5rem;
+		border-top:2px $neutre solid;
+		border-bottom:2px $neutre solid;
+	}
+
+	#section-gauche{
+		float:left;
+		width:40rem;
+		margin-left:20rem;
+	}
+
+	#section-droite{
+		float:right;
+		width:45rem;
+		margin-right:10rem;
+	}
+
+	input[type="text"],select{
+		width:40rem;
+		height:4rem;
+		border:1px $noir solid;
+		border-radius: 3px;
+		margin-top:1rem;
+		background-color:$blanc;
+		font-size:1.6rem;
+		padding-left: 0.5rem;
+	}
+
+	textarea{
+		border:1px $noir solid;
+		border-radius: 3px;
+		width:40rem;
+		height:27.4rem;
+		margin-top:1rem;
+		padding-left: 0.5rem;
+	}
+
+	#box-adresse{
+
+		text-align: center;
+		margin-top:5rem;
+		margin-bottom:10rem;
+		width:102.4rem;
+		margin-left:auto;
+		margin-right:auto;
+
+		#lien-adresse{
+			background-color: $blanc;
+			border:2px $design solid;
+			border-top: none;
+			margin:auto;
+			margin-top:-2.5rem;
+			width:102.4rem;
+			text-align:left;
+			padding-top: 1.5rem;
+			padding-left: 2.5rem;
+			padding-bottom: 1.5rem;
+
+			a{
+				text-decoration: none;
+			}
 		}
 	}
 
-	#joindre{
-		#section-gauche{
+	#bt-envoyer{
+		float:right;
+		margin-right:5rem;
+		width:20rem;
+		background-color: $blanc;
+		border:2px solid $bourgogne;
+		color:$bourgogne;
+		padding: 1rem;
+	    box-shadow: none;
+	    text-shadow: none;
+	}
+
+	#section-joindre,#section-heures,#section-suivre{
+		width:24.5%;
+		margin-left:6rem;
+	}
+
+	#section-heures{
+		line-height: 1rem;
+	}
+
+	#section-formulaire{
+		clear:both;
+	}
+	#section-gauche{
 			margin-left: 3%;
 			width:33%;
 		}
@@ -325,165 +1060,265 @@
 			width:36rem;
 		}
 	}
+
+	/*****************************Page Promotions*****/
+	#page-promotions{
+
+		h2{
+		    width: 80%;
+		}
+
+		.description-promotion{
+			width: 70%;
+		}
+	}
+
+	/*************************Page entree*/
+	#page-entree{
+
+		h2{
+			width:90%;
+		}
+
+		.nom-item{
+			width:53%;
+			margin-left:9rem;
+		}
+
+		.description-prix-item{
+			width:6%;
+		}
+
+		.description-item{
+			margin-left:11rem;
+			width:45%;
+		}
+
+		.prix-item{
+			margin-right:70px;
+		}
+	}
+
+	/**************************Page Dessert*/
+	#page-desserts{
+		.nom-item{
+			width: 51%;
+    		margin-left: 18rem;
+		}
+	}
+
+	/*******************Page Whiskey*/
+	#page-whiskey{
+
+		h2{
+			width:80%;
+		}
+
+		.nom-item{
+			width:60%;
+			margin-left:17rem;
+		}
+	}
+
+	/************************Page Vin*/
+	#page-vins{
+
+		h2{
+			width:80%;
+		}
+
+		.nom-item{
+			margin-left:14rem;
+		}
+
+		.description-prix-item{
+			width:8%;
+		}
+
+		.description-item{
+			margin-left:18rem;
+		}
+	}
+
+	/***********************Page Bière*/
+	#page-bieres{
+
+		h2{
+			width:80%;
+		}
+
+		.nom-item{
+			margin-left:13rem;
+		}
+
+		.description-prix-item{
+			width:6%;
+		}
+
+		#biere-bouteille .description-prix-item{
+			width:10%;
+		}
+
+	}
+
+	/********************Page Principaux*/
+	#page-principaux{
+		h2{
+			width:80%;
+		}
+
+		.nom-item{
+			margin-left:13rem;
+		}
+
+		.description-prix-item{
+			width:11%;
+		}
+
+		.description-item{
+			margin-left: 17rem;
+		}
+
+		.prix-item{
+			margin-right:45px;
+		}
+
+	}
+
+}
+
+@media screen and (max-width: 930px){
+	#page-joindre{
+		#section-joindre,#section-heures,#section-suivre{
+			margin-left:0;
+		}
+	}
+}
+
+@media screen and (max-width: 916px){
+	/******************Page accueil*/
+	#page-accueil{
+
+		#section-promo{
+			#img-gauche{
+				width:48%;
+				margin-left:0rem;
+			}
+
+			.symbole-graphique{
+				margin-bottom: -24px;
+			}
+
+			p{
+				font-size:1.8rem;
+				margin-bottom:3rem;
+			}
+
+			h3{
+				margin-bottom:0;
+			}
+
+			#contenu-droite{
+				margin-left:0;
+			}
+		}
+
+		#section-degustation{
+		margin-bottom: 3rem;
+
+		.symbole-graphique{
+			margin-bottom: 1rem;
+		}
+
+		p{
+			font-size:1.6rem;
+		}
+
+		#img-droite{
+			margin-bottom:10rem;
+		}
+	}
+	}
+
+	/*************************Page entree*/
+	#page-entree{
+		h2{
+			width:100%;
+		}
+
+		.nom-item{
+			width:55%;
+			margin-left:6rem;
+		}
+
+		.description-item{
+			margin-left:8rem;
+			width:50%;
+		}
+
+		.prix-item{
+			margin-right:60px;
+		}
+	}
 }
 
 @media screen and (max-width: 768px){
 
-/***************Page Stages*/
-	#stages{
+/******************Page accueil*/
+#page-accueil{
 
-	h3{
-		background-color: $design;
-		color:$blanc;
-		font-family: "ralewayRegular";
-		font-size:2.5rem;
-		padding:2rem;
-		margin-bottom: 0rem;
-	}
-
-	h5{
-		@include visuallyhidden;
-	}
-
-	#dates-stages{
-
-		@include container;
-		text-align: center;
-		border-top: 2px $neutre solid;
-		border-bottom: 2px $neutre solid;
-		margin-top: 5rem;
-
-		a{
-			margin-bottom: 1rem;
+	#section-promo{
+		#img-gauche{
+			width:100%;
+			margin-left:0rem;
+			margin-bottom:3rem;
 		}
-	}
 
-	#texteStages{
-		text-align:center;
-		padding-bottom: 10rem;
-
-		ul{
-			li{
-				list-style: none;
+		#contenu-droite{
+			width:100%;
+			p{
+				width:80%;
+				margin:auto;
+				margin-bottom:5rem;
 			}
 		}
-	}
 
-	#troisannee{
-		float:none;
-		width:100%;
-		margin-left:0 !important;
-	}
-
-	#undeuxannee{
-		width:100%;
-		float:none;
-		margin-left:0;
-	}
-
-	.dates-stages{
-		float:right;
-		height:10rem;
-		width:25rem;
-		padding-top:4rem;
-		border: 1px solid $design;
-	}
-
-	.box-contact{
-		height:142rem;
-
-		.img_contact{
-			width:100%;
-			padding-top:3rem;
-		}
-
-		#texteDroite{
-			width:100%;
+		.symbole-graphique{
+			margin-bottom: -24px;
 		}
 	}
-
-	.bt_contact{
-		top:3rem !important;
-		font-size: 2rem !important;
-	}
-
-	#lien-infos-stages-inter{
-		top:7rem;
-		margin-left:0rem;
-	}
-
-	.triangle{
-		margin-left:34rem;
-	}
-
-	.titre-semaine-stage{
-		width:45%;
-	}
-
-	.dates-stages{
-		width:60.5%;
-	}
-}
-
-/*************************Page ATE*/
-#ate{
-	#stages-ate{
-		margin-top:2rem;
-	}
-
-	h1{
-		padding-left:2rem;
-		font-size:4.5rem;
-	}
-
-	h2{
-		font-size:2.5rem;
-	}
-
-	#ate-premiere{
-		float:none;
-		width:100%;
-		min-height: 0;
-
-		h2{
-			padding:2rem;
-		}
-	}
-
-	#ate-deuxieme{
-		width:100%;
-		padding-bottom:3rem;
-		min-height: 0;
-		float:none;
-		
-		h2{
-
-			padding:2rem;
-		}
-	}
-
-	#caracteristiques-ate{
-
-		h2{
-			padding:2rem;
-		}
-	}
-
-	.triangle{
-		margin-left:45%;
-	}
-}
-
-	#international{
-		h1{
-			padding-top: 12rem;
-		}
-	}
-
-	/*****************Page Joindre*****/
-#joindre{
 	
-	#section-gauche{
+
+	#section-degustation{
+		margin-bottom: 3rem;
+
+		#img-droite{
+			width:100%;
+		}
+
+		#contenu-gauche{
+			width:100%;
+			margin-bottom: 5rem;
+		}
+	}
+
+	.symbole-graphique{
+		margin-bottom:1rem;
+	}
+
+	#img-pompes{
+    	margin-bottom: 3rem;
+	}
+}
+	/*****************Page Joindre*****/
+
+	#page-joindre{
+		#section-joindre,#section-heures,#section-suivre{
+			margin-left:4rem;
+			width:20%; 
+		}
+
+		#section-gauche{
 		float:none;
 		width:95%;
 		margin-left:2rem;
@@ -542,67 +1377,407 @@
 	}
 }
 
+/*****************************Page Promotions*****/
+	#page-promotions{
+
+		h2{
+		    width: 100%;
+		    font-size:4rem;
+		}
+
+		.description-promotion{
+			width: 95%;
+		}
+	}
+
+	/**********************Page manger*/
+	#page-manger{
+		.bloc-menu{
+			width: 90%;
+		    margin-left: 4rem;
+		    margin-bottom: 0;
+		    margin-top: 0;
+		    padding-top: 0;
+		}
+	}
+
+	/**********************Page boire*/
+	#page-boire{
+		.bloc-menu{
+			width: 90%;
+		    margin-left: 4rem;
+		    margin-bottom: 0;
+		    margin-top: 0;
+		    padding-top: 0;
+		}
+	}
+
+	/*************************Page entree*/
+	#page-entree{
+		.nom-item{
+			margin-left:3rem;
+		}
+
+		.description-item{
+			margin-left:5rem;
+			width:80%;
+		}
+
+		.description-prix-item{
+			margin-right:2rem;
+		}
+
+		.prix-item{
+			margin-right:50px;
+		}
+	}
+
+	/**************************Page Dessert*/
+	#page-desserts{
+		.nom-item{
+			width: 69%;
+    		margin-left: 6rem;
+
+		}
+	}
+
+	/*******************Page Whiskey*/
+	#page-whiskey{
+
+		h2{
+			width:90%;
+		}
+
+		.nom-item{
+			width:70%;
+			margin-left:8rem;
+		}
+	}
+
+	/************************Page Vin*/
+	#page-vins{
+
+		h2{
+			width:90%;
+		}
+
+		.nom-item{
+			margin-left:7rem;
+		}
+
+		.description-prix-item{
+			width:12%;
+		}
+
+		.description-item{
+			margin-left:10rem;
+		}
+
+		.prix-item{
+			margin-right:27px;
+		}
+	}
+
+	#page-bieres{
+
+		h2{
+			width:90%;
+		}
+
+		.nom-item{
+			margin-left:6rem;
+		}
+
+		.prix-item{
+			margin-right:45px;
+		}
+
+		#biere-bouteille .description-prix-item{
+			width:14%;
+		}
+
+	}
+
+	/********************Page Principaux*/
+	#page-principaux{
+		h2{
+			width:90%;
+		}
+
+		.nom-item{
+			margin-left:6rem;
+			width:35%;
+		}
+
+		.description-prix-item{
+			width:15%;
+		}
+
+		.description-item{
+			margin-left: 9rem;
+			width:60%;
+		}
+
+		.prix-item{
+			margin-right:28px;
+		}
+
+	}
+}
+
+@media screen and (max-width: 700px){
+	#page-joindre{
+		#section-joindre,#section-heures,#section-suivre{
+			margin-left:4rem;
+			width:20%; 
+		}
+	}
+}
+
+@media screen and (max-width: 640px){
+	#page-joindre{
+		#section-joindre,#section-heures,#section-suivre{
+			margin-left:0;
+			width:60%; 
+		}
+	}
+
+	/*************************Page entree*/
+	#page-entree{
+		.nom-item{
+			width:45%;
+		}
+
+		.description-item{
+			margin-left:5rem;
+			width:80%;
+		}
+
+		.description-prix-item{
+			margin-right:2.5rem;
+		}
+
+		.prix-item{
+			margin-right:40px;
+		}
+	}
+
+	/**************************Page Dessert*/
+	#page-desserts{
+		.nom-item{
+			width: 60%;
+		}
+	}
+
+	/*******************Page Whiskey*/
+	#page-whiskey{
+
+		h2{
+			width:100%;
+		}
+
+		.nom-item{
+			width:78%;
+			margin-left:4rem;
+		}
+	}
+
+	/************************Page Vin*/
+	#page-vins{
+
+		h2{
+			width:100%;
+		}
+
+		.nom-item{
+			margin-left:3rem;
+		}
+
+		.description-prix-item{
+			width:14%;
+		}
+
+		.description-item{
+			margin-left:5rem;
+		}
+	}
+
+	#page-bieres{
+
+		h2{
+			width:100%;
+		}
+
+		.nom-item{
+			margin-left:3rem;
+			width:30%;
+		}
+
+		.prix-item{
+			margin-right:40px;
+		}
+
+		.description-prix-item{
+			width:8%;
+		}
+
+	}
+
+	/********************Page Principaux*/
+	#page-principaux{
+		h2{
+			width:100%;
+		}
+
+		.nom-item{
+			margin-left:3rem;
+			width:30%;
+		}
+
+		.description-prix-item{
+			width:16%;
+		}
+
+		.description-item{
+			margin-left: 6rem;
+			width:70%;
+		}
+
+	}
 }
 
 @media screen and (max-width: 450px){
-	#stages{
-		.bt_contact{
-			margin-left: 0 !important;
-		}
 
-		#lien-infos-stages-inter{
-			margin-left: 0 !important;
-		}
-
-		.box-contact{
-			height:108rem;
-		}
-
-		.triangle{
-			margin-left: 18.5rem;
-		}
-	}
-
-	#ate{
-		.triangle{
-			 margin-left:42%;
-		}
-	}
-
-	#joindre{
+	#page-joindre{
 		.box-contact{
 			height:89rem;
 		}
 	}
+
+	/**********************Page manger*/
+	#page-manger{
+		.bloc-menu{
+			width: 100%;
+    		margin-left: 0em;
+		}
+	}
+
+	/**********************Page boire*/
+	#page-boire{
+		.bloc-menu{
+			width: 100%;
+    		margin-left: 0em;
+		}
+	}
+
+	/*************************Page entree*/
+	#page-entree{
+		.nom-item{
+			width:100%;
+		}
+
+		.description-item{
+			margin-left:3rem;
+			width:95%;
+			margin-bottom:10px;
+		}
+
+		.description-prix-item{
+			margin-right: 2rem;
+    		margin-left: 3rem;
+		}
+
+		.prix-item{
+			margin-left:3rem;
+			margin-right:0;
+		}
+	}
+
+	/**************************Page Dessert*/
+	#page-desserts{
+		.nom-item{
+			width: 56%;
+			margin-left:2rem;
+		}
+	}
+
+	/*******************Page Whiskey*/
+	#page-whiskey{
+		.nom-item{
+			width:70%;
+			margin-left:3rem;
+		}
+	}
+
+	/************************Page Vin*/
+	#page-vins{
+
+		.nom-item{
+			width:100%;
+			margin-left:2rem;
+		}
+
+		.description-prix-item{
+			margin-right: 2rem;
+    		margin-left: 3rem;
+		}
+
+		.description-item{
+			margin-left:4rem;
+		}
+	}
+
+	#page-bieres{
+
+		.nom-item{
+			margin-left:2rem;
+			width:100%;
+		}
+
+		.prix-item{
+			margin-right:30px;
+		}
+
+		.description-prix-item{
+			width:12%;
+			margin-left:2rem;
+		}
+
+		#biere-bouteille .description-prix-item{
+			width:24%;
+		}
+
+	}
+
+	/********************Page Principaux*/
+	#page-principaux{
+
+		.nom-item{
+			margin-left:2rem;
+			width:100%;
+		}
+
+		.description-prix-item{
+			width:25%;
+			margin-left:2rem;
+		}
+
+		.description-item{
+			margin-left: 2rem;
+			width:95%;
+		}
+
+		.prix-item{
+			margin-left:2rem;
+		}
+
+	}
+
 }
 
 @media screen and (max-width: 400px){
-	#stages{
 
-		.box-contact{
-			height:102rem;
-		}
-
-		.triangle{
-			margin-left: 16rem;
-		}
-
-		.dates-stages{
-			width:61%;
-		}
-
-		.titre-semaine-stage{
-			width:50%;
-		}
-	}
-
-	#ate{
-		.triangle{
-			 margin-left:41%;
-		}
-	}
-
-	#joindre{
+	#page-joindre{
 		.box-contact{
 			height:84rem;
 		}
@@ -612,6 +1787,78 @@
 		}
 	}
 }
+
+@media screen and (max-width: 350px){
+	/******************Page accueil*/
+	#page-accueil{
+
+		#section-promo{
+
+			#contenu-droite{
+				p{
+					width:95%;
+				}
+			}
+		}
+	}
+
+	/*****************************Page Promotions*****/
+	#page-promotions{
+
+		h1{
+			padding-left:1rem;
+			font-size:4rem;
+		}
+
+		h2{
+		    font-size:3rem;
+		}
+	}
+
+	/**************************Page Dessert*/
+	#page-desserts{
+		.nom-item{
+			width: 62%;
+		}
+
+		.prix-item{
+			margin-right:0;
+		}
+	}
+
+	/*******************Page Whiskey*/
+	#page-whiskey{
+		.nom-item{
+			margin-left:2rem;
+		}
+	}
+
+	/************************Page Vin*/
+	#page-vins{
+
+		.description-prix-item{
+			width:19%;
+    		margin-left: 2rem;
+		}
+
+		.prix-item{
+			margin-right:19px;
+		}
+	}
+
+}
+
+@media screen and (max-width: 305px){
+	/******************Page accueil*/
+	#page-accueil{
+
+		a.btn-accueil{
+			padding-left:1rem;
+			padding-right:1rem;
+		}
+	}
+}
+
 
 
 

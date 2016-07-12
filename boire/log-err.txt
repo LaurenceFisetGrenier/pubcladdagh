@@ -58,4 +58,750 @@ Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\whiske
 <br />8 : Undefined variable: arrEcosse
 <br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\whiskey.php' a la ligne 125: 
 <br />8 : Undefined variable: arrEcosse
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant t_repas - assumed 't_repas'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 27: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 29: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 30: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 28: 
+<br />8 : Undefined variable: objConnMySQLi
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 70: 
+<br />2 : print_r(): Couldn't fetch mysqli_result
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 70: 
+<br />2 : print_r(): Couldn't fetch mysqli_result
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 70: 
+<br />2 : print_r(): Property access is not allowed yet
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 70: 
+<br />2 : print_r(): Couldn't fetch mysqli_result
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 70: 
+<br />2 : print_r(): Property access is not allowed yet
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 86: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 90: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 95: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 95: 
+<br />8 : Undefined property: mysqli_result::$id_menu
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 303: 
+<br />8 : Undefined variable: arrIPA
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 306: 
+<br />8 : Undefined variable: arrIPA
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 235: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\bieres.php' a la ligne 310: 
+<br />8 : Undefined variable: arrLagers
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 331: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 97: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 97: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 97: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 97: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 97: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 97: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 97: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 97: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 97: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 97: 
+<br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 97: 
+<br />8 : Array to string conversion
 <br />

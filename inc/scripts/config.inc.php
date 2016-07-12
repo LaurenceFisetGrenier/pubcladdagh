@@ -29,9 +29,9 @@
         $strBdPassword = "";
         $strBdSite = "bdspec2016_lfisetgrenier";
     } else {
-        $strBdServer   = '';
-        $strBdUsername = '';
-        $strBdPassword = '';
+        $strBdServer   = 'timunix.cegep-ste-foy.qc.ca';
+        $strBdUsername = 't16_lfisetgrenier';
+        $strBdPassword = 'chevalpourpre';
         $strBdSite = 'bdspec2016_lfisetgrenier';
     }
 

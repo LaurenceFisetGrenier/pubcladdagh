@@ -419,6 +419,15 @@ html {
 @font-face {
   font-family: "ralewayItalic";
   src: url("../polices/Raleway-Italic.ttf"); }
+@font-face {
+  font-family: "kraftNine";
+  src: url("../polices/kg-tangled-up-in-you.regular.ttf"); }
+@font-face {
+  font-family: "robotoBold";
+  src: url("../polices/Novecentosanswide-Bold.otf"); }
+@font-face {
+  font-family: "roboto";
+  src: url("../polices/Novecentosanswide-Normal.otf"); }
 html {
   font-size: 62.5%;
   background-color: #fbfbfb; }
@@ -503,27 +512,6 @@ b {
 .box {
   clear: both; }
 
-.box-contact {
-  background-color: #ababab;
-  padding-left: 8rem;
-  margin-top: 5rem; }
-  .box-contact .container-box {
-    max-width: 1920px;
-    margin-left: auto;
-    margin-right: auto; }
-    .box-contact .container-box:after {
-      content: " ";
-      display: block;
-      clear: both; }
-  .box-contact .img_contact {
-    float: left;
-    width: 35rem;
-    padding-top: 0rem;
-    padding-bottom: 0rem; }
-  .box-contact #texteDroite {
-    float: right;
-    width: 75%; }
-
 #bloc {
   padding: 1em;
   box-shadow: 1px 4px 10px grey; }
@@ -556,9 +544,6 @@ b {
   background-color: #ababab; }
 
 .description {
-  max-width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
   width: 50%;
   margin-top: -15rem;
   background-color: #FFFFFF;
@@ -567,10 +552,6 @@ b {
   -moz-box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.1);
   box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.1);
   text-align: center; }
-  .description:after {
-    content: " ";
-    display: block;
-    clear: both; }
   .description h2 {
     border: 0;
     clip: rect(0 0 0 0);
@@ -766,69 +747,316 @@ label {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
-  margin-bottom: 5rem; }
+  margin-bottom: 5rem;
+  font-family: "roboto"; }
   #header-accueil nav {
     position: relative;
-    top: 59rem;
+    top: 57rem;
     text-align: center; }
-    #header-accueil nav ul li a {
-      font-size: 2rem; }
-      #header-accueil nav ul li a:hover {
-        border-bottom: 3px solid #FFFFFF;
-        padding-bottom: 0.5rem; }
+    #header-accueil nav ul li {
+      width: 182px !important; }
+      #header-accueil nav ul li a {
+        font-size: 2rem;
+        color: #FFFFFF; }
+        #header-accueil nav ul li a:hover {
+          border-bottom: 3px solid #FFFFFF;
+          padding-bottom: 0.5rem; }
   #header-accueil #num-telephone {
     position: absolute;
     top: 0;
     right: 5rem;
     color: #FFFFFF; }
+  #header-accueil #menu li ul li a {
+    color: #552727; }
+    #header-accueil #menu li ul li a:hover {
+      color: #000000; }
 
 header {
-  background-color: #292929; }
+  background-color: #f4f4f3;
+  font-family: "roboto"; }
+  header nav {
+    margin: auto;
+    text-align: center; }
   header nav ul {
-    max-width: 1920px;
-    margin-left: auto;
-    margin-right: auto;
     padding-left: 2em;
     padding-right: 2em; }
-    header nav ul:after {
-      content: " ";
-      display: block;
-      clear: both; }
   header ul {
     margin: 0;
     padding-left: 0; }
     header ul li {
       display: inline-block;
-      margin-right: 1em;
-      padding-left: 0.5em;
-      padding-right: 0.5em;
       padding-top: 15px;
-      height: 49px;
+      width: 155px;
       list-style: none; }
       header ul li a {
-        color: #FFFFFF;
+        color: #552727;
         text-decoration: none;
         padding-top: 20px;
         padding-bottom: 20px;
         font-family: ralewayMedium;
         font-size: 1.6rem;
         text-transform: uppercase; }
+        header ul li a:hover {
+          color: #9E9E9E; }
 
+#menu, #menu ul {
+  padding: 0;
+  /* pas de marge int├®rieure */
+  margin: 0;
+  /* ni ext├®rieure */
+  line-height: 21px;
+  /* on d├®finit une hauteur pour chaque ├®l├®ment */
+  text-align: center;
+  /* on centre le texte qui se trouve dans la liste */ }
+
+#menu li {
+  /* pour IE qui ne reconna├«t pas "transparent" */
+  border-right: 1px solid #fff;
+  /* on met une bordure blanche ├á droite de chaque ├®l├®ment */ }
+
+/* IE ne reconnaissant pas le s├®lecteur ">" */
+html > body #menu li {
+  border-right: 1px solid transparent;
+  /* on met une bordure transparente ├á droite de chaque ├®l├®ment */ }
+
+#menu li ul {
+  position: absolute;
+  /* Position absolue */
+  width: 144px;
+  /* Largeur des sous-listes */
+  left: -999em;
+  /* Hop, on envoie loin du champ de vision */
+  background-color: #f4f4f3;
+  top: 77px; }
+
+#menu li ul li {
+  /* pour IE qui ne reconna├«t pas "transparent" (comme pr├®c├®demment) */
+  border-top: 1px solid #fff;
+  /* on met une bordure blanche en haut de chaque ├®l├®ment d'une sous liste */ }
+  #menu li ul li a {
+    transition: color 1s;
+    font-size: 1.4rem; }
+    @media (max-width: 1024px) {
+      #menu li ul li a {
+        display: none; } }
+    #menu li ul li a:hover {
+      color: #000000; }
+
+/* IE ne reconnaissant pas le s├®lecteur ">" */
+html > body #menu li ul li {
+  border-top: 1px solid transparent;
+  /* on met une bordure transparente en haut de chaque ├®l├®ment */ }
+
+#menu li ul ul {
+  margin: -22px 0 0 144px;
+  /* On d├®cale les sous-sous-listes pour qu'elles ne soient pas au dessus des sous-listes */
+  /* pour IE qui ne reconna├«t pas "transparent" (comme pr├®c├®demment) */
+  border-left: 1px solid #fff;
+  /* Petite bordure ├á gauche pour ne pas coller ... */ }
+
+/* IE ne reconnaissant pas le s├®lecteur ">" ... je me r├®p├¿te ;-) */
+html > body #menu li ul ul {
+  border-left: 1px solid transparent;
+  /* on met une bordure transparente sur la gauche de chaque ├®l├®ment */ }
+
+/*#menu a:hover /* Lorsque la souris passe sur un des liens */
+/*{
+        color: #000; /* On passe le texte en noir... */
+/*background: #fff; /* ... et au contraire, le fond en blanc */
+/*}*/
+#menu li:hover ul ul, #menu li.sfhover ul ul {
+  left: -999em;
+  /* On exp├®die les sous-sous-listes hors du champ de vision */ }
+
+#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul {
+  left: auto;
+  /* Repositionnement normal */
+  min-height: 0;
+  /* Corrige un bug sous IE */ }
+
+/****Bouton hamburger*****/
+/*Table seulement*/
+@media (min-width: 1025px) {
+  .btnMenu, label[for="btnMenu"] img {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; } }
+/*Mobile seulement*/
+@media (max-width: 1024px) {
+  .btnMenu {
+    top: 0;
+    left: 0;
+    position: absolute;
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    z-index: 60; }
+
+  label[for="btnMenu"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    z-index: 2;
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+    background-color: #552727;
+    padding: 2em;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    /*preparation de l'animation*/ }
+    label[for="btnMenu"] .menuIco {
+      position: absolute;
+      left: 20px;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto; }
+    label[for="btnMenu"] .menuIco span:before, label[for="btnMenu"] .menuIco span:after {
+      position: absolute;
+      content: ''; }
+    label[for="btnMenu"] .menuIco span, label[for="btnMenu"] .menuIco span:before, label[for="btnMenu"] .menuIco span:after {
+      width: 30px;
+      height: 4px;
+      background-color: #FFF;
+      display: block; }
+    label[for="btnMenu"] .menuIco span:before {
+      margin-top: -12px; }
+    label[for="btnMenu"] .menuIco span:after {
+      margin-top: 12px; }
+    label[for="btnMenu"] .menuIco span {
+      -webkit-transition-property: width;
+      transition-property: width;
+      -webkit-transition-duration: 0s;
+      transition-duration: 0.2s;
+      transition-delay: 0.2s; }
+    label[for="btnMenu"] .menuIco span:before {
+      -webkit-transition-property: margin, -webkit-transform;
+      transition-property: margin, transform;
+      -webkit-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-delay: 0.2s, 0s;
+      transition-delay: 0.2s, 0s; }
+    label[for="btnMenu"] .menuIco span:after {
+      -webkit-transition-property: margin, -webkit-transform;
+      transition-property: margin, transform;
+      -webkit-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-delay: 0.2s, 0s;
+      transition-delay: 0.2s, 0s; }
+
+  /*Animation bouton menu*/
+  .btnMenu:checked ~ label .menuIco span {
+    background-color: transparent;
+    width: 0; }
+  .btnMenu:checked ~ label .menuIco span:before {
+    margin-top: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition-delay: 0s, 0.2s;
+    transition-delay: 0s, 0.2s; }
+  .btnMenu:checked ~ label .menuIco span:after {
+    margin-top: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition-delay: 0s, 0.2s;
+    transition-delay: 0s, 0.2s; } }
+/*Styles mobile pour la navigation*/
+@media (max-width: 1024px) {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 4;
+  nav {
+    position: relative; } }
+  @media (max-width: 1024px) and (max-width: 1024px) {
+    nav {
+      height: 100%; }
+      nav .logoTim {
+        background-color: #3a3a3a; } }
+@media (max-width: 1024px) {
+    nav ul {
+      margin: 0; }
+      nav ul li {
+        width: 100%; }
+
+  #menu {
+    overflow: auto;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    margin-top: -1200px;
+    width: 100%;
+    padding-top: 2em;
+    background-color: #FFFFFF;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border-bottom: 5px solid #552727; }
+
+  .btnMenu:checked ~ #menu {
+    margin-top: 0; }
+
+  ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+
+  #header-accueil a.main {
+    color: #552727; }
+
+  .sousCategorie li {
+    clear: both;
+    border-bottom: 3px solid #FFFFFF;
+    width: 100%; }
+    .sousCategorie li a {
+      display: block;
+      color: #FFFFFF;
+      background-color: #000000;
+      padding: 1.5em 0 1.5em 2em; }
+
+  a.main {
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding: 1.5em 0 1.5em 1em;
+    color: #552727; } }
+/* Fermeture styles mobile header*/
 footer {
   color: #FFFFFF;
   background-color: #000000;
+  background-image: url("../images/back-footer.jpg");
+  background-size: cover;
   padding-top: 1rem;
+  background-repeat: no-repeat;
   width: 100%;
-  overflow: auto; }
+  overflow: auto;
+  margin-top: 5rem; }
   footer .titre-navigation {
-    font-size: 3rem;
+    font-size: 2.7rem;
     border-bottom: 2px solid #FFFFFF;
-    width: 35rem; }
+    width: 93%;
+    text-transform: uppercase; }
   footer ul li {
     list-style: none;
     margin-bottom: -1.8rem; }
     footer ul li a {
-      text-decoration: none; }
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+      footer ul li a:hover {
+        border-bottom: 2px solid #FFFFFF; }
   footer #naviguer {
     float: left;
     width: 33.3333333%;
@@ -838,8 +1066,7 @@ footer {
     width: 33.33333333%; }
   footer #nous-voir {
     float: left;
-    width: 32%;
-    background-color: #000000; }
+    width: 32%; }
     footer #nous-voir #footer-heures p {
       font-size: 1.7rem; }
     footer #nous-voir .jour-semaine {
@@ -849,22 +1076,27 @@ footer {
     border: 2px solid #FFFFFF;
     color: #FFFFFF;
     padding: 1rem;
-    padding-left: 11.5rem;
-    padding-right: 11.5rem; }
+    padding-left: 10.5rem;
+    padding-right: 10.5rem; }
     footer a#footer-lien-joindre:hover {
       border: 2px solid #ababab;
       color: #ababab; }
   footer #reseaux-socieaux {
     padding-left: 9rem; }
     footer #reseaux-socieaux a {
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      transition: color 1s; }
       footer #reseaux-socieaux a:hover {
-        color: #ababab; }
+        color: #552727; }
   footer #icone-twitter {
     margin-left: 5rem; }
   footer #tel-reservation {
     margin-left: 5.3rem;
     margin-bottom: 4rem; }
+  footer #footer-adresse {
+    font-size: 1.6rem; }
+  footer #footer-heures {
+    font-size: 1.6rem; }
 
 #copyright {
   clear: both;
@@ -872,15 +1104,70 @@ footer {
   background-color: #FFFFFF;
   width: 500rem;
   text-align: center;
-  margin: auto;
-  max-width: 1920px;
-  margin-left: auto;
-  margin-right: auto; }
-  #copyright:after {
-    content: " ";
-    display: block;
-    clear: both; }
+  margin: auto; }
 
+@media screen and (max-width: 982px) {
+  footer a#footer-lien-joindre {
+    padding-left: 8.5rem;
+    padding-right: 8.5rem; }
+  footer #tel-reservation {
+    margin-left: 2.3rem; }
+  footer #reseaux-socieaux {
+    padding-left: 6rem; } }
+@media screen and (max-width: 865px) {
+  footer a#footer-lien-joindre {
+    padding-left: 6.5rem;
+    padding-right: 6.5rem; }
+  footer #tel-reservation {
+    margin-left: 1.3rem; }
+  footer #reseaux-socieaux {
+    padding-left: 5rem; } }
+@media screen and (max-width: 770px) {
+  footer a#footer-lien-joindre {
+    padding-left: 5rem;
+    padding-right: 5rem; }
+  footer #tel-reservation {
+    margin-left: 0rem; }
+  footer #reseaux-socieaux {
+    padding-left: 3rem; } }
+@media screen and (max-width: 685px) {
+  footer {
+    padding-top: 0;
+    width: 100%; }
+    footer .titre-navigation {
+      padding-left: 1rem; }
+    footer ul li {
+      list-style: none;
+      margin-bottom: -1.8rem; }
+    footer #naviguer {
+      width: 100%;
+      padding-left: 0; }
+    footer #communiquer {
+      width: 100%;
+      margin-bottom: 3rem; }
+    footer #nous-voir {
+      width: 100%; }
+      footer #nous-voir #footer-heures p {
+        font-size: 1.7rem; }
+    footer a#footer-lien-joindre {
+      padding-left: 6.5rem;
+      padding-right: 6.5rem;
+      margin-left: 0.8rem; }
+    footer #reseaux-socieaux {
+      padding-left: 6rem; }
+    footer #icone-twitter {
+      margin-left: 5rem; }
+    footer #tel-reservation {
+      margin-left: 3rem;
+      margin-bottom: 4rem; }
+    footer #footer-adresse, footer #footer-heures {
+      padding-left: 1rem; }
+
+  #copyright {
+    clear: both;
+    width: 500rem;
+    text-align: center;
+    margin: auto; } }
 .triangle {
   width: 0;
   height: 0;
@@ -889,24 +1176,38 @@ footer {
   border-top: 30px solid #1d837b;
   margin-left: 17rem; }
 
+ul li {
+  list-style: none; }
+
 /******************Page accueil*/
 #page-accueil h2 {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  font-family: "kraftNine";
+  color: #552727; }
 #page-accueil a.btn-accueil {
-  border: 2px solid #000000;
+  border: 2px solid #552727;
   text-decoration: none;
-  color: #000000;
+  color: #552727;
   padding: 1rem;
   padding-left: 3rem;
-  padding-right: 3rem; }
+  padding-right: 3rem;
+  -webkit-transition: background-color 3s;
+  /* Safari */
+  transition: background-color 3s; }
+  #page-accueil a.btn-accueil:hover {
+    background-color: #552727;
+    color: #FFFFFF; }
 #page-accueil #section-promo {
   text-align: center; }
   #page-accueil #section-promo #img-gauche {
     float: left;
-    width: 50%; }
+    width: 40%; }
   #page-accueil #section-promo #contenu-droite {
     float: left;
-    width: 50%; }
+    width: 50%;
+    margin-left: 5%; }
+  #page-accueil #section-promo .symbole-graphique {
+    margin-bottom: 0; }
 #page-accueil #section-degustation {
   clear: both;
   text-align: center;
@@ -919,9 +1220,15 @@ footer {
     float: left;
     width: 50%; }
     #page-accueil #section-degustation #contenu-gauche #lien-whiskeys {
-      color: #000000;
+      color: #552727;
       text-decoration: none;
-      border-bottom: 1px solid black; }
+      border-bottom: 1px solid #552727; }
+#page-accueil .symbole-graphique {
+  margin-bottom: 3rem; }
+#page-accueil #img-pompes {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
 
 /*****************Page Joindre*****/
 #page-joindre h1 {
@@ -932,29 +1239,23 @@ footer {
 #page-joindre h2 {
   text-align: center;
   margin-bottom: 3rem; }
+#page-joindre h3 {
+  font-family: "robotoBold"; }
 #page-joindre #description {
-  max-width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1024px;
+  margin: auto;
   padding: 5rem;
-  text-align: center; }
-  #page-joindre #description:after {
-    content: " ";
-    display: block;
-    clear: both; }
+  text-align: center;
+  border-top: 3px dotted #552727;
+  border-bottom: 3px dotted #552727; }
 #page-joindre #section-formulaire {
-  max-width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1024px;
+  margin: auto;
   margin-top: 5rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
   border-top: 2px #ababab solid;
   border-bottom: 2px #ababab solid; }
-  #page-joindre #section-formulaire:after {
-    content: " ";
-    display: block;
-    clear: both; }
 #page-joindre #section-gauche {
   float: left;
   width: 40rem;
@@ -966,17 +1267,17 @@ footer {
 #page-joindre input[type="text"], #page-joindre select {
   width: 40rem;
   height: 4rem;
-  border: 2px #1d837b solid;
+  border: 1px #000000 solid;
   border-radius: 3px;
   margin-top: 1rem;
   background-color: #FFFFFF;
   font-size: 1.6rem;
   padding-left: 0.5rem; }
 #page-joindre textarea {
-  border: 2px #1d837b solid;
+  border: 1px #000000 solid;
   border-radius: 3px;
   width: 40rem;
-  height: 38.4rem;
+  height: 27.4rem;
   margin-top: 1rem;
   padding-left: 0.5rem; }
 #page-joindre #box-adresse {
@@ -1002,219 +1303,538 @@ footer {
 #page-joindre #bt-envoyer {
   float: right;
   margin-right: 5rem;
-  width: 20rem; }
+  width: 20rem;
+  background-color: #FFFFFF;
+  border: 2px solid #552727;
+  color: #552727;
+  padding: 1rem;
+  box-shadow: none;
+  text-shadow: none; }
+#page-joindre #section-joindre, #page-joindre #section-heures, #page-joindre #section-suivre {
+  float: left;
+  width: 33.33333333333333%; }
+  #page-joindre #section-joindre a, #page-joindre #section-heures a, #page-joindre #section-suivre a {
+    color: #552727;
+    transition: color 1s; }
+    #page-joindre #section-joindre a:hover, #page-joindre #section-heures a:hover, #page-joindre #section-suivre a:hover {
+      color: #000000; }
+#page-joindre #section-heures {
+  line-height: 1rem; }
+#page-joindre #section-formulaire {
+  clear: both; }
+
+/*************************Page entree*/
+#page-entree h1 {
+  background-image: url("../images/entree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 2rem; }
+#page-entree h2 {
+  clear: both;
+  text-align: center;
+  border-top: 1px solid #552727;
+  border-bottom: 1px solid #552727;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  width: 72%;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 3rem; }
+#page-entree .nom-item {
+  clear: both;
+  float: left;
+  width: 50%;
+  margin-left: 21rem; }
+#page-entree .description-prix-item {
+  float: left;
+  width: 5%; }
+#page-entree .description-item {
+  clear: both;
+  margin-left: 23rem;
+  font-size: 1.5rem;
+  width: 40%;
+  margin-bottom: 20px; }
+#page-entree .prix-item {
+  float: left;
+  font-weight: bold;
+  margin-right: 92px; }
+#page-entree #lien-retour {
+  color: #552727;
+  margin-left: 4rem;
+  float: left; }
+#page-entree .les-prix li {
+  display: inline; }
+#page-entree .nav-menus {
+  clear: both;
+  text-align: center;
+  margin: auto;
+  padding: 0; }
+  #page-entree .nav-menus .menu-actif {
+    text-decoration: underline; }
+  #page-entree .nav-menus li a {
+    margin-right: 39px;
+    text-decoration: none;
+    color: #9E9E9E; }
+    #page-entree .nav-menus li a:hover {
+      color: #000000; }
+
+/********************Page Principaux*/
+#page-principaux h1 {
+  background-image: url("../images/entree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 2rem; }
+#page-principaux h2 {
+  clear: both;
+  text-align: center;
+  border-top: 1px solid #552727;
+  border-bottom: 1px solid #552727;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  width: 72%;
+  margin: auto;
+  margin-top: 5rem; }
+#page-principaux .nom-item {
+  clear: both;
+  float: left;
+  width: 44%;
+  margin-left: 21rem; }
+#page-principaux .description-prix-item {
+  float: left;
+  width: 9%; }
+#page-principaux .description-item {
+  clear: both;
+  margin-left: 23rem;
+  font-size: 1.5rem;
+  width: 40%;
+  margin-bottom: 20px; }
+#page-principaux .prix-item {
+  float: left;
+  font-weight: bold;
+  margin-right: 92px; }
+#page-principaux #lien-retour {
+  color: #552727;
+  margin-left: 4rem;
+  float: left; }
+#page-principaux .description-ajouts-possible {
+  text-align: center;
+  width: 54%;
+  margin: auto;
+  margin-top: 3rem; }
+#page-principaux .les-prix li {
+  display: inline; }
+#page-principaux .nav-menus {
+  clear: both;
+  text-align: center;
+  margin: auto;
+  padding: 0; }
+  #page-principaux .nav-menus .menu-actif {
+    text-decoration: underline; }
+  #page-principaux .nav-menus li a {
+    margin-right: 39px;
+    text-decoration: none;
+    color: #9E9E9E; }
+    #page-principaux .nav-menus li a:hover {
+      color: #000000; }
+
+/**************************Page Dessert*/
+#page-desserts h1 {
+  background-image: url("../images/entree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 2rem; }
+#page-desserts h2 {
+  clear: both;
+  text-align: center;
+  border-top: 1px solid #552727;
+  border-bottom: 1px solid #552727;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  width: 72%;
+  margin: auto;
+  margin-top: 5rem; }
+#page-desserts .nom-item {
+  clear: both;
+  float: left;
+  width: 37%;
+  margin-left: 29rem; }
+#page-desserts .description-prix-item {
+  float: left;
+  width: 5%; }
+#page-desserts .description-item {
+  clear: both;
+  margin-left: 23rem;
+  font-size: 1.5rem;
+  width: 40%;
+  margin-bottom: 20px; }
+#page-desserts .prix-item {
+  float: left;
+  font-weight: bold;
+  margin-right: 92px; }
+#page-desserts #lien-retour {
+  color: #552727;
+  margin-left: 4rem;
+  float: left; }
+#page-desserts .description-ajouts-possible {
+  text-align: center;
+  width: 54%;
+  margin: auto;
+  margin-top: 3rem; }
+#page-desserts .nav-menus {
+  clear: both;
+  text-align: center;
+  margin: auto;
+  padding: 0; }
+  #page-desserts .nav-menus .menu-actif {
+    text-decoration: underline; }
+  #page-desserts .nav-menus li a {
+    margin-right: 39px;
+    text-decoration: none;
+    color: #9E9E9E; }
+    #page-desserts .nav-menus li a:hover {
+      color: #000000; }
+
+/************************Page Boire*/
+#page-boire h1 {
+  background-image: url("../images/boire.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 2rem; }
+
+/***********************Page Bi├¿re*/
+#page-bieres h1 {
+  background-image: url("../images/biere.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 2rem; }
+#page-bieres h2 {
+  clear: both;
+  text-align: center;
+  border-top: 1px solid #552727;
+  border-bottom: 1px solid #552727;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  width: 72%;
+  margin: auto;
+  margin-top: 5rem; }
+#page-bieres .nom-item {
+  clear: both;
+  float: left;
+  width: 35%;
+  margin-left: 25rem; }
+#page-bieres .description-prix-item {
+  float: left;
+  width: 4%; }
+#page-bieres .description-item {
+  clear: both;
+  margin-left: 33rem;
+  font-size: 1.5rem;
+  margin-bottom: 20px; }
+#page-bieres .prix-item {
+  float: left;
+  font-weight: bold;
+  margin-right: 55px; }
+#page-bieres #biere-bouteille .description-prix-item {
+  width: 8%; }
+#page-bieres #lien-retour {
+  color: #552727;
+  margin-left: 4rem; }
+#page-bieres .les-prix li {
+  display: inline; }
+#page-bieres .nav-menus {
+  clear: both;
+  text-align: center;
+  margin: auto;
+  padding: 0; }
+  #page-bieres .nav-menus .menu-actif {
+    text-decoration: underline; }
+  #page-bieres .nav-menus li a {
+    margin-right: 39px;
+    text-decoration: none;
+    color: #9E9E9E; }
+    #page-bieres .nav-menus li a:hover {
+      color: #000000; }
+
+/************************Page Vin*/
+#page-vins h1 {
+  background-image: url("../images/vin.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin-bottom: 2rem; }
+#page-vins h2 {
+  clear: both;
+  text-align: center;
+  border-top: 1px solid #552727;
+  border-bottom: 1px solid #552727;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  width: 72%;
+  margin: auto;
+  margin-top: 5rem; }
+#page-vins .nom-item {
+  clear: both;
+  float: left;
+  width: 43%;
+  margin-left: 23rem; }
+#page-vins .description-prix-item {
+  float: left;
+  width: 7%; }
+#page-vins .description-item {
+  clear: both;
+  margin-left: 26rem;
+  font-size: 1.5rem;
+  margin-bottom: 20px; }
+#page-vins .prix-item {
+  float: left;
+  font-weight: bold;
+  margin-right: 40px; }
+#page-vins #lien-retour {
+  color: #552727;
+  margin-left: 4rem; }
+#page-vins .les-prix li {
+  display: inline; }
+#page-vins .nav-menus {
+  clear: both;
+  text-align: center;
+  margin: auto;
+  padding: 0; }
+  #page-vins .nav-menus .menu-actif {
+    text-decoration: underline; }
+  #page-vins .nav-menus li a {
+    margin-right: 39px;
+    text-decoration: none;
+    color: #9E9E9E; }
+    #page-vins .nav-menus li a:hover {
+      color: #000000; }
+
+/*******************Page Whiskey*/
+#page-whiskey h1 {
+  background-image: url("../images/whiskey2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 2rem; }
+#page-whiskey h2 {
+  clear: both;
+  text-align: center;
+  border-top: 1px solid #552727;
+  border-bottom: 1px solid #552727;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  width: 72%;
+  margin: auto;
+  margin-top: 5rem; }
+#page-whiskey .nom-item {
+  clear: both;
+  float: left;
+  width: 43%;
+  margin-left: 35rem; }
+#page-whiskey .description-prix-item {
+  float: left; }
+#page-whiskey .prix-item {
+  float: left;
+  font-weight: bold;
+  margin-right: 92px; }
+#page-whiskey #lien-retour {
+  color: #552727;
+  margin-left: 4rem; }
+#page-whiskey .nav-menus {
+  clear: both;
+  text-align: center;
+  margin: auto;
+  padding: 0; }
+  #page-whiskey .nav-menus .menu-actif {
+    text-decoration: underline; }
+  #page-whiskey .nav-menus li a {
+    margin-right: 39px;
+    text-decoration: none;
+    color: #9E9E9E; }
+    #page-whiskey .nav-menus li a:hover {
+      color: #000000; }
+
+/**********************Page manger*/
+#page-manger {
+  overflow: hidden; }
+  #page-manger h1 {
+    background-image: url("../images/a-manger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem; }
+  #page-manger #choix-menus-manger {
+    margin: auto;
+    text-align: center; }
+  #page-manger .bloc-menu {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem; }
+    #page-manger .bloc-menu img {
+      width: 100%; }
+    #page-manger .bloc-menu a {
+      text-decoration: none;
+      color: #000000;
+      font-family: "kraftNine";
+      font-size: 5rem; }
+
+/**********************Page boire*/
+#page-boire {
+  overflow: hidden; }
+  #page-boire h1 {
+    background-image: url("../images/a-manger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem; }
+  #page-boire #choix-menus-boire {
+    margin: auto;
+    text-align: center; }
+  #page-boire .bloc-menu {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem; }
+    #page-boire .bloc-menu img {
+      width: 100%; }
+    #page-boire .bloc-menu a {
+      text-decoration: none;
+      color: #000000;
+      font-family: "kraftNine";
+      font-size: 5rem; }
+
+/*****************************Page Promotions*****/
+#page-promotions h1 {
+  background: url("../images/chanteur.jpg") no-repeat;
+  background-size: cover;
+  margin-bottom: 5rem; }
+#page-promotions h2 {
+  text-align: center;
+  margin-top: 5rem;
+  border-top: 1px solid #552727;
+  border-bottom: 1px solid #552727;
+  padding-bottom: 1rem;
+  width: 70%;
+  margin: auto; }
+#page-promotions .description-promotion {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 5rem; }
 
 @media screen and (max-width: 1800px) {
-  #joindre #section-gauche {
+  #page-joindre #section-gauche {
     margin-left: 20%; }
-  #joindre #section-droite {
+  #page-joindre #section-droite {
     margin-right: 20%; } }
 @media screen and (max-width: 1440px) {
-  #stages .box-contact {
-    padding-left: 0;
-    height: 100%; }
-    #stages .box-contact h2 {
-      font-size: 5rem; }
-    #stages .box-contact .img_contact {
-      width: 35rem;
-      padding-top: 0; }
-  #stages .bt_contact {
-    top: 2rem !important; }
-  #stages #lien-infos-stages-inter {
-    top: 5rem;
-    margin-left: 0; }
-  #stages #troisannee {
-    width: 80rem;
-    margin-left: 20%; }
-  #stages #undeuxannee {
-    width: 80rem;
-    margin-left: 20%;
-    float: left; }
-  #stages .titre-semaine-stage {
-    width: 48%; }
-  #stages .dates-stages {
-    width: 57%; }
-  #stages .triangle {
-    margin-left: 45%; }
-
-  #ate .triangle {
-    margin-left: 46%; }
-
-  .box-contact {
-    padding-left: 0;
-    height: 100%; }
-    .box-contact #texteDroite {
-      width: 50%; }
-
-  #joindre #section-gauche {
+  #page-joindre #section-gauche {
     margin-left: 7%; }
-  #joindre #section-droite {
+  #page-joindre #section-droite {
     margin-right: 7%; } }
+@media screen and (max-width: 1224px) {
+  /**********************Page manger*/
+  #page-manger .bloc-menu {
+    width: 25%; }
+
+  /**********************Page boire*/
+  #page-boire .bloc-menu {
+    width: 25%; }
+
+  /*************************Page entree*/
+  #page-entree h2 {
+    width: 80%; }
+  #page-entree .nom-item {
+    margin-left: 15rem; }
+  #page-entree .description-item {
+    margin-left: 18rem; }
+
+  /*******************Page Whiskey*/
+  #page-whiskey .nom-item {
+    width: 55%;
+    margin-left: 25rem; }
+  #page-whiskey .prix-item {
+    margin-right: 0; }
+
+  /************************Page Vin*/
+  #page-vins .nom-item {
+    margin-left: 21rem; }
+  #page-vins .description-item {
+    margin-left: 24rem; }
+
+  /***********************Page Bi├¿re*/
+  #page-bieres .nom-item {
+    margin-left: 21rem; }
+  #page-bieres #biere-bouteille .description-prix-item {
+    width: 8%; }
+
+  /********************Page Principaux*/
+  #page-principaux .nom-item {
+    clear: both;
+    float: left;
+    width: 40%;
+    margin-left: 21rem; } }
 @media screen and (max-width: 1024px) {
-  #stages .box-contact {
-    padding-left: 0;
-    height: 100%; }
-    #stages .box-contact h2 {
-      font-size: 5rem; }
-    #stages .box-contact .img_contact {
-      width: 35rem;
-      padding-top: 0; }
-  #stages .bt_contact {
-    top: 1rem !important; }
-  #stages #lien-infos-stages-inter {
-    top: 4rem;
-    margin-left: 0; }
-  #stages #troisannee {
-    width: 60rem;
-    margin-left: 20%; }
-  #stages #undeuxannee {
-    width: 60rem;
-    margin-left: 20%;
-    float: left; }
-  #stages .titre-semaine-stage {
-    width: 50%; }
-  #stages .dates-stages {
-    width: 57%; }
-  #stages .triangle {
-    margin-left: 45%; }
-
-  .box-contact {
-    padding-left: 0;
-    height: 100%; }
-    .box-contact #texteDroite {
-      width: 100%; }
-
-  #joindre #section-gauche {
-    margin-left: 3%;
-    width: 33%; }
-  #joindre input[type="text"] {
-    width: 34rem; }
-  #joindre select {
-    width: 34rem; }
-  #joindre textarea {
-    width: 35rem; }
-  #joindre #section-droite {
-    margin-right: 0;
-    width: 36rem; } }
-@media screen and (max-width: 768px) {
-  /***************Page Stages*/
-  #stages h3 {
-    background-color: #951368;
-    color: #FFFFFF;
-    font-family: "ralewayRegular";
-    font-size: 2.5rem;
-    padding: 2rem;
-    margin-bottom: 0rem; }
-  #stages h5 {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px; }
-  #stages #dates-stages {
-    max-width: 1920px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    border-top: 2px #ababab solid;
-    border-bottom: 2px #ababab solid;
-    margin-top: 5rem; }
-    #stages #dates-stages:after {
-      content: " ";
-      display: block;
-      clear: both; }
-    #stages #dates-stages a {
-      margin-bottom: 1rem; }
-  #stages #texteStages {
-    text-align: center;
-    padding-bottom: 10rem; }
-    #stages #texteStages ul li {
-      list-style: none; }
-  #stages #troisannee {
-    float: none;
-    width: 100%;
-    margin-left: 0 !important; }
-  #stages #undeuxannee {
-    width: 100%;
-    float: none;
-    margin-left: 0; }
-  #stages .dates-stages {
-    float: right;
-    height: 10rem;
-    width: 25rem;
-    padding-top: 4rem;
-    border: 1px solid #951368; }
-  #stages .box-contact {
-    height: 142rem; }
-    #stages .box-contact .img_contact {
-      width: 100%;
-      padding-top: 3rem; }
-    #stages .box-contact #texteDroite {
-      width: 100%; }
-  #stages .bt_contact {
-    top: 3rem !important;
-    font-size: 2rem !important; }
-  #stages #lien-infos-stages-inter {
-    top: 7rem;
-    margin-left: 0rem; }
-  #stages .triangle {
-    margin-left: 34rem; }
-  #stages .titre-semaine-stage {
-    width: 45%; }
-  #stages .dates-stages {
-    width: 60.5%; }
-
-  /*************************Page ATE*/
-  #ate #stages-ate {
-    margin-top: 2rem; }
-  #ate h1 {
-    padding-left: 2rem;
-    font-size: 4.5rem; }
-  #ate h2 {
-    font-size: 2.5rem; }
-  #ate #ate-premiere {
-    float: none;
-    width: 100%;
-    min-height: 0; }
-    #ate #ate-premiere h2 {
-      padding: 2rem; }
-  #ate #ate-deuxieme {
-    width: 100%;
-    padding-bottom: 3rem;
-    min-height: 0;
-    float: none; }
-    #ate #ate-deuxieme h2 {
-      padding: 2rem; }
-  #ate #caracteristiques-ate h2 {
-    padding: 2rem; }
-  #ate .triangle {
-    margin-left: 45%; }
-
-  #international h1 {
-    padding-top: 12rem; }
+  .sousCategorie {
+    display: none; }
 
   /*****************Page Joindre*****/
-  #joindre #section-gauche {
-    float: none;
-    width: 95%;
-    margin-left: 2rem;
-    margin-bottom: 5rem; }
-  #joindre #section-droite {
-    float: none;
-    width: 95%;
-    margin-left: 2rem; }
-  #joindre input[type="text"], #joindre select {
-    width: 97%; }
-  #joindre textarea {
-    width: 97%; }
-  #joindre #box-adresse {
+  #page-joindre h3 {
+    line-height: 3rem; }
+  #page-joindre #section-formulaire {
+    max-width: 1024px;
+    margin: auto;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-top: 2px #ababab solid;
+    border-bottom: 2px #ababab solid; }
+  #page-joindre #section-gauche {
+    float: left;
+    width: 40rem;
+    margin-left: 20rem; }
+  #page-joindre #section-droite {
+    float: right;
+    width: 45rem;
+    margin-right: 10rem; }
+  #page-joindre input[type="text"], #page-joindre select {
+    width: 40rem;
+    height: 4rem;
+    border: 1px #000000 solid;
+    border-radius: 3px;
+    margin-top: 1rem;
+    background-color: #FFFFFF;
+    font-size: 1.6rem;
+    padding-left: 0.5rem; }
+  #page-joindre textarea {
+    border: 1px #000000 solid;
+    border-radius: 3px;
+    width: 40rem;
+    height: 27.4rem;
+    margin-top: 1rem;
+    padding-left: 0.5rem; }
+  #page-joindre #box-adresse {
     text-align: center;
     margin-top: 5rem;
-    margin-bottom: 10rem; }
-    #joindre #box-adresse #lien-adresse {
+    margin-bottom: 10rem;
+    width: 102.4rem;
+    margin-left: auto;
+    margin-right: auto; }
+    #page-joindre #box-adresse #lien-adresse {
       background-color: #FFFFFF;
       border: 2px #951368 solid;
       border-top: none;
@@ -1225,653 +1845,456 @@ footer {
       padding-top: 1.5rem;
       padding-left: 2.5rem;
       padding-bottom: 1.5rem; }
-      #joindre #box-adresse #lien-adresse a {
+      #page-joindre #box-adresse #lien-adresse a {
         text-decoration: none; }
-  #joindre #bt-envoyer {
+  #page-joindre #bt-envoyer {
+    float: right;
+    margin-right: 5rem;
+    width: 20rem;
+    background-color: #FFFFFF;
+    border: 2px solid #552727;
+    color: #552727;
+    padding: 1rem;
+    box-shadow: none;
+    text-shadow: none; }
+  #page-joindre #section-joindre, #page-joindre #section-heures, #page-joindre #section-suivre {
+    width: 24.5%;
+    margin-left: 6rem; }
+  #page-joindre #section-heures {
+    line-height: 1rem; }
+  #page-joindre #section-formulaire {
+    clear: both; }
+  #page-joindre #section-gauche {
+    margin-left: 3%;
+    width: 33%; }
+  #page-joindre input[type="text"] {
+    width: 34rem; }
+  #page-joindre select {
+    width: 34rem; }
+  #page-joindre textarea {
+    width: 35rem; }
+  #page-joindre #section-droite {
+    margin-right: 0;
+    width: 36rem; }
+
+  /*****************************Page Promotions*****/
+  #page-promotions h2 {
+    width: 80%; }
+  #page-promotions .description-promotion {
+    width: 70%; }
+
+  /*************************Page entree*/
+  #page-entree h2 {
+    width: 90%; }
+  #page-entree .nom-item {
+    width: 53%;
+    margin-left: 9rem; }
+  #page-entree .description-prix-item {
+    width: 6%; }
+  #page-entree .description-item {
+    margin-left: 11rem;
+    width: 45%; }
+  #page-entree .prix-item {
+    margin-right: 70px; }
+
+  /**************************Page Dessert*/
+  #page-desserts .nom-item {
+    width: 51%;
+    margin-left: 18rem; }
+
+  /*******************Page Whiskey*/
+  #page-whiskey h2 {
+    width: 80%; }
+  #page-whiskey .nom-item {
+    width: 60%;
+    margin-left: 17rem; }
+
+  /************************Page Vin*/
+  #page-vins h2 {
+    width: 80%; }
+  #page-vins .nom-item {
+    margin-left: 14rem; }
+  #page-vins .description-prix-item {
+    width: 8%; }
+  #page-vins .description-item {
+    margin-left: 18rem; }
+
+  /***********************Page Bi├¿re*/
+  #page-bieres h2 {
+    width: 80%; }
+  #page-bieres .nom-item {
+    margin-left: 13rem; }
+  #page-bieres .description-prix-item {
+    width: 6%; }
+  #page-bieres #biere-bouteille .description-prix-item {
+    width: 10%; }
+
+  /********************Page Principaux*/
+  #page-principaux h2 {
+    width: 80%; }
+  #page-principaux .nom-item {
+    margin-left: 13rem; }
+  #page-principaux .description-prix-item {
+    width: 11%; }
+  #page-principaux .description-item {
+    margin-left: 17rem; }
+  #page-principaux .prix-item {
+    margin-right: 45px; } }
+@media screen and (max-width: 930px) {
+  #page-joindre #section-joindre, #page-joindre #section-heures, #page-joindre #section-suivre {
+    margin-left: 0; } }
+@media screen and (max-width: 916px) {
+  /******************Page accueil*/
+  #page-accueil #section-promo #img-gauche {
+    width: 48%;
+    margin-left: 0rem; }
+  #page-accueil #section-promo .symbole-graphique {
+    margin-bottom: -24px; }
+  #page-accueil #section-promo p {
+    font-size: 1.8rem;
+    margin-bottom: 3rem; }
+  #page-accueil #section-promo h3 {
+    margin-bottom: 0; }
+  #page-accueil #section-promo #contenu-droite {
+    margin-left: 0; }
+  #page-accueil #section-degustation {
+    margin-bottom: 3rem; }
+    #page-accueil #section-degustation .symbole-graphique {
+      margin-bottom: 1rem; }
+    #page-accueil #section-degustation p {
+      font-size: 1.6rem; }
+    #page-accueil #section-degustation #img-droite {
+      margin-bottom: 10rem; }
+
+  /*************************Page entree*/
+  #page-entree h2 {
+    width: 100%; }
+  #page-entree .nom-item {
+    width: 55%;
+    margin-left: 6rem; }
+  #page-entree .description-item {
+    margin-left: 8rem;
+    width: 50%; }
+  #page-entree .prix-item {
+    margin-right: 60px; } }
+@media screen and (max-width: 768px) {
+  /******************Page accueil*/
+  #page-accueil #section-promo #img-gauche {
+    width: 100%;
+    margin-left: 0rem;
+    margin-bottom: 3rem; }
+  #page-accueil #section-promo #contenu-droite {
+    width: 100%; }
+    #page-accueil #section-promo #contenu-droite p {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 5rem; }
+  #page-accueil #section-promo .symbole-graphique {
+    margin-bottom: -24px; }
+  #page-accueil #section-degustation {
+    margin-bottom: 3rem; }
+    #page-accueil #section-degustation #img-droite {
+      width: 100%; }
+    #page-accueil #section-degustation #contenu-gauche {
+      width: 100%;
+      margin-bottom: 5rem; }
+  #page-accueil .symbole-graphique {
+    margin-bottom: 1rem; }
+  #page-accueil #img-pompes {
+    margin-bottom: 3rem; }
+
+  /*****************Page Joindre*****/
+  #page-joindre #section-joindre, #page-joindre #section-heures, #page-joindre #section-suivre {
+    margin-left: 4rem;
+    width: 20%; }
+  #page-joindre #section-gauche {
+    float: none;
+    width: 95%;
+    margin-left: 2rem;
+    margin-bottom: 5rem; }
+  #page-joindre #section-droite {
+    float: none;
+    width: 95%;
+    margin-left: 2rem; }
+  #page-joindre input[type="text"], #page-joindre select {
+    width: 97%; }
+  #page-joindre textarea {
+    width: 97%; }
+  #page-joindre #box-adresse {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 10rem; }
+    #page-joindre #box-adresse #lien-adresse {
+      background-color: #FFFFFF;
+      border: 2px #951368 solid;
+      border-top: none;
+      margin: auto;
+      margin-top: -2.5rem;
+      width: 102.4rem;
+      text-align: left;
+      padding-top: 1.5rem;
+      padding-left: 2.5rem;
+      padding-bottom: 1.5rem; }
+      #page-joindre #box-adresse #lien-adresse a {
+        text-decoration: none; }
+  #page-joindre #bt-envoyer {
     float: none;
     width: 97%; }
-  #joindre .box-contact {
+  #page-joindre .box-contact {
     height: 126rem; }
-  #joindre .bt_contact {
-    top: 4rem !important; } }
-@media screen and (max-width: 450px) {
-  #stages .bt_contact {
-    margin-left: 0 !important; }
-  #stages #lien-infos-stages-inter {
-    margin-left: 0 !important; }
-  #stages .box-contact {
-    height: 108rem; }
-  #stages .triangle {
-    margin-left: 18.5rem; }
+  #page-joindre .bt_contact {
+    top: 4rem !important; }
 
-  #ate .triangle {
-    margin-left: 42%; }
-
-  #joindre .box-contact {
-    height: 89rem; } }
-@media screen and (max-width: 400px) {
-  #stages .box-contact {
-    height: 102rem; }
-  #stages .triangle {
-    margin-left: 16rem; }
-  #stages .dates-stages {
-    width: 61%; }
-  #stages .titre-semaine-stage {
-    width: 50%; }
-
-  #ate .triangle {
-    margin-left: 41%; }
-
-  #joindre .box-contact {
-    height: 84rem; }
-  #joindre .bt_contact {
-    font-size: 2rem; } }
-.profil, .formation {
-  width: 40%;
-  margin: 5%;
-  float: left;
-  padding: 50px;
-  text-align: center;
-  min-height: 550px;
-  position: relative; }
-  .profil p, .formation p {
-    line-height: 36px;
-    min-height: 250px; }
-  .profil h2, .formation h2 {
-    margin-bottom: 20px;
-    min-height: 100px; }
-
-.fullscreenForm {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: white;
-  transition: all ease 1s;
-  overflow: hidden;
-  background-color: #1d837b;
-  color: white;
-  z-index: 10;
-  background-image: url(../images/logoTim.svg);
-  background-position: 3% 4%;
-  background-repeat: no-repeat;
-  background-size: 8%;
-  /* Progression */
-  /* Dot navigation */ }
-  .fullscreenForm form {
-    z-index: 2;
-    height: 100%;
-    width: 75%;
-    margin: 0 auto; }
-  .fullscreenForm h3 {
-    margin-bottom: 35px;
-    border-bottom: 2px solid white;
-    padding-bottom: 55px; }
-  .fullscreenForm h2.nomQuiz {
-    margin-left: 12%;
-    margin-top: 2%;
-    font-size: 30px;
-    border-left: 2px solid #96cbc7;
-    padding: 13px;
-    color: #96cbc7; }
-  .fullscreenForm button {
-    position: absolute;
-    z-index: 100; }
-  .fullscreenForm.hidden {
-    overflow: hidden;
-    height: 0; }
-  .fullscreenForm fieldset {
-    border: none;
-    position: absolute;
-    top: -50%;
-    width: inherit;
-    padding-top: 13%;
-    padding-bottom: 10%;
-    transition: all ease 0.5s;
-    transition-delay: 0.6s;
-    opacity: 0; }
-    .fullscreenForm fieldset.current {
-      transition-timing-function: ease-out;
-      visibility: visible;
-      top: 0%;
-      opacity: 1; }
-    .fullscreenForm fieldset.movingOut {
-      transition-timing-function: ease-in;
-      top: 80%;
-      visibility: visible;
-      opacity: 0s; }
-    .fullscreenForm fieldset button {
-      bottom: 120px; }
-  .fullscreenForm .btnContinuer {
-    position: absolute;
-    bottom: 0px;
-    right: 30px;
-    animation: button-bubble-up 0.5s;
-    /* IE 10+, Fx 29+ */
-    transition: all ease-in-out; }
-  .fullscreenForm .btnFermerQuiz {
-    right: 10px;
-    background-color: transparent;
-    box-shadow: none;
-    color: black;
-    font-size: 50px;
-    top: 40px;
-    opacity: 0.7;
-    width: 130px;
-    line-height: 20px; }
-    .fullscreenForm .btnFermerQuiz span {
-      white-space: pre;
-      font-size: 12px; }
-  .fullscreenForm .progression {
-    display: block;
-    background-color: #951368;
-    height: 25px;
-    position: absolute;
-    bottom: 0;
-    transition: all ease 0.3s;
-    width: 0;
-    transition-delay: 0.6s; }
-  .fullscreenForm .progressionChiffre {
-    position: absolute;
-    top: 24%;
-    right: 27px;
-    left: auto;
-    overflow: hidden;
-    font-size: 3rem;
-    font-family: "ralewayThin";
-    padding-top: 25px;
-    width: 100px;
-    text-align: right; }
-    .fullscreenForm .progressionChiffre span {
-      display: block;
-      position: absolute;
-      right: -60px;
-      padding-right: 9px;
-      margin-right: 105px;
-      font-size: 4rem;
-      margin-top: -7px; }
-      .fullscreenForm .progressionChiffre span.fs-current-number {
-        bottom: 0; }
-  .fullscreenForm #timQuizFormation ~ .controls .progressionChiffre {
-    position: absolute;
-    top: 32%;
-    right: 38px;
-    left: auto; }
-    .fullscreenForm #timQuizFormation ~ .controls .progressionChiffre span {
-      right: -73px; }
-      .fullscreenForm #timQuizFormation ~ .controls .progressionChiffre span.fs-current-number {
-        bottom: -4px; }
-  .fullscreenForm .nav-dots {
-    position: absolute;
-    top: 50%;
-    right: 60px;
-    left: auto;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%); }
-  .fullscreenForm .nav-dots button {
-    position: relative;
-    display: block;
-    padding: 0;
-    margin: 16px 0;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background: transparent;
-    -webkit-transition: -webkit-transform 0.3s ease, opacity 0.3s ease;
-    transition: transform 0.3s ease, opacity 0.3s ease; }
-  .fullscreenForm .nav-dots button::before,
-  .fullscreenForm .nav-dots button::after {
-    position: absolute;
-    top: 0;
-    left: 0;
+  /*****************************Page Promotions*****/
+  #page-promotions h2 {
     width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
-    content: '';
-    text-indent: 0;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden; }
-  .fullscreenForm .nav-dots button::after {
-    background-color: rgba(0, 0, 0, 0.4);
-    -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 180deg);
-    transform: perspective(1000px) rotate3d(0, 1, 0, 180deg); }
-  .fullscreenForm .nav-dots button:disabled::before,
-  .fullscreenForm .nav-dots button:disabled::after {
-    opacity: 0.3; }
-  .fullscreenForm .nav-dots button:disabled,
-  .fullscreenForm .nav-dots button:disabled {
-    box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.1); }
-  .fullscreenForm .nav-dots button.dot-current {
-    -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 180deg);
-    transform: perspective(1000px) rotate3d(0, 1, 0, 180deg);
-    pointer-events: none; }
-  .fullscreenForm .nav-dots button:hover:enabled::before,
-  .fullscreenForm .nav-dots button.dot-current:enabled::before {
-    background: #b8c326;
-    transition: all ease 0.3s; }
-  .fullscreenForm #validerQuizProfil {
-    bottom: 30%;
-    right: calc(50% - 128px;);
-    animation: button-bubble-up 0.5s;
-    /* IE 10+, Fx 29+ */
-    transition: all ease-out 0.5s;
-    transition-delay: 0.6s; }
+    font-size: 4rem; }
+  #page-promotions .description-promotion {
+    width: 95%; }
 
-.resultat {
-  position: absolute;
-  z-index: 10;
-  width: 65%;
-  top: 30%;
-  left: 20%;
-  color: white;
-  animation: fadein 1s;
-  transition: all ease-out; }
-  .resultat p {
-    font-size: 2.6rem;
-    line-height: 5.6rem; }
-  .resultat.card {
-    background-color: #1a766f;
-    padding: 5rem; }
+  /**********************Page manger*/
+  #page-manger .bloc-menu {
+    width: 90%;
+    margin-left: 4rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0; }
 
-/*=================================
-=            Animation            =
-=================================*/
-@-webkit-keyframes radio-bubble-up {
-  0% {
-    transform: scale(0); }
-  60% {
-    transform: scale(1.5); }
-  100% {
-    transform: scale(1); } }
-@-moz-keyframes radio-bubble-up {
-  0% {
-    transform: scale(0); }
-  60% {
-    transform: scale(1.5); }
-  100% {
-    transform: scale(1); } }
-@-o-keyframes radio-bubble-up {
-  0% {
-    transform: scale(0); }
-  60% {
-    transform: scale(1.5); }
-  100% {
-    transform: scale(1); } }
-@keyframes radio-bubble-up {
-  0% {
-    transform: scale(0); }
-  60% {
-    transform: scale(1.5); }
-  100% {
-    transform: scale(1); } }
-@keyframes fadein {
-  0% {
-    opacity: 0; }
-  60% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-/*=====  End of Animation  ======*/
-/*====================================
-=            Radio button Quiz           =
-====================================*/
-.radio {
-  display: inline-block;
-  padding-right: 20px;
-  font-size: 24px;
-  line-height: 49px;
-  cursor: pointer;
-  text-transform: capitalize;
-  width: 24%; }
+  /**********************Page boire*/
+  #page-boire .bloc-menu {
+    width: 90%;
+    margin-left: 4rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0; }
 
-.radio:hover .inner {
-  -webkit-transform: scale(0.5);
-  -ms-transform: scale(0.5);
-  transform: scale(0.5);
-  opacity: .5; }
+  /*************************Page entree*/
+  #page-entree .nom-item {
+    margin-left: 3rem; }
+  #page-entree .description-item {
+    margin-left: 5rem;
+    width: 80%; }
+  #page-entree .description-prix-item {
+    margin-right: 2rem; }
+  #page-entree .prix-item {
+    margin-right: 50px; }
 
-.radio input {
-  width: 1px;
-  height: 1px;
-  opacity: 0; }
+  /**************************Page Dessert*/
+  #page-desserts .nom-item {
+    width: 69%;
+    margin-left: 6rem; }
 
-.radio input:checked + .outer .inner {
-  animation: radio-bubble-up 0.7s;
-  /* IE 10+, Fx 29+ */
-  opacity: 1; }
-
-.radio input:checked + .outer .inner {
-  transform: scale(1); }
-
-.radio input:checked + .outer {
-  border: 3px solid #951368; }
-
-.radio input:focus + .outer .inner {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  opacity: 1;
-  background-color: #951368; }
-
-.radio .outer {
-  width: 36px;
-  height: 36px;
-  display: block;
-  float: left;
-  margin: 6px 9px 10px 10px;
-  border: 3px solid #951368;
-  border-radius: 50%; }
-
-.radio .inner {
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-  width: 20px;
-  height: 20px;
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  display: block;
-  border-radius: 50%;
-  background-color: #951368;
-  opacity: 0;
-  margin-left: 5px;
-  margin-top: 5px; }
-
-/*=====  End of Radio button Quiz  ======*/
-/* Animations for numbers */
-/* Show next number */
-.fs-new-number {
-  -webkit-animation: animMoveUpFromDown 0.4s both;
-  animation: animMoveUpFromDown 0.4s both; }
-
-@-webkit-keyframes animMoveUpFromDown {
-  to {
-    -webkit-transform: translateY(-100%); } }
-@keyframes animMoveUpFromDown {
-  to {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%); } }
-.fs-animUp {
-  -webkit-animation: animMoveUp 0.4s both;
-  animation: animMoveUp 0.4s both; }
-
-@-webkit-keyframes animMoveUp {
-  to {
-    -webkit-transform: translateY(-150%); } }
-@keyframes animMoveUp {
-  to {
-    -webkit-transform: translateY(-150%);
-    transform: translateY(-150%); } }
-/* Show previous number */
-.fs-numbers.fs-show-prev .fs-number-new {
-  -webkit-animation: animMoveDownFromUp 0.4s both;
-  animation: animMoveDownFromUp 0.4s both; }
-
-@-webkit-keyframes animMoveDownFromUp {
-  from {
-    -webkit-transform: translateY(-100%); }
-  to {
-    -webkit-transform: translateY(0); } }
-@keyframes animMoveDownFromUp {
-  from {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%); }
-  to {
-    -webkit-transform: translateY(0);
-    transform: translateY(0); } }
-.fs-numbers.fs-show-prev .fs-number-current {
-  -webkit-animation: animMoveDown 0.4s both;
-  animation: animMoveDown 0.4s both; }
-
-@-webkit-keyframes animMoveDown {
-  to {
-    -webkit-transform: translateY(100%); } }
-@keyframes animMoveDown {
-  to {
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%); } }
-#blocAccueil {
-  max-width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  background-clip: border-box;
-  padding: 2em;
-  padding-left: 3em;
-  width: 90%;
-  box-shadow: 1px 4px 50px grey;
-  margin-bottom: 8em; }
-  #blocAccueil:after {
-    content: " ";
-    display: block;
-    clear: both; }
-
-section {
-  clear: both; }
-
-.event {
-  background-color: #FFFFFF; }
-
-.rsociaux {
-  background-color: #b8c326;
-  margin-top: 10em; }
-  .rsociaux p {
-    word-wrap: break-word;
-    color: white; }
-  .rsociaux img {
-    width: 8.47458%;
-    float: left;
-    margin-right: 2.54237%; }
-  .rsociaux .facebook {
-    margin-right: 8.47458%; }
-  .rsociaux article {
-    box-sizing: content-box;
-    width: 32.20339%;
-    float: left; }
-  .rsociaux .date {
-    font-size: 1.7rem;
-    color: #343803;
-    font-family: ralewaySemiBold; }
-  .rsociaux .article {
-    font-size: 2.1rem; }
-
-#galerie {
-  overflow: hidden; }
-  #galerie ul {
-    list-style: none;
-    padding-left: 0; }
-  #galerie li {
-    padding: 0;
-    position: relative; }
-  #galerie li:hover #description {
-    visibility: initial;
-    height: 100%; }
-  #galerie li:hover button {
-    animation: button-bubble-up 0.4s;
-    /* IE 10+, Fx 29+ */
-    animation-delay: 0.2s;
-    animation-fill-mode: forwards; }
-  #galerie #description {
-    visibility: hidden;
-    overflow: hidden;
-    height: 0;
-    transition: all 0.4s ease;
-    position: absolute;
-    background-color: rgba(149, 19, 104, 0.8);
-    right: 0;
-    left: 0;
-    bottom: 0; }
-    #galerie #description h3 {
-      color: #951368;
-      background-color: white;
-      padding: 1em;
-      margin-top: 1em;
-      text-transform: uppercase; }
-    #galerie #description button {
-      position: absolute;
-      right: 25px;
-      bottom: 10px;
-      background-color: #951368;
-      box-shadow: none;
-      border: 2px solid #FFFFFF;
-      border-radius: 20px;
-      width: 250px;
-      transform: scale(0); }
-  #galerie img {
-    width: 100%; }
-  #galerie a {
-    width: 100%; }
-  #galerie li {
-    float: left;
-    padding: 0; }
-    @media (min-width: 768px) {
-      #galerie li {
-        width: 50%; } }
-    @media (min-width: 1400px) {
-      #galerie li {
-        width: 33%;
-        width: -moz-calc(100% / 3);
-        width: -webkit-calc(100% / 3);
-        width: calc(100% / 3); } }
-    @media (min-width: 1900px) {
-      #galerie li {
-        width: 25%; } }
-
-.event {
-  margin-top: 5em; }
-  .event h2 {
-    font-size: 4.5rem;
-    line-height: 40px;
-    text-transform: uppercase;
-    color: white; }
-  .event .titre {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    padding: 3em 2em 3em 3em;
-    line-height: 10px;
-    width: 32.20339%;
-    background-color: #b8c326;
-    margin-right: 8.47458%; }
-    @media (max-width: 1400px) {
-      .event .titre {
-        padding: 1.6em 2em 3em 3em; } }
-    .event .titre p {
-      color: #343803;
-      font-size: 2.9rem;
-      position: absolute;
-      z-index: 1; }
-    .event .titre h2 {
-      position: absolute;
-      z-index: 1;
-      margin-top: 70px; }
-  .event .titre:after {
-    background: inherit;
-    bottom: 0;
-    content: '';
-    display: block;
+  /*******************Page Whiskey*/
+  #page-whiskey h2 {
+    width: 90%; }
+  #page-whiskey .nom-item {
     width: 70%;
-    top: 0;
-    position: absolute;
-    right: -53px;
-    transform: skewX(-20deg);
-    transform-origin: 100%;
-    z-index: 0; }
-  .event .texte {
-    width: 55%;
-    float: left;
-    margin-top: 1em;
-    margin-left: 40.67797%; }
-    .event .texte p {
-      font-size: 2.5rem; }
-      @media (max-width: 1400px) {
-        .event .texte p {
-          font-size: 2rem; } }
-  .event .lien {
-    float: right; }
+    margin-left: 8rem; }
 
-.description {
-  margin-top: -8rem; }
+  /************************Page Vin*/
+  #page-vins h2 {
+    width: 90%; }
+  #page-vins .nom-item {
+    margin-left: 7rem; }
+  #page-vins .description-prix-item {
+    width: 12%; }
+  #page-vins .description-item {
+    margin-left: 10rem; }
+  #page-vins .prix-item {
+    margin-right: 27px; }
 
-.temoignages {
-  max-width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  margin-top: 6em; }
-  .temoignages:after {
-    content: " ";
-    display: block;
-    clear: both; }
-  .temoignages .card {
-    padding: 0; }
-  .temoignages h1 {
-    margin-bottom: 2em; }
-  .temoignages article {
-    width: 45%;
-    background-color: #FFFFFF;
-    margin-bottom: 6em;
-    min-height: 1000px;
-    position: relative; }
-    .temoignages article ul {
-      list-style: none;
-      padding: 0; }
-    .temoignages article img {
-      width: 100%; }
-    .temoignages article p {
-      font-size: 1.7rem;
-      padding-left: 2rem;
-      padding-right: 2rem; }
-    .temoignages article h2 {
-      font-size: 4.0rem;
-      padding-left: 1rem;
-      padding-top: 1rem; }
-    .temoignages article h3 {
-      font-family: ralewayBold;
-      font-size: 2.6rem;
-      padding-left: 2rem; }
-    .temoignages article button {
-      width: 80px;
-      height: 80px;
-      background-color: #1d837b;
-      z-index: 1; }
-    .temoignages article button.precedent {
-      position: absolute;
-      bottom: 0;
-      left: 0; }
-    .temoignages article button.suivant {
-      position: absolute;
-      bottom: 0;
-      right: 0; }
-    .temoignages article #rectangle {
-      background-color: #1a6d65;
-      position: absolute;
-      bottom: 0;
-      height: 40px;
-      left: 0;
-      right: 0; }
-    .temoignages article .graduation {
-      font-family: ralewaySemiBold;
-      font-size: 1.5rem;
-      position: absolute;
-      bottom: 100px;
-      right: 0; }
-  .temoignages article:nth-child(1), .temoignages article:nth-child(3) {
-    clear: both;
-    float: left; }
-  .temoignages article:nth-child(2), .temoignages article:nth-child(4) {
-    float: right; }
+  #page-bieres h2 {
+    width: 90%; }
+  #page-bieres .nom-item {
+    margin-left: 6rem; }
+  #page-bieres .prix-item {
+    margin-right: 45px; }
+  #page-bieres #biere-bouteille .description-prix-item {
+    width: 14%; }
 
-#diplome ul li {
-  display: inline-block;
-  list-style-type: none;
-  padding: 5%; }
-#diplome #nom_diplome {
-  border: 2px solid;
-  text-align: center;
-  text-decoration: none; }
+  /********************Page Principaux*/
+  #page-principaux h2 {
+    width: 90%; }
+  #page-principaux .nom-item {
+    margin-left: 6rem;
+    width: 35%; }
+  #page-principaux .description-prix-item {
+    width: 15%; }
+  #page-principaux .description-item {
+    margin-left: 9rem;
+    width: 60%; }
+  #page-principaux .prix-item {
+    margin-right: 28px; } }
+@media screen and (max-width: 700px) {
+  #page-joindre #section-joindre, #page-joindre #section-heures, #page-joindre #section-suivre {
+    margin-left: 4rem;
+    width: 20%; } }
+@media screen and (max-width: 640px) {
+  #page-joindre #section-joindre, #page-joindre #section-heures, #page-joindre #section-suivre {
+    margin-left: 0;
+    width: 60%; }
+
+  /*************************Page entree*/
+  #page-entree .nom-item {
+    width: 45%; }
+  #page-entree .description-item {
+    margin-left: 5rem;
+    width: 80%; }
+  #page-entree .description-prix-item {
+    margin-right: 2.5rem; }
+  #page-entree .prix-item {
+    margin-right: 40px; }
+
+  /**************************Page Dessert*/
+  #page-desserts .nom-item {
+    width: 60%; }
+
+  /*******************Page Whiskey*/
+  #page-whiskey h2 {
+    width: 100%; }
+  #page-whiskey .nom-item {
+    width: 78%;
+    margin-left: 4rem; }
+
+  /************************Page Vin*/
+  #page-vins h2 {
+    width: 100%; }
+  #page-vins .nom-item {
+    margin-left: 3rem; }
+  #page-vins .description-prix-item {
+    width: 14%; }
+  #page-vins .description-item {
+    margin-left: 5rem; }
+
+  #page-bieres h2 {
+    width: 100%; }
+  #page-bieres .nom-item {
+    margin-left: 3rem;
+    width: 30%; }
+  #page-bieres .prix-item {
+    margin-right: 40px; }
+  #page-bieres .description-prix-item {
+    width: 8%; }
+
+  /********************Page Principaux*/
+  #page-principaux h2 {
+    width: 100%; }
+  #page-principaux .nom-item {
+    margin-left: 3rem;
+    width: 30%; }
+  #page-principaux .description-prix-item {
+    width: 16%; }
+  #page-principaux .description-item {
+    margin-left: 6rem;
+    width: 70%; } }
+@media screen and (max-width: 450px) {
+  #page-joindre .box-contact {
+    height: 89rem; }
+
+  /**********************Page manger*/
+  #page-manger .bloc-menu {
+    width: 100%;
+    margin-left: 0em; }
+
+  /**********************Page boire*/
+  #page-boire .bloc-menu {
+    width: 100%;
+    margin-left: 0em; }
+
+  /*************************Page entree*/
+  #page-entree .nom-item {
+    width: 100%; }
+  #page-entree .description-item {
+    margin-left: 3rem;
+    width: 95%;
+    margin-bottom: 10px; }
+  #page-entree .description-prix-item {
+    margin-right: 2rem;
+    margin-left: 3rem; }
+  #page-entree .prix-item {
+    margin-left: 3rem;
+    margin-right: 0; }
+
+  /**************************Page Dessert*/
+  #page-desserts .nom-item {
+    width: 56%;
+    margin-left: 2rem; }
+
+  /*******************Page Whiskey*/
+  #page-whiskey .nom-item {
+    width: 70%;
+    margin-left: 3rem; }
+
+  /************************Page Vin*/
+  #page-vins .nom-item {
+    width: 100%;
+    margin-left: 2rem; }
+  #page-vins .description-prix-item {
+    margin-right: 2rem;
+    margin-left: 3rem; }
+  #page-vins .description-item {
+    margin-left: 4rem; }
+
+  #page-bieres .nom-item {
+    margin-left: 2rem;
+    width: 100%; }
+  #page-bieres .prix-item {
+    margin-right: 30px; }
+  #page-bieres .description-prix-item {
+    width: 12%;
+    margin-left: 2rem; }
+  #page-bieres #biere-bouteille .description-prix-item {
+    width: 24%; }
+
+  /********************Page Principaux*/
+  #page-principaux .nom-item {
+    margin-left: 2rem;
+    width: 100%; }
+  #page-principaux .description-prix-item {
+    width: 25%;
+    margin-left: 2rem; }
+  #page-principaux .description-item {
+    margin-left: 2rem;
+    width: 95%; }
+  #page-principaux .prix-item {
+    margin-left: 2rem; } }
+@media screen and (max-width: 400px) {
+  #page-joindre .box-contact {
+    height: 84rem; }
+  #page-joindre .bt_contact {
+    font-size: 2rem; } }
+@media screen and (max-width: 350px) {
+  /******************Page accueil*/
+  #page-accueil #section-promo #contenu-droite p {
+    width: 95%; }
+
+  /*****************************Page Promotions*****/
+  #page-promotions h1 {
+    padding-left: 1rem;
+    font-size: 4rem; }
+  #page-promotions h2 {
+    font-size: 3rem; }
+
+  /**************************Page Dessert*/
+  #page-desserts .nom-item {
+    width: 62%; }
+  #page-desserts .prix-item {
+    margin-right: 0; }
+
+  /*******************Page Whiskey*/
+  #page-whiskey .nom-item {
+    margin-left: 2rem; }
+
+  /************************Page Vin*/
+  #page-vins .description-prix-item {
+    width: 19%;
+    margin-left: 2rem; }
+  #page-vins .prix-item {
+    margin-right: 19px; } }
+@media screen and (max-width: 305px) {
+  /******************Page accueil*/
+  #page-accueil a.btn-accueil {
+    padding-left: 1rem;
+    padding-right: 1rem; } }
 
 /*# sourceMappingURL=main.css.map */

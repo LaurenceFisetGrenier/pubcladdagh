@@ -15,10 +15,34 @@ include($strNiveau."inc/scripts/config.inc.php");
 $actif = "manger-principaux";
 $erreur = "";
 
+//function pour retourner les prix
+function getPrix($idMenu) {
+
+    $arrPrix = array();
+
+    $strSQLPrix = "SELECT prix, description
+                    FROM t_prix 
+                    INNER JOIN t_repas ON t_prix.id_menu=t_repas.id_menu    
+                        WHERE t_repas.id_menu = " . $idMenu;
+
+    $objResultPrix = $GLOBALS["objConnMySQLi"]->query($strSQLPrix);
+
+    while ($objLignePrix = $objResultPrix->fetch_object()) {
+        $arrPrix[] = 
+            array(
+                "description"=> $objLignePrix->description,
+                "prix"=> $objLignePrix->prix,
+
+            );
+    }
+    $objResultPrix->free_result();
+    return $arrPrix;
+}
+
 //Pour affichage des plats principaux
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLPrincipaux = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+    $strSQLPrincipaux = "  SELECT DISTINCT nom_plat, description_plat,prix,description,t_repas.id_menu 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu    
                         WHERE etat_plat = 'actif' AND id_type=0";
 
@@ -27,12 +51,12 @@ try{
     if ($objResultPrincipaux = $objConnMySQLi->query($strSQLPrincipaux)) {
         while ($objLignePrincipaux = $objResultPrincipaux->fetch_object()) {
             //Assigner des données comme attributs du template
-            $arrPrincipaux[]=
+            $arrPrincipaux[$objLignePrincipaux->id_menu]=
                 array(
                     "nom_plat" => $objLignePrincipaux->nom_plat,
                     "description_plat" => $objLignePrincipaux->description_plat,
-                    "description" => $objLignePrincipaux->description,
-                    "prix" => $objLignePrincipaux->prix
+                    "id_principaux" => $objLignePrincipaux->id_menu,
+                    "prix" => getPrix($objLignePrincipaux->id_menu)
                 );
         }
         $objResultPrincipaux->free_result();
@@ -47,7 +71,7 @@ try{
 //Pour affichage des salades
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLSalades = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+    $strSQLSalades = "  SELECT DISTINCT nom_plat, description_plat,prix,description,t_repas.id_menu 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu    
                         WHERE etat_plat = 'actif' AND id_type=8";
 
@@ -56,12 +80,12 @@ try{
     if ($objResultSalades = $objConnMySQLi->query($strSQLSalades)) {
         while ($objLigneSalades = $objResultSalades->fetch_object()) {
             //Assigner des données comme attributs du template
-            $arrSalades[]=
+            $arrSalades[$objLigneSalades->id_menu]=
                 array(
                     "nom_plat" => $objLigneSalades->nom_plat,
                     "description_plat" => $objLigneSalades->description_plat,
-                    "description" => $objLigneSalades->description,
-                    "prix" => $objLigneSalades->prix
+                    "id_salade" => $objLigneSalades->id_menu,
+                    "prix" => getPrix($objLigneSalades->id_menu)
                 );
         }
         $objResultSalades->free_result();

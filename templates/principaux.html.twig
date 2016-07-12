@@ -10,6 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="{{ niveau }}images/favicon.png" />
         <link rel="stylesheet" href="{{ niveau }}css/main.css">
 
         {#<script src="{{ niveau }}js/vendor/modernizr.js"></script>#}
@@ -34,28 +35,62 @@
         {% else %}
 
         <main id="page-principaux">
+
+            
             <h1>Nos plats principaux</h1>
             <a href="index.php" id="lien-retour">Retour aux choix de menus</a>
-           {% for principal in principaux %}
-                <p class="nom-item">{{ principal.nom_plat }}</p>
-                <p class="description-item">{{ principal.description_plat }}</p>
-                <p class="description-prix-item">{{ principal.description }}</p>
-                <p class="prix-item">{{ principal.prix }}</p>
-            {% endfor %}
+
+            <ul class="nav-menus">
+                <li>
+                    <a href="entrees.php">Entrées</a>
+                    <a href="#" class="menu-actif">Repas principaux</a>
+                    <a href="desserts.php">Desserts</a>
+                </li>
+            </ul>
+
+            <ul>
+               {% for principal in principaux %}
+                    <li class="nom-item">{{ principal.nom_plat }}</li>
+                    <li>
+                        <ul class="les-prix">
+                            {% for prix in principal.prix %}
+                                <li>
+                                    <span class="description-prix-item">{{ prix.description }}</span>
+                                    <span class="prix-item">{{ prix.prix }} $</span>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    <li class="description-item">{{ principal.description_plat }}</li>
+                {% endfor %}
+            </ul>
+
+            <ul>
             <h2>Salades</h2>
-            {% for salade in salades %}
-                <p class="nom-item">{{ salade.nom_plat }}</p>
-                <p class="description-item">{{ salade.description_plat }}</p>
-                <p class="description-prix-item">{{ salade.description }}</p>
-                <p class="prix-item">{{ salade.prix }}</p>
-            {% endfor %}
+                {% for salade in salades %}
+                    <li class="nom-item">{{ salade.nom_plat }}</li>
+                    <li>
+                        <ul class="les-prix">
+                            {% for prix in salade.prix %}
+                                <li>
+                                    <span class="description-prix-item">{{ prix.description }}</span>
+                                    <span class="prix-item">{{ prix.prix }} $</span>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    <li class="description-item">{{ salade.description_plat }}</li>
+                {% endfor %}
+            </ul>
+
+
             <h2>Paninis</h2>
             <p class="description-ajouts-possible">*Tous les paninis sont servis avec des frites et/ou salade et sont disponibles en version wrap</p>
             {% for panini in paninis %}
                 <p class="nom-item">{{ panini.nom_plat }}</p>
-                <p class="description-item">{{ panini.description_plat }}</p>
                 <p class="description-prix-item">{{ panini.description }}</p>
-                <p class="prix-item">{{ panini.prix }}</p>
+                <p class="prix-item">{{ panini.prix }} $</p>
+                <p class="description-item">{{ panini.description_plat }}</p>
             {% endfor %}
         </main>
 

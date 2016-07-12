@@ -10,6 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="{{ niveau }}images/favicon.png" />
         <link rel="stylesheet" href="{{ niveau }}css/main.css">
         
         <script src="{{ niveau }}js/vendor/modernizr.js"></script>
@@ -29,34 +30,88 @@
 
                 <h1 class="design">Nos Vins</h1>
                 <a href="index.php" id="lien-retour">Retour aux choix de menus</a>
-                 <h2>Vins rouges</h2>
-                {% for rouge in rouges %}
-                    <p class="nom-item">{{ rouge.nom_plat }}</p>
-                    <p class="description-item">{{ rouge.description_plat }}</p>
-                    <p class="description-prix-item">{{ rouge.description }}</p>
-                    <p class="prix-item">{{ rouge.prix }}</p>
-                {% endfor %}
+
+                <ul class="nav-menus">
+                    <li>
+                        <a href="bieres.php">Bières</a>
+                        <a href="#" class="menu-actif">Vins</a>
+                        <a href="whiskey.php">Whiskey</a>
+                    </li>
+                </ul>
+
+
+                <ul>
+                     <h2>Vins rouges</h2>
+                        {% for rouge in rouges %}
+                            <li class="nom-item">{{ rouge.nom_plat }}</li>
+                            
+                            <li>
+                                <ul class="les-prix">
+                                    {% for prix in rouge.prix %}
+                                        <li>
+                                            <span class="description-prix-item">{{ prix.description }}</span>
+                                            <span class="prix-item">{{ prix.prix }} $</span>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                            <li class="description-item">{{ rouge.description_plat }}</li>                            
+                        {% endfor %}
+                </ul>
+
+                <ul>
                 <h2>Vins blancs</h2>
-                {% for blanc in blancs %}
-                    <p class="nom-item">{{ blanc.nom_plat }}</p>
-                    <p class="description-item">{{ blanc.description_plat }}</p>
-                    <p class="description-prix-item">{{ blanc.description }}</p>
-                    <p class="prix-item">{{ blanc.prix }}</p>
-                {% endfor %}
+                    {% for blanc in blancs %}
+                        <li class="nom-item">{{ blanc.nom_plat }}</li>
+                        <li>
+                            <ul class="les-prix">
+                                {% for prix in blanc.prix %}
+                                    <li>
+                                        <span class="description-prix-item">{{ prix.description }}</span>
+                                        <span class="prix-item">{{ prix.prix }} $</span>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        <li class="description-item">{{ blanc.description_plat }}</li>
+                    {% endfor %}
+                </ul>
+
+                <ul>
                 <h2>Vins rosés</h2>
-                {% for rose in roses %}
-                    <p class="nom-item">{{ rose.nom_plat }}</p>
-                    <p class="description-item">{{ rose.description_plat }}</p>
-                    <p class="description-prix-item">{{ rose.description }}</p>
-                    <p class="prix-item">{{ rose.prix }}</p>
-                {% endfor %}
+                    {% for rose in roses %}
+                        <li class="nom-item">{{ rose.nom_plat }}</li>
+                        <li>
+                            <ul class="les-prix">
+                                {% for prix in rose.prix %}
+                                    <li>
+                                        <span class="description-prix-item">{{ prix.description }}</span>
+                                        <span class="prix-item">{{ prix.prix }} $</span>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        <li class="description-item">{{ rose.description_plat }}</li>
+                    {% endfor %}
+                </ul>
+
+                <ul>
                 <h2>Vins maisons</h2>
-                {% for maison in maisons %}
-                    <p class="nom-item">{{ maison.nom_plat }}</p>
-                    <p class="description-item">{{ maison.description_plat }}</p>
-                    <p class="description-prix-item">{{ maison.description }}</p>
-                    <p class="prix-item">{{ maison.prix }}</p>
-                {% endfor %}
+                    {% for maison in maisons %}
+                        <li class="nom-item">{{ maison.nom_plat }}</li>
+                        <li>
+                            <ul class"les-prix">
+                                {% for prix in maison.prix %}
+                                    <li>
+                                        <span class="description-prix-item">{{ prix.description }}</span>
+                                        <span class="prix-item">{{ prix.prix }} $</span>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        <li class="description-item">{{ maison.description_plat }}</li>
+                    {% endfor %}
+                </ul>
 
         </main> <!-- #main-container -->
 

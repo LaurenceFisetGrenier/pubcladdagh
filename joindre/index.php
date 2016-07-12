@@ -15,8 +15,6 @@ include($strNiveau."inc/scripts/config.inc.php");
 
 //Initialisation variables
 $actif = "joindre";
-$erreur = "";
-$erreurFormulaire = "";
 $strNom="";
 $strErreurNom="";
 $strCourriel="";
@@ -31,12 +29,19 @@ $idContactRecu="";
 $destinataire="";
 $courrielDestinataire="";
 
+$erreurFormulaire = "";
+//$erreur = "";
+
 //Validation de formulaire
 $strDonnesJSON = file_get_contents("../json/messages.json");
 $arrMsgErreurs = json_decode($strDonnesJSON,true);
 
 $erreurGenerale="Il y a une ou plusieurs erreurs dans le formulaire, veuillez les corriger.";
-if(isset($_POST["bt-envoyer"])){
+if(isset($_POST["envoyer"])){
+    $strErreurCourriel="";
+    $strErreurNom="";
+    $strErreurSujet="";
+    $strErreurMessage="";
 
     //Validation Nom Complet
     $strNom = $_POST["nom"];
@@ -47,10 +52,6 @@ if(isset($_POST["bt-envoyer"])){
         if (preg_match('/^[a-zA-Z -]{2,}$/', $strNom)==0){
                 $erreurFormulaire=true;
                 $strErreurNom=$arrMsgErreurs["nomUsager"]["errors"]["pattern"];
-            }
-            else{
-                $strErreurNom="";
-                $erreurFormulaire=false;
             }
     }
 
@@ -63,25 +64,18 @@ if(isset($_POST["bt-envoyer"])){
         if (preg_match("/^[a-zA-Z][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[@][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-z]{2,4}$/", $strCourriel)==0){
             $erreurFormulaire=true;
             $strErreurCourriel=$arrMsgErreurs["courriel"]["errors"]["pattern"];
-        }else{
-            $strErreurCourriel="";
-            $erreurFormulaire=true; 
         }
     }
 
-    //Validation Nom Complet
+    //Validation Sujet
     $strSujet = $_POST["sujet"];
     if($strSujet == ""){
         $erreurFormulaire=true;
         $strErreurSujet=$arrMsgErreurs["sujet"]["errors"]["empty"];
     }else{
-        if (preg_match('/^[a-zA-Z0-9 -]{4,}$/', $strNom)==0){
+        if (strlen($strSujet)<4){
                 $erreurFormulaire=true;
                 $strErreurSujet= $arrMsgErreurs["sujet"]["errors"]["pattern"];
-            }
-            else{
-                $strErreurSujet="";
-                $erreurFormulaire=false;
             }
     }
 
@@ -91,22 +85,28 @@ if(isset($_POST["bt-envoyer"])){
         $erreurFormulaire=true;
         $strErreurMessage=$arrMsgErreurs["message"]["errors"]["empty"];
     }else{
-        if (preg_match('/^[a-zA-Z0-9 -]{10,}$/', $strMessage)==0){
+        if (strlen($strMessage)<10){
                 $erreurFormulaire=true;
                 $strErreurMessage= $arrMsgErreurs["message"]["errors"]["pattern"];
-            }
-            else{
-                $strErreurMessage="";
-                $erreurFormulaire=false;
             }
     }
 
 
     if($erreurFormulaire==false){
 
-        $strMessageSucces="Votre message a été envoyé avec succès! Vous recevrez une réponse dans les 24h.";
+       $strMessageSucces="Votre message a été envoyé avec succès! Vous recevrez une réponse dans les 24h.";
+       $courrielDestinataire="laurence.fg@live.fr";
 
-        header('Location:index.php');
+        //ENVOIS DU COURRIEL
+        $receveur = $courrielDestinataire;
+        $sujet = "CSF TIM : ".stripslashes($_POST['sujet']);
+        $headers= "From: <".$strCourriel.">\n";
+        $headers .= "Reply-To: ".$strCourriel."\n";
+        $headers .= "Content-Type: text/plain; charset=\"iso-8859-1\"";
+
+        if(!mail($receveur, $sujet, $strMessage, $headers)){
+            $erreur = "Il y a eu une erreur, veuillez réessayer plus tard.";
+        }
     }
 }
 
@@ -125,7 +125,7 @@ $template = $twig->loadTemplate('joindre.html.twig');
 echo $template->render(array(
     "niveau" => $strNiveau,
     "actif" => $actif,
-    "erreur" => $erreur,
+    //"erreur" => $erreur,
     "erreurFormulaire" => $erreurFormulaire,
     "nom" => $strNom,
     "erreurNom" => $strErreurNom,
@@ -136,10 +136,6 @@ echo $template->render(array(
     "message" => $strMessage,
     "erreurMessage" => $strErreurMessage,
     "erreurGenerale" => $erreurGenerale,
-    "intDestinataire" => $intDestinataire,
-    "strMessageSucces" => $strMessageSucces,
-    "idContactRecu" => $idContactRecu,
-    "destinataire" => $destinataire,
     "courrielDestinataire" => $courrielDestinataire
     ));
 

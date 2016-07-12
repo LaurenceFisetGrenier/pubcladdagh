@@ -1,4 +1,4 @@
-@import "../bower_components/susy/sass/susy";
+
 @import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
 @import "components/_snippets";
 @import "components/_normalize";
@@ -11,8 +11,5 @@
 @import "layouts/_header";
 @import "layouts/_footer";
 @import "layouts/_pages";
-@import "layouts/quiz";
-@import "layouts/_accueil";
-@import "layouts/_temoignages";
-@import "layouts/_diplomes";
+
 

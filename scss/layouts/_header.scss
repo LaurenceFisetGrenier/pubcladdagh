@@ -1,3 +1,5 @@
+
+
 #header-accueil{
 	height:65rem;
 	background-image: url("../images/la-place.jpg");
@@ -5,20 +7,26 @@
 	background-size: 100%;
 	background-position: bottom;
 	margin-bottom: 5rem;
+	font-family: "roboto";
 
 	nav{
 		position:relative;
-		top:59rem;
+		top:57rem;
 		text-align: center;
 
-		ul li a{
-			font-size:2rem;
+		ul li {
+			width:182px !important;
+				a{
+				font-size:2rem;
+				color:$blanc;
 
-			&:hover{
-				border-bottom:3px solid $blanc;
-				padding-bottom: 0.5rem;
+				&:hover{
+					border-bottom:3px solid $blanc;
+					padding-bottom: 0.5rem;
+				}
 			}
 		}
+		
 	}
 
 	#num-telephone{
@@ -27,13 +35,30 @@
 	    right: 5rem;
 	    color: $blanc;
 	}
+
+	#menu li ul li /* Éléments de sous-listes */
+	{
+		a{
+			color:$bourgogne;
+			&:hover{
+				color:$noir;
+			}
+		}
+		
+
+	}
 }
 
 header{
-  	background-color:#292929;
+  	background-color:$beige;
+  	font-family: "roboto";
+
+  	nav{
+  		margin:auto;
+  		text-align: center;
+  	}
 
   	nav ul{
-	  @include container;
 	  padding-left:2em;
 	  padding-right:2em;
 	}
@@ -45,14 +70,11 @@ header{
 	  li{
 
 		display: inline-block;
-		margin-right:1em;
-		padding-left:0.5em;
-		padding-right:0.5em;
 		padding-top:15px;
-		height:49px;
+		width:155px;
 
 		a{
-		  color:$blanc;
+		  color:$bourgogne;
 		  text-decoration: none;
 
 		  padding-top:20px;
@@ -61,6 +83,10 @@ header{
 		  font-family: ralewayMedium;
 		  font-size: 1.6rem;
 		  text-transform: uppercase;
+
+		  &:hover{
+		  	color:#9E9E9E;
+		  }
 		}
 		list-style: none;
 	  }
@@ -70,3 +96,287 @@ header{
 	}
 
 }
+
+#menu, #menu ul /* Liste */     
+{
+        padding : 0; /* pas de marge intérieure */
+        margin : 0; /* ni extérieure */
+        line-height : 21px; /* on définit une hauteur pour chaque élément */
+        text-align : center; /* on centre le texte qui se trouve dans la liste */
+}
+
+#menu li /* Elements des listes */      
+{ 
+        /* pour IE qui ne reconnaît pas "transparent" */
+        border-right : 1px solid #fff; /* on met une bordure blanche à droite de chaque élément */
+}
+
+/* IE ne reconnaissant pas le sélecteur ">" */
+html>body #menu li
+{
+        border-right: 1px solid transparent ; /* on met une bordure transparente à droite de chaque élément */
+}
+
+#menu li ul /* Sous-listes */
+{ 
+        position: absolute; /* Position absolue */
+        width: 144px; /* Largeur des sous-listes */
+        left: -999em; /* Hop, on envoie loin du champ de vision */
+        background-color:$beige;
+        top:77px;
+}
+
+
+#menu li ul li /* Éléments de sous-listes */
+{
+	a{
+		
+		@include breakpoint(max-width 1024px) {
+			display:none;
+		}
+		transition:color 1s;
+		font-size:1.4rem;
+		&:hover{
+			color:$noir;
+		}
+	}
+	
+        /* pour IE qui ne reconnaît pas "transparent" (comme précédemment) */
+        border-top : 1px solid #fff; /* on met une bordure blanche en haut de chaque élément d'une sous liste */
+}
+
+/* IE ne reconnaissant pas le sélecteur ">" */
+html>body #menu li ul li                
+{
+        border-top : 1px solid transparent; /* on met une bordure transparente en haut de chaque élément */
+}
+
+#menu li ul ul 
+{
+        margin    : -22px 0 0 144px ; /* On décale les sous-sous-listes pour qu'elles ne soient pas au dessus des sous-listes */ 
+        /* pour IE qui ne reconnaît pas "transparent" (comme précédemment) */
+        border-left     : 1px solid #fff ; /* Petite bordure à gauche pour ne pas coller ... */      
+}
+
+/* IE ne reconnaissant pas le sélecteur ">" ... je me répète ;-) */
+html>body #menu li ul ul                
+{
+        border-left     : 1px solid transparent ; /* on met une bordure transparente sur la gauche de chaque élément */
+}
+
+/*#menu a:hover /* Lorsque la souris passe sur un des liens */    
+/*{
+        color: #000; /* On passe le texte en noir... */
+        /*background: #fff; /* ... et au contraire, le fond en blanc */
+/*}*/
+
+
+#menu li:hover ul ul, #menu li.sfhover ul ul /* Sous-sous-listes lorsque la souris passe sur un élément de liste */
+{
+        left: -999em; /* On expédie les sous-sous-listes hors du champ de vision */
+}
+
+#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
+{
+        left: auto; /* Repositionnement normal */
+        min-height: 0; /* Corrige un bug sous IE */
+}
+
+/****Bouton hamburger*****/
+
+	/*Table seulement*/
+	@include breakpoint(min-width 1025px) {
+	  .btnMenu, label[for="btnMenu"] img {
+		@include visuallyhidden;
+	  }
+	}
+
+	/*Mobile seulement*/
+	@include breakpoint(max-width 1024px){
+	  .btnMenu{
+        top:0;
+        left:0;
+		position:absolute;
+		@include visuallyhidden;
+        z-index:60;
+	  }
+
+	  label[for="btnMenu"]{
+		position:absolute;
+		top:0;
+		left:0;
+		margin-top:0;
+		z-index: 2;
+		width: 50px;
+		height:45px;
+		cursor:pointer;
+		background-color: $bourgogne;
+		padding:2em;
+		box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+
+        .menuIco{
+          position:absolute;
+          left:20px;
+          right:0;
+          margin-left:auto;
+          margin-right:auto;
+        }
+
+		.menuIco span:before, .menuIco span:after{
+          position:absolute;
+          content:'';
+        }
+
+        .menuIco span, .menuIco span:before, .menuIco span:after {
+          width: 30px;
+          height: 4px;
+          background-color: #FFF;
+          display: block;
+        }
+
+        .menuIco span:before {
+          margin-top: -12px;
+        }
+        .menuIco span:after {
+          margin-top: 12px;
+        }
+
+        /*preparation de l'animation*/
+        .menuIco span {
+          -webkit-transition-property: width;
+          transition-property: width;
+          -webkit-transition-duration: 0s;
+          transition-duration: 0.2s;
+          transition-delay: 0.2s;
+        }
+        .menuIco span:before {
+          -webkit-transition-property: margin, -webkit-transform;
+          transition-property: margin, transform;
+          -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+          -webkit-transition-delay: 0.2s, 0s;
+          transition-delay: 0.2s, 0s;
+        }
+        .menuIco span:after {
+          -webkit-transition-property: margin, -webkit-transform;
+          transition-property: margin, transform;
+          -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+          -webkit-transition-delay: 0.2s, 0s;
+          transition-delay: 0.2s, 0s;
+        }
+
+	  }
+
+      /*Animation bouton menu*/
+      .btnMenu:checked ~ label{
+        .menuIco span {
+          background-color: rgba(0,0,0,0.0);
+          width: 0;
+        }
+
+        .menuIco span:before {
+          margin-top: 0;
+          -webkit-transform: rotate(45deg);  transform: rotate(45deg);
+          -webkit-transition-delay: 0s, 0.2s;
+          transition-delay: 0s, 0.2s;
+        }
+        .menuIco span:after {
+          margin-top: 0;
+          -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+          -webkit-transition-delay: 0s, 0.2s;
+          transition-delay: 0s, 0.2s;
+        }
+      }
+
+
+
+	}
+
+    /*Styles mobile pour la navigation*/
+    @include breakpoint(max-width 1024px) {
+	  position:absolute;
+	  width: 100%;
+	  top:0;
+	  z-index:4;
+
+	  nav{
+        position:relative;
+        @include breakpoint(max-width 1024px) {
+          height: 100%;
+
+          .logoTim{
+            background-color: $darkGray;
+          }
+        }
+		  ul{
+			  margin:0;
+
+			  li{
+			  	width:100%;
+			  }
+		  }
+	  }
+
+	  #menu{
+        overflow:auto;
+        height: 100%;
+		position:absolute;
+        left:0;
+        margin-top: -1200px;
+        width: 100%;
+		padding-top:2em;
+		background-color: $blanc;
+
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+
+        border-bottom: 5px solid $bourgogne;
+
+
+	  }
+
+	  .btnMenu:checked ~ #menu{
+        margin-top:0;
+	  }
+
+	  ul, li{
+		list-style:none;
+		margin:0;
+		padding:0;
+	  }
+
+	  #header-accueil{
+	  	a.main{
+	  		color:$bourgogne;
+	  	}
+	  }
+
+	  .sousCategorie li{
+		clear:both;
+		border-bottom: 3px solid $blanc;
+		width:100%;
+
+		a{
+		  	display:block;
+			color: $blanc;
+			background-color: $noir;
+		  	padding: 1.5em 0 1.5em 2em;
+		}
+	  }
+	  a.main{
+		background-color:$blanc;
+		display:block;
+		width: 100%;
+		padding: 1.5em 0 1.5em 1em;
+		color: $bourgogne;
+	  }
+
+
+  } /* Fermeture styles mobile header*/
+
+

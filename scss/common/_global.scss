@@ -41,7 +41,20 @@
 	src:url('../polices/Raleway-Italic.ttf');
 }
 
+@font-face{
+	font-family:"kraftNine";
+	src:url('../polices/kg-tangled-up-in-you.regular.ttf');
+}
 
+@font-face{
+	font-family:"robotoBold";
+	src:url('../polices/Novecentosanswide-Bold.otf');
+}
+
+@font-face{
+	font-family:"roboto";
+	src:url('../polices/Novecentosanswide-Normal.otf');
+}
 
 
 html{
@@ -146,27 +159,6 @@ body{
 		clear:both;
 	}
 
-	.box-contact{
-		background-color:$neutre;
-		padding-left:8rem;
-		margin-top:5rem;
-
-		.container-box{
-			@include container;
-		}
-
-		.img_contact{
-			float:left;
-			width:35rem;
-			padding-top:0rem;
-			padding-bottom:0rem;
-		}
-
-		#texteDroite{
-			float:right;
-			width:75%;
-		}
-	}
 
 	#bloc{
 	  padding: 1em;
@@ -204,7 +196,6 @@ body{
 	}
 
 	.description{
-		@include container;
 		width:50%;
 		margin-top:-15rem;
 		background-color:$blanc;

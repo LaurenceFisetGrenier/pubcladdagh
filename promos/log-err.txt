@@ -10,4 +10,18 @@ Une erreur est survenue dans le script '/Users/etu01/Sites/pubcladdagh/promos/in
 <br />8 : Undefined variable: arrPromos
 <br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\promos\index.php' a la ligne 60: 
 <br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\promos\index.php' a la ligne 60: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\promos\index.php' a la ligne 60: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\promos\index.php' a la ligne 60: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\promos\index.php' a la ligne 60: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\promos\index.php' a la ligne 60: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\promos\index.php' a la ligne 60: 
+<br />8 : Undefined variable: arrPromos
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\promos\index.php' a la ligne 60: 
+<br />8 : Undefined variable: arrPromos
 <br />

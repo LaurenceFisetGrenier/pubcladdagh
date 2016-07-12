@@ -82,4 +82,488 @@ Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entre
 <br />8 : Undefined variable: arrMeats
 <br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\desserts.php' a la ligne 65: 
 <br />8 : Undefined variable: arrDesserts
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 95: 
+<br />8 : Undefined variable: arrMeats
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 60: 
+<br />8 : Undefined property: stdClass::$nom_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 61: 
+<br />8 : Undefined property: stdClass::$description_plat
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 94: 
+<br />8 : Undefined variable: arrEntreesPrix
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 94: 
+<br />8 : Undefined variable: arrEntreesPrix
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 48: 
+<br />8 : Undefined variable: arrEntrees
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 96: 
+<br />8 : Undefined variable: arrEntrees
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 48: 
+<br />8 : Undefined variable: arrEntrees
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 96: 
+<br />8 : Undefined variable: arrEntrees
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 48: 
+<br />8 : Undefined variable: arrEntrees
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 96: 
+<br />8 : Undefined variable: arrEntrees
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 100: 
+<br />8 : Undefined variable: arrEntrees
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 100: 
+<br />8 : Undefined variable: arrEntrees
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 99: 
+<br />8 : Undefined variable: arrEntrees
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant nom_plat - assumed 'nom_plat'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant nom_plat - assumed 'nom_plat'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant nom_plat - assumed 'nom_plat'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant nom_plat - assumed 'nom_plat'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant nom_plat - assumed 'nom_plat'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant nom_plat - assumed 'nom_plat'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant nom_plat - assumed 'nom_plat'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant nom_plat - assumed 'nom_plat'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant nom_plat - assumed 'nom_plat'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant nom_plat - assumed 'nom_plat'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant nom_plat - assumed 'nom_plat'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant nom_plat - assumed 'nom_plat'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant nom_plat - assumed 'nom_plat'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Undefined property: stdClass::$t_repas
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\manger\entrees.php' a la ligne 30: 
+<br />8 : Use of undefined constant id_menu - assumed 'id_menu'
 <br />

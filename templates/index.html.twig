@@ -10,6 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="{{ niveau }}images/favicon.png" />
         <link rel="stylesheet" href="{{ niveau }}css/main.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -30,9 +31,10 @@
 
             <h1 class="visuallyhidden">BIENVENUE SUR LE SITE DU PUB GALWAY</h1>
             <div id="section-promo">
-            <img src="images/la-place.jpg" id="img-gauche" alt="Le Pub Claddagh à l'ouverture officielle."/>
+            <img src="images/accueil-nourriture.png" id="img-gauche" alt="Le Pub Claddagh à l'ouverture officielle."/>
             <div id="contenu-droite">
                 <h2>Promo vedette</h2>
+                <img src="images/symbole_graphique.png" class="symbole-graphique" alt="logo du Pub"/><br/>
                     {% for promo in promos %}
                         <h3>{{ promo.nom_promotion }}</h3>
                         <p class="description-promotion">{{ promo.description_promotion }}</p>
@@ -40,9 +42,11 @@
                 <a href="promos/index.php" class="btn-accueil">Voir toutes les promotions</a>
             </div>
             </div>
+            <img src="images/pompes.jpg" alt="Images des pompes à bière" id="img-pompes"/>
             <div id="section-degustation">
                 <div id="contenu-gauche">
                     <h2>Degustation Whiskey</h2>
+                    <img src="images/symbole_graphique.png" class="symbole-graphique" alt=""logo du pub/><br/>
                         <a href="{{ niveau }}boire/whiskey.php" id="lien-whiskeys">Voir tous les whiskeys <i class="fa fa-angle-right fa-lg"></i></a>
                     <p>La prochaine dégustation aura lieu le samedi 12 mars à 13h30.</p>
                     <p>Pour plus d'informations ou pour vous inscrire :</p>
@@ -50,7 +54,7 @@
                     <p>111-111-1111</p>
                         <a href="{{ niveau }}joindre/index.php" class="btn-accueil">Contacter le pub</a>
                 </div>
-                <img src="images/la-place.jpg" id="img-droite" alt="Le Pub Claddagh à l'ouverture officielle."/>
+                <img src="images/accueil-whiskey.png" id="img-droite" alt="Le Pub Claddagh à l'ouverture officielle."/>
             </div>
         </main> <!-- #main-container -->
 

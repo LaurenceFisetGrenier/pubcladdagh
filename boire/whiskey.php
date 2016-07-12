@@ -20,7 +20,8 @@ try{
     // Requete pour aller chercher le texte associé aux stages
     $strSQLIrlande = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu     
-                        WHERE etat_plat = 'actif' AND id_type=5";
+                        WHERE etat_plat = 'actif' AND id_type=5
+                        ORDER BY nom_plat";
 
 
     // Transférer les résultats de la requête dans des valeurs
@@ -49,7 +50,8 @@ try{
     // Requete pour aller chercher le texte associé aux stages
     $strSQLEtat = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu     
-                        WHERE etat_plat = 'actif' AND id_type=20";
+                        WHERE etat_plat = 'actif' AND id_type=20
+                        ORDER BY nom_plat";
 
 
     // Transférer les résultats de la requête dans des valeurs
@@ -78,7 +80,8 @@ try{
     // Requete pour aller chercher le texte associé aux stages
     $strSQLEcosse = "  SELECT nom_plat, description_plat,prix,description 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu     
-                        WHERE etat_plat = 'actif' AND id_type=21";
+                        WHERE etat_plat = 'actif' AND id_type=21
+                        ORDER BY nom_plat";
 
 
     // Transférer les résultats de la requête dans des valeurs

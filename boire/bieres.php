@@ -15,24 +15,51 @@ include($strNiveau."inc/scripts/config.inc.php");
 $actif = "boire-biere";
 $erreur = "";
 
+//function pour retourner les prix
+function getPrix($idMenu) {
+
+    $arrPrix = array();
+
+    $strSQLPrix = "SELECT prix, description
+                    FROM t_prix 
+                    INNER JOIN t_repas ON t_prix.id_menu=t_repas.id_menu    
+                        WHERE t_repas.id_menu = " . $idMenu;
+
+    $objResultPrix = $GLOBALS["objConnMySQLi"]->query($strSQLPrix);
+
+    while ($objLignePrix = $objResultPrix->fetch_object()) {
+        $arrPrix[] = 
+            array(
+                "description"=> $objLignePrix->description,
+                "prix"=> $objLignePrix->prix,
+
+            );
+    }
+    $objResultPrix->free_result();
+    return $arrPrix;
+}
+
 //Pour affichage des Ales
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLAles = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+    $strSQLAles = "  SELECT DISTINCT nom_plat, description_plat,prix,description,t_repas.id_menu 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu    
                         WHERE etat_plat = 'actif' AND id_type=11";
 
 
     // Transférer les résultats de la requête dans des valeurs
     if ($objResultAles = $objConnMySQLi->query($strSQLAles)) {
+
+        $current_id = null;
+
         while ($objLigneAles = $objResultAles->fetch_object()) {
             //Assigner des données comme attributs du template
-            $arrAles[]=
+             $arrAles[$objLigneAles->id_menu]=
                 array(
+                    "id_ale" => $objLigneAles->id_menu,
                     "nom_plat" => $objLigneAles->nom_plat,
                     "description_plat" => $objLigneAles->description_plat,
-                    "description" => $objLigneAles->description,
-                    "prix" => $objLigneAles->prix
+                    "prix" => getPrix($objLigneAles->id_menu),
                 );
         }
         $objResultAles->free_result();
@@ -46,22 +73,24 @@ try{
 
 //Pour affichage des Blanches
 try{
-    // Requete pour aller chercher le texte associé aux stages
-    $strSQLBlanches = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+    $strSQLBlanches = "  SELECT DISTINCT nom_plat, description_plat,prix,description,t_repas.id_menu 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu    
                         WHERE etat_plat = 'actif' AND id_type=12";
 
 
     // Transférer les résultats de la requête dans des valeurs
     if ($objResultBlanches = $objConnMySQLi->query($strSQLBlanches)) {
+
+        $current_id = null;
+
         while ($objLigneBlanches = $objResultBlanches->fetch_object()) {
             //Assigner des données comme attributs du template
-            $arrBlanches[]=
+            $arrBlanches[$objLigneBlanches->id_menu]=
                 array(
+                    "id_blanche" => $objLigneBlanches->id_menu,
                     "nom_plat" => $objLigneBlanches->nom_plat,
                     "description_plat" => $objLigneBlanches->description_plat,
-                    "description" => $objLigneBlanches->description,
-                    "prix" => $objLigneBlanches->prix
+                    "prix" => getPrix($objLigneBlanches->id_menu),
                 );
         }
         $objResultBlanches->free_result();
@@ -76,21 +105,24 @@ try{
 //Pour affichage du cidre
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLCidre = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+    $strSQLCidre = "  SELECT DISTINCT nom_plat, description_plat,prix,description,t_repas.id_menu 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu    
                         WHERE etat_plat = 'actif' AND id_type=13";
 
 
     // Transférer les résultats de la requête dans des valeurs
     if ($objResultCidre = $objConnMySQLi->query($strSQLCidre)) {
+
+        $current_id = null;
+
         while ($objLigneCidre = $objResultCidre->fetch_object()) {
             //Assigner des données comme attributs du template
-            $arrCidre[]=
+            $arrCidre[$objLigneCidre->id_menu]=
                 array(
                     "nom_plat" => $objLigneCidre->nom_plat,
                     "description_plat" => $objLigneCidre->description_plat,
-                    "description" => $objLigneCidre->description,
-                    "prix" => $objLigneCidre->prix
+                    "id_cidre" => $objLigneCidre->id_menu,
+                    "prix" => getPrix($objLigneCidre->id_menu)
                 );
         }
         $objResultCidre->free_result();
@@ -105,21 +137,24 @@ try{
 //Pour affichage de I.P.A
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLIPA = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+    $strSQLIPA = "  SELECT DISTINCT nom_plat, description_plat,prix,description,t_repas.id_menu 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu    
                         WHERE etat_plat = 'actif' AND id_type=14";
 
 
     // Transférer les résultats de la requête dans des valeurs
     if ($objResultIPA = $objConnMySQLi->query($strSQLIPA)) {
+
+        $current_id = null;
+
         while ($objLigneIPA = $objResultIPA->fetch_object()) {
             //Assigner des données comme attributs du template
-            $arrIPA[]=
+            $arrIPA[$objLigneIPA->id_menu]=
                 array(
                     "nom_plat" => $objLigneIPA->nom_plat,
                     "description_plat" => $objLigneIPA->description_plat,
-                    "description" => $objLigneIPA->description,
-                    "prix" => $objLigneIPA->prix
+                    "id_IPA" => $objLigneIPA->id_menu,
+                    "prix" => getPrix($objLigneIPA->id_menu)
                 );
         }
         $objResultIPA->free_result();
@@ -134,21 +169,24 @@ try{
 //Pour affichage des lagers
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLLagers = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+    $strSQLLagers = "  SELECT DISTINCT nom_plat, description_plat,prix,description,t_repas.id_menu 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu     
                         WHERE etat_plat = 'actif' AND id_type=15";
 
 
     // Transférer les résultats de la requête dans des valeurs
     if ($objResultLagers = $objConnMySQLi->query($strSQLLagers)) {
+
+        $current_id = null;
+
         while ($objLigneLagers = $objResultLagers->fetch_object()) {
             //Assigner des données comme attributs du template
-            $arrLagers[]=
+            $arrLagers[$objLigneLagers->id_menu]=
                 array(
                     "nom_plat" => $objLigneLagers->nom_plat,
                     "description_plat" => $objLigneLagers->description_plat,
-                    "description" => $objLigneLagers->description,
-                    "prix" => $objLigneLagers->prix
+                    "id_lager" => $objLigneLagers->id_menu,
+                    "prix" => getPrix($objLigneLagers->id_menu)
                 );
         }
         $objResultLagers->free_result();
@@ -163,21 +201,24 @@ try{
 //Pour affichage de la stout
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLStout = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+    $strSQLStout = "  SELECT DISTINCT nom_plat, description_plat,prix,description,t_repas.id_menu 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu     
                         WHERE etat_plat = 'actif' AND id_type=16";
 
 
     // Transférer les résultats de la requête dans des valeurs
     if ($objResultStout = $objConnMySQLi->query($strSQLStout)) {
+
+        $current_id = null;
+
         while ($objLigneStout = $objResultStout->fetch_object()) {
             //Assigner des données comme attributs du template
-            $arrStout[]=
+            $arrStout[$objLigneStout->id_menu]=
                 array(
                     "nom_plat" => $objLigneStout->nom_plat,
                     "description_plat" => $objLigneStout->description_plat,
-                    "description" => $objLigneStout->description,
-                    "prix" => $objLigneStout->prix
+                    "id_Stout" => $objLigneStout->id_menu,
+                    "prix" => getPrix($objLigneStout->id_menu)
                 );
         }
         $objResultStout->free_result();
@@ -192,21 +233,24 @@ try{
 //Pour affichage des bières en bouteille
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLBouteille = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+    $strSQLBouteille = "  SELECT DISTINCT nom_plat, description_plat,prix,description,t_repas.id_menu 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu     
                         WHERE etat_plat = 'actif' AND id_type=19";
 
 
     // Transférer les résultats de la requête dans des valeurs
     if ($objResultBouteille = $objConnMySQLi->query($strSQLBouteille)) {
+
+        $current_id = null;
+
         while ($objLigneBouteille = $objResultBouteille->fetch_object()) {
             //Assigner des données comme attributs du template
-            $arrBouteille[]=
+            $arrBouteille[$objLigneBouteille->id_menu]=
                 array(
                     "nom_plat" => $objLigneBouteille->nom_plat,
                     "description_plat" => $objLigneBouteille->description_plat,
-                    "description" => $objLigneBouteille->description,
-                    "prix" => $objLigneBouteille->prix
+                    "id_bouteille" => $objLigneBouteille->id_menu,
+                    "prix" => getPrix($objLigneBouteille->id_menu)
                 );
         }
         $objResultBouteille->free_result();
@@ -221,21 +265,24 @@ try{
 //Pour affichage des mélanges celtiques
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLMelange = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+    $strSQLMelange = "  SELECT DISTINCT nom_plat, description_plat,prix,description,t_repas.id_menu 
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu     
                         WHERE etat_plat = 'actif' AND id_type=17";
 
 
     // Transférer les résultats de la requête dans des valeurs
     if ($objResultMelange = $objConnMySQLi->query($strSQLMelange)) {
+
+        $current_id = null;
+
         while ($objLigneMelange = $objResultMelange->fetch_object()) {
             //Assigner des données comme attributs du template
-            $arrMelange[]=
+            $arrMelange[$objLigneMelange->id_menu]=
                 array(
                     "nom_plat" => $objLigneMelange->nom_plat,
                     "description_plat" => $objLigneMelange->description_plat,
-                    "description" => $objLigneMelange->description,
-                    "prix" => $objLigneMelange->prix
+                    "id_melange" => $objLigneMelange->id_menu,
+                    "prix" => getPrix($objLigneMelange->id_menu)
                 );
         }
         $objResultMelange->free_result();

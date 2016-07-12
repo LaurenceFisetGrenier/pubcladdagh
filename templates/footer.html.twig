@@ -5,10 +5,10 @@
         <nav id="footer-nav">
             <ul>
                 <li><a href="index.php">Accueil</a></li>
-                <li><a href="../manger/index.php">À manger</a></li>
-                <li><a href="../boire/index.php">À boire</a></li>
-                <li><a href="../promos/index.php">Nos promotions</a></li>
-                <li><a href="../joindre/index.php">Le pub</a></li>
+                <li><a href="{{ niveau }}manger/index.php">À manger</a></li>
+                <li><a href="{{ niveau }}boire/index.php">À boire</a></li>
+                <li><a href="{{ niveau }}promos/index.php">Nos promotions</a></li>
+                <li><a href="{{ niveau }}joindre/index.php">Le pub</a></li>
             </ul>
         </nav>
    </div>
@@ -16,7 +16,7 @@
    <div id="communiquer">
         <p class="titre-navigation">Communiquer</p>
         <div id="reseaux-socieaux">
-          <a href="https://www.facebook.com/PubirlandaisCladdagh/?fref=ts" id="icone-facebook"><i class="fa fa-facebook-square fa-3x"></i></a>
+          <a target="_blank" href="https://www.facebook.com/PubirlandaisCladdagh/?fref=ts" id="icone-facebook"><i class="fa fa-facebook-square fa-3x"></i></a>
           <a href="#" id="icone-twitter"><i class="fa fa-twitter-square fa-3x"></i></a>
         </div>
         <p id="tel-reservation">Réservation : 111-111-1111</p>
@@ -27,13 +27,13 @@
         <p class="titre-navigation">Venez nous voir</p>
         <p id="footer-adresse">369 Rue Saint-Paul, Ville de Québec, QC, G1K 3X3, Canada</p>
         <div id="footer-heures">
-            <p><span class="jour-semaine">Dimanche </span>10h00 - 1h00</p>
-            <p><span class="jour-semaine">Lundi </span>16h00 - 0h30</p>
-            <p><span class="jour-semaine">Mardi </span>11h30 - 0h30</p>
-            <p><span class="jour-semaine">Mercredi </span>11h30 - 1h00</p>
-            <p><span class="jour-semaine">Jeudi </span>11h30 - 3h00</p>
-            <p><span class="jour-semaine">Vendredi </span>11h30 - 3h00</p>
-            <p><span class="jour-semaine">Samedi </span>10h00 - 3h00</p>
+          <p><span class="jour-semaine">Dimanche</span> <span class="heures-ouverture">11h30-23h</span></p>
+          <p><span class="jour-semaine">Lundi</span> <span class="heures-ouverture">11h30-23h</span></p>
+          <p><span class="jour-semaine">Mardi</span> <span class="heures-ouverture">11h30-23h</span></p>
+          <p><span class="jour-semaine">Mercredi</span> <span class="heures-ouverture">11h30-2h00</span></p>
+          <p><span class="jour-semaine">Jeudi</span> <span class="heures-ouverture">11h30-2h00</span></p>
+          <p><span class="jour-semaine">Vendredi</span> <span class="heures-ouverture">11h30-2h00</span></p>
+          <p><span class="jour-semaine">Samedi</span> <span class="heures-ouverture">11h30-2h00</span></p>
         </div>
    </div>
 </footer>

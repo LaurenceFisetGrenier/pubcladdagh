@@ -11,7 +11,7 @@
 	<meta name="description" content="">
 
 	<link rel="stylesheet" href="{{ niveau }}css/main.css">
-	<link rel="icon" type="image/png" href="{{ niveau }}images/icone.png" />
+	<link rel="icon" type="image/png" href="{{ niveau }}images/favicon.png" />
 
 	<script src="{{ niveau }}js/vendor/modernizr.js"></script>
 
@@ -30,62 +30,160 @@
 
 		<h1 class='prog'>Nos bières</h1>
 		<a href="index.php" id="lien-retour">Retour aux choix de menus</a>
-		<h2>Ales</h2>
-		{% for ale in ales %}
-            <p class="nom-item">{{ ale.nom_plat }}</p>
-            <p class="description-item">{{ ale.description_plat }}</p>
-            <p class="description-prix-item">{{ ale.description }}</p>
-            <p class="prix-item">{{ ale.prix }}</p>
-        {% endfor %}
-		<h2>Blanches</h2>
-		{% for blanche in blanches %}
-            <p class="nom-item">{{ blanche.nom_plat }}</p>
-            <p class="description-item">{{ blanche.description_plat }}</p>
-            <p class="description-prix-item">{{ blanche.description }}</p>
-            <p class="prix-item">{{ blanche.prix }}</p>
-        {% endfor %}
-		<h2>Cidre</h2>
-		{% for cidre in cidres %}
-            <p class="nom-item">{{ cidre.nom_plat }}</p>
-            <p class="description-item">{{ cidre.description_plat }}</p>
-            <p class="description-prix-item">{{ cidre.description }}</p>
-            <p class="prix-item">{{ cidre.prix }}</p>
-        {% endfor %}
+
+        <ul class="nav-menus">
+            <li>
+                <a href="#" class="menu-actif">Bières</a>
+                <a href="vins.php">Vins</a>
+                <a href="whiskey.php">Whiskey</a>
+            </li>
+        </ul>
+
+
+        <ul>
+            <h2>Ales</h2>
+            {% for ale in ales %}
+            <li class="nom-item">{{ ale.nom_plat }}</li>
+            <li>
+                {% for prix in ale.prix %}
+                <ul class="les-prix">
+                    <li>
+                        <span class="description-prix-item">{{ prix.description }}</span>
+                        <span class="prix-item">{{ prix.prix }} $</span>
+                    </li>
+                </ul>
+                {% endfor %}
+            </li>
+            <li class="description-item">{{ ale.description }}</li>
+            {% endfor %}
+
+        </ul>
+            
+        <ul>
+		  <h2>Blanches</h2>
+    		{% for blanche in blanches %}
+                <li class="nom-item">{{ blanche.nom_plat }}</li>
+                <li>
+                    {% for prix in blanche.prix %}
+                    <ul class="les-prix">
+                        <li>
+                            <span class="description-prix-item">{{ prix.description }}</span>
+                            <span class="prix-item">{{ prix.prix }} $</span>
+                        </li>
+                    </ul>
+                    {% endfor %}
+                </li>
+                <li class="description-item">{{ blanche.description }}</li>
+            {% endfor %}
+        </ul>
+
+        <ul>
+    		<h2>Cidre</h2>
+    		{% for cidre in cidres %}
+                <li class="nom-item">{{ cidre.nom_plat }}</li>
+                <li>
+                    {% for prix in cidre.prix %}
+                        <ul class="les-prix">
+                            <li>
+                                <span class="description-prix-item">{{ prix.description }}</span>
+                                <span class="prix-item">{{ prix.prix }} $</span>
+                            </li>
+                        </ul>
+                    {% endfor %}
+                </li>
+                <li class="description-item">{{ cidre.description }}</li>
+            {% endfor %}
+        </ul>
+
+        <ul>
 		<h2>I.P.A</h2>
-		{% for ipa in ipas %}
-            <p class="nom-item">{{ ipa.nom_plat }}</p>
-            <p class="description-item">{{ ipa.description_plat }}</p>
-            <p class="description-prix-item">{{ ipa.description }}</p>
-            <p class="prix-item">{{ ipa.prix }}</p>
-        {% endfor %}
+    		{% for ipa in ipas %}
+                <li class="nom-item">{{ ipa.nom_plat }}</li>
+                <li>
+                    {% for prix in ipa.prix %}
+                    <ul class="les-prix">
+                        <li>
+                            <span class="description-prix-item">{{ prix.description }}</span>
+                            <span class="prix-item">{{ prix.prix }} $</span>
+                        </li>
+                    </ul>
+                    {% endfor %}
+                </li>
+                <li class="description-item">{{ ipa.description }}</li>
+            {% endfor %}
+        </ul>
+
+        <ul>
 		<h2>Lagers</h2>
-		{% for lager in lagers %}
-            <p class="nom-item">{{ lager.nom_plat }}</p>
-            <p class="description-item">{{ lager.description_plat }}</p>
-            <p class="description-prix-item">{{ lager.description }}</p>
-            <p class="prix-item">{{ lager.prix }}</p>
-        {% endfor %}
+    		{% for lager in lagers %}
+                <li class="nom-item">{{ lager.nom_plat }}</li>
+                <li>    
+                    {% for prix in lager.prix %}
+                    <ul class="les-prix">
+                        <li>
+                            <span class="description-prix-item">{{ prix.description }}</span>
+                            <span class="prix-item">{{ prix.prix }} $</span>
+                        </li>
+                    </ul>
+                    {% endfor %}
+                </li>
+                <li class="description-item">{{ lager.description }}</li>
+            {% endfor %}
+        </ul>
+
+        <ul>
 		<h2>Souts</h2>
-		{% for stout in stouts %}
-            <p class="nom-item">{{ stout.nom_plat }}</p>
-            <p class="description-item">{{ stout.description_plat }}</p>
-            <p class="description-prix-item">{{ stout.description }}</p>
-            <p class="prix-item">{{ stout.prix }}</p>
-        {% endfor %}
-		<h2>Bières en bouteille</h2>
-		{% for bouteille in bouteilles %}
-            <p class="nom-item">{{ bouteille.nom_plat }}</p>
-            <p class="description-item">{{ bouteille.description_plat }}</p>
-            <p class="description-prix-item">{{ bouteille.description }}</p>
-            <p class="prix-item">{{ bouteille.prix }}</p>
-        {% endfor %}
+    		{% for stout in stouts %}
+                <li class="nom-item">{{ stout.nom_plat }}</li>
+                <li>
+                    {% for prix in stout.prix %}
+                    <ul class="les-prix">
+                            <li>
+                                 <span class="description-prix-item">{{ prix.description }}</span>
+                                <span class="prix-item">{{ prix.prix }} $</span>
+                            </li>
+                        </ul>
+                        {% endfor %}
+                </li>
+                <li class="description-item">{{ stout.description }}</li>
+            {% endfor %}
+        </ul>
+
+        <ul id="biere-bouteille">
+    		<h2>Bières en bouteille</h2>
+    		{% for bouteille in bouteilles %}
+                <li class="nom-item">{{ bouteille.nom_plat }}</li>
+                <li>
+                    {% for prix in bouteille.prix %}
+                    <ul class="les-prix">
+                            <li>
+                                <span class="description-prix-item">{{ prix.description }}</span>
+                                <span class="prix-item">{{ prix.prix }} $</span>
+                            </li>
+                    </ul>
+                    {% endfor %}
+                </li>
+                <li class="description-item">{{ bouteille.description }}</li>
+            {% endfor %}
+        </ul>
+
+        <ul>
         <h2>Mélanges celtiques</h2>
-		{% for melange in melanges %}
-            <p class="nom-item">{{ melange.nom_plat }}</p>
-            <p class="description-item">{{ melange.description_plat }}</p>
-            <p class="description-prix-item">{{ melange.description }}</p>
-            <p class="prix-item">{{ melange.prix }}</p>
-        {% endfor %}
+    		{% for melange in melanges %}
+                <li class="nom-item">{{ melange.nom_plat }}</li>
+                <li>
+                    {% for prix in melange.prix %}
+                    <ul class="les-prix">
+                            <li>
+                                <span class="description-prix-item">{{ prix.description }}</span>
+                                <span class="prix-item">{{ prix.prix }} $</span>
+                            </li>
+                        </ul>
+                        {% endfor %}
+                </li>
+                <li class="description-item">{{ melange.description }}</li>
+            {% endfor %}
+        </ul>
 	</main>
 
 	{% endif %}

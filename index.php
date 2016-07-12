@@ -22,7 +22,7 @@ $erreur = "";
 //Pour affichage des promotions
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLPromos = "SELECT nom_promotion,description_promotion FROM t_promotions WHERE etat_promotion='actif' AND id_promotion=0";
+    $strSQLPromos = "SELECT nom_promotion,description_promotion FROM t_promotions WHERE etat_promotion='actif' AND id_promotion=1";
 
 
     // Transférer les résultats de la requête dans des valeurs
@@ -60,7 +60,7 @@ echo $template->render(array(
     "niveau" => $strNiveau,
     "actif" => $actif,
     "erreur" => $erreur,
-    //"promos" => $arrPromos
+    "promos" => $arrPromos
     ));
 
 //Fermeture de la base de donnée

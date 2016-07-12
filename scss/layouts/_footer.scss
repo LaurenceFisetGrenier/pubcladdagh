@@ -1,14 +1,19 @@
 footer{
   color:$blanc;
   background-color: $noir;
+  background-image:url("../images/back-footer.jpg");
+  background-size: cover;
   padding-top: 1rem;
+  background-repeat: no-repeat;
   width:100%;
   overflow: auto;
+  margin-top: 5rem;
 
   .titre-navigation{
-    font-size: 3rem; 
+    font-size: 2.7rem; 
     border-bottom: 2px solid $blanc;
-    width:35rem;
+    width:93%;
+    text-transform: uppercase;
   }
 
   ul li{
@@ -16,6 +21,12 @@ footer{
     margin-bottom:-1.8rem;
     a{
       text-decoration: none;
+      text-transform: uppercase;
+      color:$blanc;
+
+      &:hover{
+        border-bottom:2px solid $blanc;
+      }
     }
   }
 
@@ -33,8 +44,6 @@ footer{
   #nous-voir{
     float:left;
     width:32%;
-    background-color: $noir;
-
     #footer-heures{
       p{
         font-size: 1.7rem;
@@ -51,8 +60,8 @@ footer{
       border:2px solid $blanc;
       color:$blanc;
       padding:1rem;
-      padding-left:11.5rem;
-      padding-right: 11.5rem;
+      padding-left:10.5rem;
+      padding-right: 10.5rem;
       &:hover{
         border:2px solid $neutre;
         color:$neutre;
@@ -63,9 +72,10 @@ footer{
     padding-left: 9rem;
     a{
       color:$blanc;
+      transition: color 1s;
 
       &:hover{
-        color:$neutre;
+        color:$bourgogne;
       }
     }
   }
@@ -78,6 +88,15 @@ footer{
     margin-left: 5.3rem;
     margin-bottom: 4rem;
   }
+
+  #footer-adresse{
+    font-size: 1.6rem;
+  }
+
+  #footer-heures{
+    font-size: 1.6rem;
+  }
+
 }
 #copyright{
     clear:both;
@@ -86,5 +105,121 @@ footer{
     width:500rem;
     text-align: center;
     margin:auto;
-    @include container;
   }
+
+@media screen and (max-width: 982px){
+  footer{
+      a#footer-lien-joindre{
+        padding-left:8.5rem;
+        padding-right: 8.5rem;
+    } 
+    #tel-reservation{
+      margin-left: 2.3rem;
+    }
+
+    #reseaux-socieaux{
+      padding-left: 6rem;
+    }
+  }
+   
+}
+
+@media screen and (max-width: 865px){
+  footer{
+      a#footer-lien-joindre{
+        padding-left:6.5rem;
+        padding-right: 6.5rem;
+    } 
+    #tel-reservation{
+      margin-left: 1.3rem;
+    }
+
+    #reseaux-socieaux{
+      padding-left: 5rem;
+    }
+  }
+   
+}
+
+@media screen and (max-width: 770px){
+  footer{
+      a#footer-lien-joindre{
+        padding-left:5rem;
+        padding-right: 5rem;
+    } 
+    #tel-reservation{
+      margin-left: 0rem;
+    }
+
+    #reseaux-socieaux{
+      padding-left: 3rem;
+    }
+  }
+   
+}
+
+@media screen and (max-width: 685px){
+  footer{
+  padding-top: 0;
+  width:100%;
+
+  .titre-navigation{
+    padding-left: 1rem;
+  }
+
+  ul li{
+    list-style: none;
+    margin-bottom:-1.8rem;
+  }
+
+  #naviguer{
+    width:100%;
+    padding-left: 0;
+  }
+
+  #communiquer{
+    width:100%;
+    margin-bottom:3rem;
+  }
+
+  #nous-voir{
+    width:100%;
+    #footer-heures{
+      p{
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  a#footer-lien-joindre{
+      padding-left:6.5rem;
+      padding-right: 6.5rem;
+      margin-left:0.8rem;
+  }  
+
+  #reseaux-socieaux{
+    padding-left: 6rem;
+  }
+
+  #icone-twitter{
+    margin-left:5rem;
+  }
+
+  #tel-reservation{
+    margin-left: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  #footer-adresse,#footer-heures{
+    padding-left:1rem;
+  }
+}
+#copyright{
+    clear:both;
+    width:500rem;
+    text-align: center;
+    margin:auto;
+  }
+   
+}
+

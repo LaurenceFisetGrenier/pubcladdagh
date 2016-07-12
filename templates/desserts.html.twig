@@ -11,8 +11,7 @@
 	<meta name="description" content="">
 
 	<link rel="stylesheet" href="{{ niveau }}css/main.css">
-	<link rel="icon" type="image/png" href="{{ niveau }}images/icone.png" />
-
+	<link rel="icon" type="image/png" href="{{ niveau }}images/favicon.png" />
 	<script src="{{ niveau }}js/vendor/modernizr.js"></script>
 
 	<title>Desserts | Claddagh</title>
@@ -30,11 +29,20 @@
 
 		<h1 class='prog'>Nos desserts</h1>
 		<a href="index.php" id="lien-retour">Retour aux choix de menus</a>
+
+		<ul class="nav-menus">
+                <li>
+                    <a href="entrees.php">Entrées</a>
+                    <a href="principaux.php">Repas principaux</a>
+                    <a href="#" class="menu-actif">Desserts</a>
+                </li>
+            </ul>
+
 		{% for dessert in desserts %}
             <p class="nom-item">{{ dessert.nom_plat }}</p>
-            <p class="description-item">{{ dessert.description_plat }}</p>
             <p class="description-prix-item">{{ dessert.description }}</p>
-            <p class="prix-item">{{ dessert.prix }}</p>
+            <p class="prix-item">{{ dessert.prix }} $</p>
+            <p class="description-item">{{ dessert.description_plat }}</p>
         {% endfor %}
 	</main>
 

@@ -15,10 +15,34 @@ include($strNiveau."inc/scripts/config.inc.php");
 $actif = "manger-entree";
 $erreur = "";
 
+//function pour retourner les prix
+function getPrix($idMenu) {
+
+    $arrPrix = array();
+
+    $strSQLPrix = "SELECT prix, description
+                    FROM t_prix 
+                    INNER JOIN t_repas ON t_prix.id_menu=t_repas.id_menu    
+                        WHERE t_repas.id_menu = " . $idMenu;
+
+    $objResultPrix = $GLOBALS["objConnMySQLi"]->query($strSQLPrix);
+
+    while ($objLignePrix = $objResultPrix->fetch_object()) {
+        $arrPrix[] = 
+            array(
+                "description"=> $objLignePrix->description,
+                "prix"=> $objLignePrix->prix,
+
+            );
+    }
+    $objResultPrix->free_result();
+    return $arrPrix;
+}
+
 //Pour affichage des entrées
 try{
     // Requete pour aller chercher le texte associé aux stages
-    $strSQLEntrees = "  SELECT DISTINCT nom_plat, description_plat,prix,description 
+    $strSQLEntrees = "  SELECT nom_plat, description_plat,prix,description,t_repas.id_menu
                         FROM t_repas INNER JOIN t_prix ON t_repas.id_menu=t_prix.id_menu   
                         WHERE etat_plat = 'actif' AND id_type=1";
 
@@ -27,13 +51,16 @@ try{
     if ($objResultEntrees = $objConnMySQLi->query($strSQLEntrees)) {
         while ($objLigneEntrees = $objResultEntrees->fetch_object()) {
             //Assigner des données comme attributs du template
-            $arrEntrees[]=
+            $arrEntrees[$objLigneEntrees->id_menu]=
                 array(
                     "nom_plat" => $objLigneEntrees->nom_plat,
                     "description_plat" => $objLigneEntrees->description_plat,
-                    "description" => $objLigneEntrees->description,
-                    "prix" => $objLigneEntrees->prix
+                    "id_entree" => $objLigneEntrees->id_menu,
+                    "prix" => getPrix($objLigneEntrees->id_menu)
+
                 );
+
+
         }
         $objResultEntrees->free_result();
     }
@@ -43,6 +70,7 @@ try{
 } catch(Exception $e){
     $erreur = $e->getMessage();
 }
+
 
 //Pour affichage des smoked meat
 try{
