@@ -428,6 +428,9 @@ html {
 @font-face {
   font-family: "roboto";
   src: url("../polices/Novecentosanswide-Normal.otf"); }
+@font-face {
+  font-family: "kghappy";
+  src: url("../polices/KGHAPPY.ttf"); }
 html {
   font-size: 62.5%;
   background-color: #fbfbfb; }
@@ -1182,7 +1185,7 @@ ul li {
 /******************Page accueil*/
 #page-accueil h2 {
   margin-bottom: 2rem;
-  font-family: "kraftNine";
+  font-family: "kghappy";
   color: #552727; }
 #page-accueil a.btn-accueil {
   border: 2px solid #552727;
@@ -1206,6 +1209,10 @@ ul li {
     float: left;
     width: 50%;
     margin-left: 5%; }
+    #page-accueil #section-promo #contenu-droite p {
+      max-width: 500px;
+      margin: auto;
+      margin-bottom: 4rem; }
   #page-accueil #section-promo .symbole-graphique {
     margin-bottom: 0; }
 #page-accueil #section-degustation {
@@ -1247,7 +1254,8 @@ ul li {
   padding: 5rem;
   text-align: center;
   border-top: 3px dotted #552727;
-  border-bottom: 3px dotted #552727; }
+  border-bottom: 3px dotted #552727;
+  margin-top: 5rem; }
 #page-joindre #section-formulaire {
   max-width: 1024px;
   margin: auto;
@@ -1734,7 +1742,8 @@ ul li {
   text-align: center;
   margin: auto;
   margin-top: 4rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 8rem;
+  max-width: 600px; }
 
 @media screen and (max-width: 1800px) {
   #page-joindre #section-gauche {

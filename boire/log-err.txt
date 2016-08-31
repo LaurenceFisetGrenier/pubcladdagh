@@ -804,4 +804,12 @@ Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\whiske
 <br />8 : Array to string conversion
 <br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\inc\lib\Twig\Environment.php(332) : eval()'d code' a la ligne 97: 
 <br />8 : Array to string conversion
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\vins.php' a la ligne 181: 
+<br />8 : Undefined variable: arrRouges
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\vins.php' a la ligne 182: 
+<br />8 : Undefined variable: arrBlancs
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\vins.php' a la ligne 183: 
+<br />8 : Undefined variable: arrRoses
+<br />Une erreur est survenue dans le script 'C:\xampp\htdocs\pubcladdagh\boire\vins.php' a la ligne 185: 
+<br />8 : Undefined variable: arrMaisons
 <br />
